@@ -1,4 +1,4 @@
-@prefix base: <https://w3id.org/pmd/ao/pawo/> .
+@prefix base: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/PrecipitateAnalysisWorkflow.ttl/> .
 @prefix co: <https://w3id.org/pmd/co/> .
 @prefix csvw: <https://www.w3.org/ns/csvw#Table/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
