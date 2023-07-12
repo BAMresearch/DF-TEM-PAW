@@ -1,7 +1,8 @@
 prefixes: {bfo: 'http://purl.obolibrary.org/obo/', csvw: 'http://www.w3.org/ns/csvw#',
-  method: 'https://w3id.org/pmd/ao/pawo/', owl: 'http://www.w3.org/2002/07/owl#',
-  rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#', rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
-  xml: 'http://www.w3.org/XML/1998/namespace', xsd: 'http://www.w3.org/2001/XMLSchema#'}
+  method: 'https://github.com/BAMresearch/DF-TEM-PAW/raw/main/PrecipitateAnalysisWorkflow.ttl/',
+  owl: 'http://www.w3.org/2002/07/owl#', rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+  rdfs: 'http://www.w3.org/2000/01/rdf-schema#', xml: 'http://www.w3.org/XML/1998/namespace',
+  xsd: 'http://www.w3.org/2001/XMLSchema#'}
 base: http://purl.matolab.org/mseo/mappings/
 sources:
   data_entities: {access: 'https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs-metadata.json',
