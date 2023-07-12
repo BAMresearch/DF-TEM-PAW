@@ -147,6 +147,9 @@ base:grayscaleConversion_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess base:medianFilter_ .
 
+base:labelPrecipitates_ a owl:NamedIndividual,
+        co:Analysingprocess .
+
 base:morphologicalOpening_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess base:clearBorder_ .
@@ -156,9 +159,6 @@ co:Dataset a owl:Class .
 base:dilation_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess base:morphologicalOpening_ .
-
-base:labelPrecipitates_ a owl:NamedIndividual,
-        co:Analysingprocess .
 
 base:medianFilter_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -183,8 +183,7 @@ base:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
 base:precipitateRegion_ a owl:NamedIndividual,
         ome:Roi,
         co:Dataset,
-        co:Measurement ;
-    co:characteristic base:labelPrecipitates_ .
+        co:Measurement .
 
 base:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
