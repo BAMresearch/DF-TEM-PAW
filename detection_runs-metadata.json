@@ -239,7 +239,7 @@
         }
     ],
     "prov:wasGeneratedBy": {
-        "@id": "http://docker-dev.iwm.fraunhofer.de:5001/api/annotate_upload?encoding=auto",
+        "@id": "http://docker-dev.iwm.fraunhofer.de:5001/api/annotate",
         "@type": "prov:Activity",
         "prov:wasAssociatedWith": {
             "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0",
@@ -249,7 +249,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-12T13:28:34.365604",
+        "@value": "2023-07-12T14:53:38.878566",
         "@type": "xsd:dateTime"
     }
 }
