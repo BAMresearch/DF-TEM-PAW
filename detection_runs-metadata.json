@@ -7,15 +7,16 @@
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "qudt": "http://qudt.org/schema/qudt/",
             "dc": "http://purl.org/dc/elements/1.1/",
-            "prov": "http://www.w3.org/ns/prov#"
+            "prov": "http://www.w3.org/ns/prov#",
+            "csv": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/"
         }
     ],
-    "@id": "",
+    "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv",
     "@type": "http://www.w3.org/ns/csvw#TableGroup",
     "notes": [],
     "tables": [
         {
-            "@id": "table-1",
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1",
             "url": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv",
             "dialect": {
                 "delimiter": ",",
@@ -26,7 +27,7 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "@id": "table-1-GID",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-GID",
                         "name": "GID",
                         "titles": [
                             "GID",
@@ -42,7 +43,7 @@
                             "Unnamed: 0",
                             "Unnamed0"
                         ],
-                        "@id": "table-1-Unnamed0",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-Unnamed0",
                         "name": "Unnamed0",
                         "@type": [
                             "Column"
@@ -56,7 +57,7 @@
                             "SpecimenName",
                             "Specimenname"
                         ],
-                        "@id": "table-1-Specimenname",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-Specimenname",
                         "name": "Specimenname",
                         "@type": [
                             "Column"
@@ -70,8 +71,12 @@
                             "Aging Temp [\u00c2\u00b0C]",
                             "AgingTempC"
                         ],
-                        "@id": "table-1-AgingTempC",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-AgingTempC",
                         "name": "AgingTempC",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/DEG_C",
+                            "@type": "http://qudt.org/schema/qudt/DerivedUnit"
+                        },
                         "@type": [
                             "Column"
                         ],
@@ -84,7 +89,7 @@
                             "Aging Time [h]",
                             "AgingTimeH"
                         ],
-                        "@id": "table-1-AgingTimeH",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-AgingTimeH",
                         "name": "AgingTimeH",
                         "qudt:unit": {
                             "@id": "http://qudt.org/vocab/unit/HR",
@@ -102,7 +107,7 @@
                             "Creep Stress [MPa]",
                             "CreepStressMpa"
                         ],
-                        "@id": "table-1-CreepStressMpa",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-CreepStressMpa",
                         "name": "CreepStressMpa",
                         "qudt:unit": {
                             "@id": "http://qudt.org/vocab/unit/MegaPA",
@@ -120,13 +125,13 @@
                             "Dataset",
                             "Dataset"
                         ],
-                        "@id": "table-1-Dataset",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-Dataset",
                         "name": "Dataset",
                         "@type": [
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -134,7 +139,7 @@
                             "Position_Id",
                             "PositionId"
                         ],
-                        "@id": "table-1-PositionId",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-PositionId",
                         "name": "PositionId",
                         "@type": [
                             "Column"
@@ -148,13 +153,13 @@
                             "Image",
                             "Image"
                         ],
-                        "@id": "table-1-Image",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-Image",
                         "name": "Image",
                         "@type": [
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -162,13 +167,13 @@
                             "ROIs",
                             "Rois"
                         ],
-                        "@id": "table-1-Rois",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-Rois",
                         "name": "Rois",
                         "@type": [
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -176,7 +181,7 @@
                             "DiskRadiusValue [px]",
                             "DiskradiusvaluePx"
                         ],
-                        "@id": "table-1-DiskradiusvaluePx",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-DiskradiusvaluePx",
                         "name": "DiskradiusvaluePx",
                         "@type": [
                             "Column"
@@ -190,7 +195,7 @@
                             "Threshold Method",
                             "ThresholdMethod"
                         ],
-                        "@id": "table-1-ThresholdMethod",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-ThresholdMethod",
                         "name": "ThresholdMethod",
                         "@type": [
                             "Column"
@@ -204,7 +209,7 @@
                             "Dilation Kernel Size [px]",
                             "DilationKernelSizePx"
                         ],
-                        "@id": "table-1-DilationKernelSizePx",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-DilationKernelSizePx",
                         "name": "DilationKernelSizePx",
                         "@type": [
                             "Column"
@@ -218,7 +223,7 @@
                             "Date",
                             "Date"
                         ],
-                        "@id": "table-1-Date",
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-Date",
                         "name": "Date",
                         "@type": [
                             "Column"
@@ -229,12 +234,12 @@
                     }
                 ],
                 "primaryKey": "GID",
-                "aboutUrl": "#table-1-gid-{GID}"
+                "aboutUrl": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-gid-{GID}"
             }
         }
     ],
     "prov:wasGeneratedBy": {
-        "@id": "https://csvtocsvw.matolab.org/api/annotate_upload?encoding=auto",
+        "@id": "http://docker-dev.iwm.fraunhofer.de:5001/api/annotate_upload?encoding=auto",
         "@type": "prov:Activity",
         "prov:wasAssociatedWith": {
             "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0",
@@ -244,7 +249,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-04T12:14:33.410569",
+        "@value": "2023-07-12T13:28:34.365604",
         "@type": "xsd:dateTime"
     }
 }
