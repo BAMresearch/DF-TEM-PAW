@@ -66,14 +66,20 @@ ome:Image a owl:Class .
 
 ome:Roi a owl:Class .
 
+ome:dataset a owl:ObjectProperty .
+
 base:DFTEMImaging a owl:NamedIndividual ;
     co:output base:darkfieldTransmissionElectronMicroscopeImage_ .
 
 base:darkfieldTransmissionElectronMicroscopeImage_ a owl:NamedIndividual,
-        ome:Image,
         co:Image ;
     ome:rois base:precipitateRegion_ ;
+    ome:dataset base:ImageDataset_;
     co:input base:precipitateAnalysisWorkflow_ .
+
+base:imageDataset_ a owl:NamedIndividual,
+        co:Dataset,
+        co:Metadata .
 
 base:renderImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
