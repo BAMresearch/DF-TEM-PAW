@@ -17,7 +17,7 @@ mappings:
       - [str1, $(name)]
       - [str2, DiskradiusvaluePx]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:diskRadius_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:diskRadius_~iri']
   kernel_:
     sources: [data_entities]
     s: $(@id)
@@ -27,7 +27,7 @@ mappings:
       - [str1, $(name)]
       - [str2, DilationKernelSizePx]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:kernel_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:kernel_~iri']
   thresholdMethod_:
     sources: [data_entities]
     s: $(@id)
@@ -37,7 +37,7 @@ mappings:
       - [str1, $(name)]
       - [str2, ThresholdMethod]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:thresholdMethod_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:thresholdMethod_~iri']
   specimenAgingTemperature_:
     sources: [data_entities]
     s: $(@id)
@@ -47,7 +47,7 @@ mappings:
       - [str1, $(name)]
       - [str2, AgingTempC]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:specimenAgingTemperature_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenAgingTemperature_~iri']
   specimenAgingTime_:
     sources: [data_entities]
     s: $(@id)
@@ -57,7 +57,7 @@ mappings:
       - [str1, $(name)]
       - [str2, AgingTimeH]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:specimenAgingTime_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenAgingTime_~iri']
   specimenCreepStess_:
     sources: [data_entities]
     s: $(@id)
@@ -67,7 +67,7 @@ mappings:
       - [str1, $(name)]
       - [str2, CreepStressMpa]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:specimenCreepStess_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenCreepStess_~iri']
   specimenName_:
     sources: [data_entities]
     s: $(@id)
@@ -77,7 +77,7 @@ mappings:
       - [str1, $(name)]
       - [str2, Specimenname]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:specimenName_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenName_~iri']
   imageDataset_:
     sources: [data_entities]
     s: $(@id)
@@ -87,7 +87,7 @@ mappings:
       - [str1, $(name)]
       - [str2, Dataset]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:imageDataset_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:imageDataset_~iri']
   darkfieldTransmissionElectronMicroscopeImage_:
     sources: [data_entities]
     s: $(@id)
@@ -97,7 +97,7 @@ mappings:
       - [str1, $(name)]
       - [str2, Image]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:darkfieldTransmissionElectronMicroscopeImage_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:darkfieldTransmissionElectronMicroscopeImage_~iri']
   precipitateRegion_:
     sources: [data_entities]
     s: $(@id)
@@ -107,4 +107,4 @@ mappings:
       - [str1, $(name)]
       - [str2, Rois]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:precipitateRegion_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:precipitateRegion_~iri']
