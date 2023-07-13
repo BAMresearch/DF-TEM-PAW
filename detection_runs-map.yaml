@@ -98,3 +98,13 @@ mappings:
       - [str2, Image]
     po:
     - ['https://w3id.org/pmd/co/isResourceOf', 'method:darkfieldTransmissionElectronMicroscopeImage_~iri']
+  precipitateRegion_:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Rois]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:precipitateRegion_~iri']
