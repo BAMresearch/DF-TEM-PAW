@@ -2575,7 +2575,8 @@ ns2:table-1-Rois a csvw:Column ;
     csvw:format xsd:anyURI ;
     csvw:name "Rois" ;
     csvw:title "ROIs",
-        "Rois" .
+        "Rois" ;
+    co:isResourceOf <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/PrecipitateAnalysisWorkflow.ttl/precipitateRegion_> .
 
 ns2:table-1-Specimenname a csvw:Column ;
     csvw:format xsd:string ;
@@ -12457,6 +12458,238 @@ row99:thresholdMethod_ a owl:NamedIndividual,
 
 <https://metadata.omero.matolab.org/api/image/99> co:isResourceOf row49:darkfieldTransmissionElectronMicroscopeImage_ .
 
+<https://metadata.omero.matolab.org/api/rois/100> co:isResourceOf row38:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/101> co:isResourceOf row39:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/102> co:isResourceOf row40:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/103> co:isResourceOf row63:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/104> co:isResourceOf row64:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/105> co:isResourceOf row65:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/106> co:isResourceOf row66:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/107> co:isResourceOf row67:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/108> co:isResourceOf row68:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/109> co:isResourceOf row70:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/110> co:isResourceOf row71:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/111> co:isResourceOf row69:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/112> co:isResourceOf row61:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/113> co:isResourceOf row62:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/119> co:isResourceOf row75:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/120> co:isResourceOf row76:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/121> co:isResourceOf row77:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/122> co:isResourceOf row78:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/123> co:isResourceOf row79:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/124> co:isResourceOf row80:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/125> co:isResourceOf row81:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/126> co:isResourceOf row82:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/127> co:isResourceOf row83:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/128> co:isResourceOf row73:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/129> co:isResourceOf row74:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/132> co:isResourceOf row72:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/133> co:isResourceOf row14:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/134> co:isResourceOf row15:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/135> co:isResourceOf row16:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/136> co:isResourceOf row17:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/137> co:isResourceOf row18:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/138> co:isResourceOf row19:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/139> co:isResourceOf row20:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/140> co:isResourceOf row21:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/141> co:isResourceOf row22:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/142> co:isResourceOf row12:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/143> co:isResourceOf row13:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/144> co:isResourceOf row24:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/145> co:isResourceOf row25:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/146> co:isResourceOf row26:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/147> co:isResourceOf row27:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/148> co:isResourceOf row28:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/149> co:isResourceOf row29:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/150> co:isResourceOf row30:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/151> co:isResourceOf row31:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/152> co:isResourceOf row32:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/153> co:isResourceOf row23:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/202> co:isResourceOf row106:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/203> co:isResourceOf row107:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/251> co:isResourceOf row94:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/252> co:isResourceOf row86:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/253> co:isResourceOf row88:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/254> co:isResourceOf row90:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/255> co:isResourceOf row92:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/256> co:isResourceOf row84:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/257> co:isResourceOf row85:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/258> co:isResourceOf row87:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/259> co:isResourceOf row89:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/260> co:isResourceOf row91:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/261> co:isResourceOf row93:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/262> co:isResourceOf row95:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/263> co:isResourceOf row96:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/264> co:isResourceOf row97:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/265> co:isResourceOf row98:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/266> co:isResourceOf row99:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/267> co:isResourceOf row100:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/268> co:isResourceOf row101:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/269> co:isResourceOf row102:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/51> co:isResourceOf row103:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/52> co:isResourceOf row104:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/53> co:isResourceOf row105:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/55> co:isResourceOf row108:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/56> co:isResourceOf row109:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/57> co:isResourceOf row110:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/58> co:isResourceOf row111:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/59> co:isResourceOf row112:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/60> co:isResourceOf row113:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/61> co:isResourceOf row114:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/62> co:isResourceOf row115:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/63> co:isResourceOf row52:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/64> co:isResourceOf row53:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/65> co:isResourceOf row54:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/66> co:isResourceOf row55:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/67> co:isResourceOf row56:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/68> co:isResourceOf row57:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/69> co:isResourceOf row58:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/70> co:isResourceOf row59:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/71> co:isResourceOf row60:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/72> co:isResourceOf row50:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/73> co:isResourceOf row51:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/74> co:isResourceOf row3:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/75> co:isResourceOf row4:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/76> co:isResourceOf row5:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/77> co:isResourceOf row6:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/78> co:isResourceOf row7:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/79> co:isResourceOf row8:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/80> co:isResourceOf row9:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/81> co:isResourceOf row10:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/82> co:isResourceOf row11:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/83> co:isResourceOf row0:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/84> co:isResourceOf row1:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/85> co:isResourceOf row2:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/86> co:isResourceOf row33:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/87> co:isResourceOf row34:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/88> co:isResourceOf row35:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/89> co:isResourceOf row36:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/90> co:isResourceOf row37:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/91> co:isResourceOf row41:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/92> co:isResourceOf row42:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/93> co:isResourceOf row43:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/94> co:isResourceOf row44:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/95> co:isResourceOf row45:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/96> co:isResourceOf row46:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/97> co:isResourceOf row47:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/98> co:isResourceOf row48:precipitateRegion_ .
+
+<https://metadata.omero.matolab.org/api/rois/99> co:isResourceOf row49:precipitateRegion_ .
+
 row0:clearBorder_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row0:findContour_ .
@@ -17242,11 +17475,6 @@ row0:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row0:renderImage_,
         row0:thresholdImage_ .
 
-row0:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row0:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row0:dilation_ .
@@ -17274,11 +17502,6 @@ row1:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row1:morphologicalOpening_,
         row1:renderImage_,
         row1:thresholdImage_ .
-
-row1:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row1:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17308,11 +17531,6 @@ row10:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row10:renderImage_,
         row10:thresholdImage_ .
 
-row10:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row10:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row10:dilation_ .
@@ -17340,11 +17558,6 @@ row100:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row100:morphologicalOpening_,
         row100:renderImage_,
         row100:thresholdImage_ .
-
-row100:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row100:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17374,11 +17587,6 @@ row101:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row101:renderImage_,
         row101:thresholdImage_ .
 
-row101:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row101:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row101:dilation_ .
@@ -17406,11 +17614,6 @@ row102:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row102:morphologicalOpening_,
         row102:renderImage_,
         row102:thresholdImage_ .
-
-row102:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row102:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17440,11 +17643,6 @@ row103:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row103:renderImage_,
         row103:thresholdImage_ .
 
-row103:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row103:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row103:dilation_ .
@@ -17472,11 +17670,6 @@ row104:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row104:morphologicalOpening_,
         row104:renderImage_,
         row104:thresholdImage_ .
-
-row104:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row104:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17506,11 +17699,6 @@ row105:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row105:renderImage_,
         row105:thresholdImage_ .
 
-row105:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row105:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row105:dilation_ .
@@ -17538,11 +17726,6 @@ row106:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row106:morphologicalOpening_,
         row106:renderImage_,
         row106:thresholdImage_ .
-
-row106:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row106:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17572,11 +17755,6 @@ row107:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row107:renderImage_,
         row107:thresholdImage_ .
 
-row107:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row107:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row107:dilation_ .
@@ -17604,11 +17782,6 @@ row108:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row108:morphologicalOpening_,
         row108:renderImage_,
         row108:thresholdImage_ .
-
-row108:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row108:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17638,11 +17811,6 @@ row109:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row109:renderImage_,
         row109:thresholdImage_ .
 
-row109:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row109:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row109:dilation_ .
@@ -17670,11 +17838,6 @@ row11:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row11:morphologicalOpening_,
         row11:renderImage_,
         row11:thresholdImage_ .
-
-row11:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row11:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17704,11 +17867,6 @@ row110:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row110:renderImage_,
         row110:thresholdImage_ .
 
-row110:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row110:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row110:dilation_ .
@@ -17736,11 +17894,6 @@ row111:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row111:morphologicalOpening_,
         row111:renderImage_,
         row111:thresholdImage_ .
-
-row111:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row111:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17770,11 +17923,6 @@ row112:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row112:renderImage_,
         row112:thresholdImage_ .
 
-row112:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row112:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row112:dilation_ .
@@ -17802,11 +17950,6 @@ row113:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row113:morphologicalOpening_,
         row113:renderImage_,
         row113:thresholdImage_ .
-
-row113:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row113:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17836,11 +17979,6 @@ row114:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row114:renderImage_,
         row114:thresholdImage_ .
 
-row114:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row114:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row114:dilation_ .
@@ -17868,11 +18006,6 @@ row115:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row115:morphologicalOpening_,
         row115:renderImage_,
         row115:thresholdImage_ .
-
-row115:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row115:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17902,11 +18035,6 @@ row12:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row12:renderImage_,
         row12:thresholdImage_ .
 
-row12:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row12:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row12:dilation_ .
@@ -17934,11 +18062,6 @@ row13:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row13:morphologicalOpening_,
         row13:renderImage_,
         row13:thresholdImage_ .
-
-row13:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row13:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -17968,11 +18091,6 @@ row14:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row14:renderImage_,
         row14:thresholdImage_ .
 
-row14:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row14:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row14:dilation_ .
@@ -18000,11 +18118,6 @@ row15:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row15:morphologicalOpening_,
         row15:renderImage_,
         row15:thresholdImage_ .
-
-row15:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row15:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18034,11 +18147,6 @@ row16:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row16:renderImage_,
         row16:thresholdImage_ .
 
-row16:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row16:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row16:dilation_ .
@@ -18066,11 +18174,6 @@ row17:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row17:morphologicalOpening_,
         row17:renderImage_,
         row17:thresholdImage_ .
-
-row17:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row17:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18100,11 +18203,6 @@ row18:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row18:renderImage_,
         row18:thresholdImage_ .
 
-row18:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row18:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row18:dilation_ .
@@ -18132,11 +18230,6 @@ row19:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row19:morphologicalOpening_,
         row19:renderImage_,
         row19:thresholdImage_ .
-
-row19:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row19:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18166,11 +18259,6 @@ row2:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row2:renderImage_,
         row2:thresholdImage_ .
 
-row2:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row2:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row2:dilation_ .
@@ -18198,11 +18286,6 @@ row20:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row20:morphologicalOpening_,
         row20:renderImage_,
         row20:thresholdImage_ .
-
-row20:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row20:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18232,11 +18315,6 @@ row21:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row21:renderImage_,
         row21:thresholdImage_ .
 
-row21:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row21:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row21:dilation_ .
@@ -18264,11 +18342,6 @@ row22:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row22:morphologicalOpening_,
         row22:renderImage_,
         row22:thresholdImage_ .
-
-row22:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row22:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18298,11 +18371,6 @@ row23:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row23:renderImage_,
         row23:thresholdImage_ .
 
-row23:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row23:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row23:dilation_ .
@@ -18330,11 +18398,6 @@ row24:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row24:morphologicalOpening_,
         row24:renderImage_,
         row24:thresholdImage_ .
-
-row24:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row24:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18364,11 +18427,6 @@ row25:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row25:renderImage_,
         row25:thresholdImage_ .
 
-row25:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row25:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row25:dilation_ .
@@ -18396,11 +18454,6 @@ row26:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row26:morphologicalOpening_,
         row26:renderImage_,
         row26:thresholdImage_ .
-
-row26:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row26:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18430,11 +18483,6 @@ row27:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row27:renderImage_,
         row27:thresholdImage_ .
 
-row27:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row27:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row27:dilation_ .
@@ -18462,11 +18510,6 @@ row28:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row28:morphologicalOpening_,
         row28:renderImage_,
         row28:thresholdImage_ .
-
-row28:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row28:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18496,11 +18539,6 @@ row29:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row29:renderImage_,
         row29:thresholdImage_ .
 
-row29:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row29:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row29:dilation_ .
@@ -18528,11 +18566,6 @@ row3:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row3:morphologicalOpening_,
         row3:renderImage_,
         row3:thresholdImage_ .
-
-row3:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row3:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18562,11 +18595,6 @@ row30:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row30:renderImage_,
         row30:thresholdImage_ .
 
-row30:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row30:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row30:dilation_ .
@@ -18594,11 +18622,6 @@ row31:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row31:morphologicalOpening_,
         row31:renderImage_,
         row31:thresholdImage_ .
-
-row31:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row31:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18628,11 +18651,6 @@ row32:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row32:renderImage_,
         row32:thresholdImage_ .
 
-row32:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row32:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row32:dilation_ .
@@ -18660,11 +18678,6 @@ row33:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row33:morphologicalOpening_,
         row33:renderImage_,
         row33:thresholdImage_ .
-
-row33:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row33:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18694,11 +18707,6 @@ row34:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row34:renderImage_,
         row34:thresholdImage_ .
 
-row34:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row34:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row34:dilation_ .
@@ -18726,11 +18734,6 @@ row35:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row35:morphologicalOpening_,
         row35:renderImage_,
         row35:thresholdImage_ .
-
-row35:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row35:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18760,11 +18763,6 @@ row36:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row36:renderImage_,
         row36:thresholdImage_ .
 
-row36:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row36:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row36:dilation_ .
@@ -18792,11 +18790,6 @@ row37:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row37:morphologicalOpening_,
         row37:renderImage_,
         row37:thresholdImage_ .
-
-row37:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row37:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18826,11 +18819,6 @@ row38:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row38:renderImage_,
         row38:thresholdImage_ .
 
-row38:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row38:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row38:dilation_ .
@@ -18858,11 +18846,6 @@ row39:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row39:morphologicalOpening_,
         row39:renderImage_,
         row39:thresholdImage_ .
-
-row39:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row39:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18892,11 +18875,6 @@ row4:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row4:renderImage_,
         row4:thresholdImage_ .
 
-row4:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row4:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row4:dilation_ .
@@ -18924,11 +18902,6 @@ row40:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row40:morphologicalOpening_,
         row40:renderImage_,
         row40:thresholdImage_ .
-
-row40:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row40:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -18958,11 +18931,6 @@ row41:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row41:renderImage_,
         row41:thresholdImage_ .
 
-row41:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row41:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row41:dilation_ .
@@ -18990,11 +18958,6 @@ row42:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row42:morphologicalOpening_,
         row42:renderImage_,
         row42:thresholdImage_ .
-
-row42:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row42:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19024,11 +18987,6 @@ row43:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row43:renderImage_,
         row43:thresholdImage_ .
 
-row43:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row43:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row43:dilation_ .
@@ -19056,11 +19014,6 @@ row44:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row44:morphologicalOpening_,
         row44:renderImage_,
         row44:thresholdImage_ .
-
-row44:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row44:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19090,11 +19043,6 @@ row45:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row45:renderImage_,
         row45:thresholdImage_ .
 
-row45:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row45:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row45:dilation_ .
@@ -19122,11 +19070,6 @@ row46:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row46:morphologicalOpening_,
         row46:renderImage_,
         row46:thresholdImage_ .
-
-row46:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row46:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19156,11 +19099,6 @@ row47:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row47:renderImage_,
         row47:thresholdImage_ .
 
-row47:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row47:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row47:dilation_ .
@@ -19188,11 +19126,6 @@ row48:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row48:morphologicalOpening_,
         row48:renderImage_,
         row48:thresholdImage_ .
-
-row48:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row48:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19222,11 +19155,6 @@ row49:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row49:renderImage_,
         row49:thresholdImage_ .
 
-row49:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row49:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row49:dilation_ .
@@ -19254,11 +19182,6 @@ row5:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row5:morphologicalOpening_,
         row5:renderImage_,
         row5:thresholdImage_ .
-
-row5:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row5:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19288,11 +19211,6 @@ row50:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row50:renderImage_,
         row50:thresholdImage_ .
 
-row50:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row50:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row50:dilation_ .
@@ -19320,11 +19238,6 @@ row51:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row51:morphologicalOpening_,
         row51:renderImage_,
         row51:thresholdImage_ .
-
-row51:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row51:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19354,11 +19267,6 @@ row52:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row52:renderImage_,
         row52:thresholdImage_ .
 
-row52:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row52:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row52:dilation_ .
@@ -19386,11 +19294,6 @@ row53:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row53:morphologicalOpening_,
         row53:renderImage_,
         row53:thresholdImage_ .
-
-row53:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row53:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19420,11 +19323,6 @@ row54:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row54:renderImage_,
         row54:thresholdImage_ .
 
-row54:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row54:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row54:dilation_ .
@@ -19452,11 +19350,6 @@ row55:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row55:morphologicalOpening_,
         row55:renderImage_,
         row55:thresholdImage_ .
-
-row55:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row55:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19486,11 +19379,6 @@ row56:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row56:renderImage_,
         row56:thresholdImage_ .
 
-row56:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row56:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row56:dilation_ .
@@ -19518,11 +19406,6 @@ row57:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row57:morphologicalOpening_,
         row57:renderImage_,
         row57:thresholdImage_ .
-
-row57:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row57:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19552,11 +19435,6 @@ row58:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row58:renderImage_,
         row58:thresholdImage_ .
 
-row58:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row58:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row58:dilation_ .
@@ -19584,11 +19462,6 @@ row59:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row59:morphologicalOpening_,
         row59:renderImage_,
         row59:thresholdImage_ .
-
-row59:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row59:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19618,11 +19491,6 @@ row6:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row6:renderImage_,
         row6:thresholdImage_ .
 
-row6:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row6:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row6:dilation_ .
@@ -19650,11 +19518,6 @@ row60:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row60:morphologicalOpening_,
         row60:renderImage_,
         row60:thresholdImage_ .
-
-row60:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row60:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19684,11 +19547,6 @@ row61:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row61:renderImage_,
         row61:thresholdImage_ .
 
-row61:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row61:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row61:dilation_ .
@@ -19716,11 +19574,6 @@ row62:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row62:morphologicalOpening_,
         row62:renderImage_,
         row62:thresholdImage_ .
-
-row62:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row62:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19750,11 +19603,6 @@ row63:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row63:renderImage_,
         row63:thresholdImage_ .
 
-row63:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row63:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row63:dilation_ .
@@ -19782,11 +19630,6 @@ row64:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row64:morphologicalOpening_,
         row64:renderImage_,
         row64:thresholdImage_ .
-
-row64:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row64:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19816,11 +19659,6 @@ row65:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row65:renderImage_,
         row65:thresholdImage_ .
 
-row65:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row65:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row65:dilation_ .
@@ -19848,11 +19686,6 @@ row66:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row66:morphologicalOpening_,
         row66:renderImage_,
         row66:thresholdImage_ .
-
-row66:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row66:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19882,11 +19715,6 @@ row67:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row67:renderImage_,
         row67:thresholdImage_ .
 
-row67:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row67:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row67:dilation_ .
@@ -19914,11 +19742,6 @@ row68:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row68:morphologicalOpening_,
         row68:renderImage_,
         row68:thresholdImage_ .
-
-row68:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row68:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -19948,11 +19771,6 @@ row69:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row69:renderImage_,
         row69:thresholdImage_ .
 
-row69:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row69:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row69:dilation_ .
@@ -19980,11 +19798,6 @@ row7:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row7:morphologicalOpening_,
         row7:renderImage_,
         row7:thresholdImage_ .
-
-row7:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row7:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20014,11 +19827,6 @@ row70:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row70:renderImage_,
         row70:thresholdImage_ .
 
-row70:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row70:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row70:dilation_ .
@@ -20046,11 +19854,6 @@ row71:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row71:morphologicalOpening_,
         row71:renderImage_,
         row71:thresholdImage_ .
-
-row71:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row71:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20080,11 +19883,6 @@ row72:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row72:renderImage_,
         row72:thresholdImage_ .
 
-row72:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row72:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row72:dilation_ .
@@ -20112,11 +19910,6 @@ row73:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row73:morphologicalOpening_,
         row73:renderImage_,
         row73:thresholdImage_ .
-
-row73:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row73:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20146,11 +19939,6 @@ row74:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row74:renderImage_,
         row74:thresholdImage_ .
 
-row74:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row74:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row74:dilation_ .
@@ -20178,11 +19966,6 @@ row75:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row75:morphologicalOpening_,
         row75:renderImage_,
         row75:thresholdImage_ .
-
-row75:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row75:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20212,11 +19995,6 @@ row76:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row76:renderImage_,
         row76:thresholdImage_ .
 
-row76:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row76:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row76:dilation_ .
@@ -20244,11 +20022,6 @@ row77:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row77:morphologicalOpening_,
         row77:renderImage_,
         row77:thresholdImage_ .
-
-row77:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row77:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20278,11 +20051,6 @@ row78:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row78:renderImage_,
         row78:thresholdImage_ .
 
-row78:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row78:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row78:dilation_ .
@@ -20310,11 +20078,6 @@ row79:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row79:morphologicalOpening_,
         row79:renderImage_,
         row79:thresholdImage_ .
-
-row79:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row79:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20344,11 +20107,6 @@ row8:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row8:renderImage_,
         row8:thresholdImage_ .
 
-row8:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row8:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row8:dilation_ .
@@ -20376,11 +20134,6 @@ row80:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row80:morphologicalOpening_,
         row80:renderImage_,
         row80:thresholdImage_ .
-
-row80:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row80:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20410,11 +20163,6 @@ row81:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row81:renderImage_,
         row81:thresholdImage_ .
 
-row81:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row81:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row81:dilation_ .
@@ -20442,11 +20190,6 @@ row82:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row82:morphologicalOpening_,
         row82:renderImage_,
         row82:thresholdImage_ .
-
-row82:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row82:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20476,11 +20219,6 @@ row83:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row83:renderImage_,
         row83:thresholdImage_ .
 
-row83:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row83:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row83:dilation_ .
@@ -20508,11 +20246,6 @@ row84:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row84:morphologicalOpening_,
         row84:renderImage_,
         row84:thresholdImage_ .
-
-row84:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row84:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20542,11 +20275,6 @@ row85:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row85:renderImage_,
         row85:thresholdImage_ .
 
-row85:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row85:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row85:dilation_ .
@@ -20574,11 +20302,6 @@ row86:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row86:morphologicalOpening_,
         row86:renderImage_,
         row86:thresholdImage_ .
-
-row86:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row86:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20608,11 +20331,6 @@ row87:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row87:renderImage_,
         row87:thresholdImage_ .
 
-row87:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row87:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row87:dilation_ .
@@ -20640,11 +20358,6 @@ row88:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row88:morphologicalOpening_,
         row88:renderImage_,
         row88:thresholdImage_ .
-
-row88:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row88:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20674,11 +20387,6 @@ row89:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row89:renderImage_,
         row89:thresholdImage_ .
 
-row89:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row89:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row89:dilation_ .
@@ -20706,11 +20414,6 @@ row9:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row9:morphologicalOpening_,
         row9:renderImage_,
         row9:thresholdImage_ .
-
-row9:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row9:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20740,11 +20443,6 @@ row90:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row90:renderImage_,
         row90:thresholdImage_ .
 
-row90:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row90:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row90:dilation_ .
@@ -20772,11 +20470,6 @@ row91:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row91:morphologicalOpening_,
         row91:renderImage_,
         row91:thresholdImage_ .
-
-row91:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row91:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20806,11 +20499,6 @@ row92:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row92:renderImage_,
         row92:thresholdImage_ .
 
-row92:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row92:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row92:dilation_ .
@@ -20838,11 +20526,6 @@ row93:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row93:morphologicalOpening_,
         row93:renderImage_,
         row93:thresholdImage_ .
-
-row93:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row93:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20872,11 +20555,6 @@ row94:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row94:renderImage_,
         row94:thresholdImage_ .
 
-row94:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row94:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row94:dilation_ .
@@ -20904,11 +20582,6 @@ row95:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row95:morphologicalOpening_,
         row95:renderImage_,
         row95:thresholdImage_ .
-
-row95:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row95:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -20938,11 +20611,6 @@ row96:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row96:renderImage_,
         row96:thresholdImage_ .
 
-row96:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row96:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row96:dilation_ .
@@ -20970,11 +20638,6 @@ row97:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row97:morphologicalOpening_,
         row97:renderImage_,
         row97:thresholdImage_ .
-
-row97:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
 
 row97:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
@@ -21004,11 +20667,6 @@ row98:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row98:renderImage_,
         row98:thresholdImage_ .
 
-row98:precipitateRegion_ a owl:NamedIndividual,
-        ome:Roi,
-        co:Dataset,
-        co:Measurement .
-
 row98:thresholdImage_ a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess row98:dilation_ .
@@ -21037,14 +20695,589 @@ row99:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
         row99:renderImage_,
         row99:thresholdImage_ .
 
-row99:precipitateRegion_ a owl:NamedIndividual,
+row99:thresholdImage_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess row99:dilation_ .
+
+row0:precipitateRegion_ a owl:NamedIndividual,
         ome:Roi,
         co:Dataset,
         co:Measurement .
 
-row99:thresholdImage_ a owl:NamedIndividual,
-        co:AnalysingProcess ;
-    co:nextProcess row99:dilation_ .
+row1:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row10:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row100:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row101:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row102:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row103:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row104:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row105:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row106:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row107:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row108:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row109:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row11:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row110:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row111:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row112:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row113:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row114:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row115:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row12:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row13:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row14:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row15:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row16:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row17:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row18:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row19:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row2:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row20:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row21:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row22:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row23:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row24:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row25:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row26:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row27:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row28:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row29:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row3:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row30:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row31:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row32:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row33:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row34:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row35:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row36:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row37:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row38:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row39:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row4:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row40:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row41:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row42:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row43:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row44:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row45:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row46:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row47:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row48:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row49:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row5:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row50:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row51:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row52:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row53:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row54:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row55:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row56:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row57:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row58:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row59:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row6:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row60:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row61:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row62:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row63:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row64:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row65:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row66:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row67:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row68:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row69:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row7:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row70:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row71:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row72:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row73:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row74:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row75:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row76:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row77:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row78:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row79:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row8:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row80:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row81:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row82:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row83:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row84:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row85:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row86:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row87:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row88:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row89:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row9:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row90:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row91:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row92:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row93:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row94:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row95:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row96:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row97:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row98:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
+
+row99:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset,
+        co:Measurement .
 
 <https://metadata.omero.matolab.org/api/dataset/54> co:isResourceOf row33:imageDataset_,
         row34:imageDataset_,
