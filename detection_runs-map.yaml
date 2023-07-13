@@ -78,3 +78,23 @@ mappings:
       - [str2, Specimenname]
     po:
     - ['https://w3id.org/pmd/co/isResourceOf', 'method:specimenName_~iri']
+  imageDataset_:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Dataset]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:imageDataset_~iri']
+  darkfieldTransmissionElectronMicroscopeImage_:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Image]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:darkfieldTransmissionElectronMicroscopeImage_~iri']
