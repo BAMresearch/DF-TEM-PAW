@@ -148,3 +148,4 @@ zfp=0.5.5=h0e60522_8
 zipp=3.15.0=pyhd8ed1ab_0
 zlib=1.2.13=h8cc25b3_0
 zstd=1.5.5=hd43e919_0
+shapely
