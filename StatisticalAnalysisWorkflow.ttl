@@ -1,0 +1,119 @@
+@prefix base: <https://github.com/BAMresearch/DF-TEM-PAW/blob/main/StatisticalAnalysisWorkflow.ttl/> .
+@prefix co: <https://w3id.org/pmd/co/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ome: <https://github.com/Mat-O-Lab/OmeroExtractor/raw/main/ome.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+prov:wasAssociatedWith a owl:ObjectProperty .
+
+base: a owl:Ontology ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Statistical Analysis Workflow Ontology (SAWO)" ;
+    owl:versionInfo "1.0.0" .
+
+base:DFTEMImaging a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output base:precipitateRegion_ .
+
+base:binWidth a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input base:createHistogram .
+
+base:precipitateAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:statisticalAnalysisWorkflow_ .
+
+base:x-Max a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input base:createHistogram .
+
+base:x-Min a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input base:createHistogram .
+
+co:input a owl:ObjectProperty .
+
+co:nextProcess a owl:ObjectProperty .
+
+co:output a owl:ObjectProperty .
+
+co:subordinateProcess a owl:ObjectProperty .
+
+prov:SoftwareAgent a owl:Class .
+
+base:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:createHistogram ;
+    co:output base:centroid,
+        base:equivalentRadius,
+        base:polygonArea .
+
+base:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+base:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
+
+base:precipitateRegion_ a owl:NamedIndividual,
+        ome:Roi,
+        co:Dataset ;
+    co:input base:statisticalAnalysisWorkflow_ .
+
+base:statisticalAnalysisWorkflowDataset a owl:NamedIndividual,
+        co:Dataset .
+
+ome:Roi a owl:Class .
+
+co:Area a owl:Class .
+
+co:Radius a owl:Class .
+
+co:SecondaryData a owl:Class .
+
+base:equivalentRadius a owl:NamedIndividual,
+        co:Measurement,
+        co:Radius,
+        co:SecondaryData .
+
+base:fitLogNormalDistribution a owl:NamedIndividual,
+        co:AnalysingProcess .
+
+co:Dataset a owl:Class .
+
+co:PrimaryData a owl:Class .
+
+base:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        prov:SoftwareAgent,
+        co:AnalysingProcess ;
+    prov:wasAssociatedWith base:statisticalAnalysisWorkflow_ ;
+    co:output base:statisticalAnalysisWorkflowDataset ;
+    co:subordinateProcess base:calculatePolygonProperties,
+        base:createHistogram,
+        base:fitLogNormalDistribution .
+
+co:Measurement a owl:Class .
+
+co:Metadata a owl:Class .
+
+co:SetPoint a owl:Class .
+
+co:ValueObject a owl:Class .
+
+base:createHistogram a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input base:equivalentRadius ;
+    co:nextProcess base:fitLogNormalDistribution .
+
+co:AnalysingProcess a owl:Class .
+
