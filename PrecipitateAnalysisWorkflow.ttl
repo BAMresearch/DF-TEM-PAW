@@ -48,17 +48,9 @@ base:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess base:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output base:transmissionElectronMicroscopeSpecimen .
 
-base:DFTEMImaging a owl:NamedIndividual ;
-    co:output base:darkfieldTransmissionElectronMicroscopeImage .
-
 base:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input base:precipitateAnalysisWorkflow .
-
-base:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic base:investigationPosition ;
-    co:nextProcess base:precipitateAnalysisWorkflow .
 
 base:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -94,7 +86,7 @@ base:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic base:specimenName ;
     co:input base:AcceleratedCreep,
-        base:DFTEMImaging .
+        base:darkfieldTransmissionElectronMicroscopyImaging .
 
 co:AgingTemperature a owl:Class .
 
@@ -123,6 +115,12 @@ co:ValueObject a owl:Class .
 base:clearBorder a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess base:findContour .
+
+base:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic base:investigationPosition ;
+    co:nextProcess base:precipitateAnalysisWorkflow ;
+    co:output base:darkfieldTransmissionElectronMicroscopeImage .
 
 base:findContour a owl:NamedIndividual,
         co:MeasuringProcess ;
