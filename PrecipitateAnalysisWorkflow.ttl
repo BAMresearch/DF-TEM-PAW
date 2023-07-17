@@ -9,11 +9,13 @@ base: a owl:Ontology ;
     dc:title "Precipitate Analysis Workflow Ontology (PAWO)" ;
     owl:versionInfo "1.0.1" .
 
-base:diskRadius a owl:NamedIndividual,
-        co:Metadata,
-        co:Radius,
-        co:SetPoint ;
-    co:characteristic base:medianFilter .
+base:AcceleratedCreep a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    co:characteristic base:specimenAgingTemperature,
+        base:specimenAgingTime,
+        base:specimenCreepStess ;
+    co:nextProcess base:darkfieldTransmissionElectronMicroscopyImaging ;
+    co:output base:transmissionElectronMicroscopeSpecimen .
 
 base:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -21,11 +23,53 @@ base:executionDate a owl:NamedIndividual,
 base:investigationPosition a owl:NamedIndividual,
         co:CreepStress .
 
+co:characteristic a owl:ObjectProperty .
+
+co:input a owl:ObjectProperty .
+
+co:nextProcess a owl:ObjectProperty .
+
+co:output a owl:ObjectProperty .
+
+co:subordinateProcess a owl:ObjectProperty .
+
+base:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    co:input base:transmissionElectronMicroscopeSpecimen ;
+    co:nextProcess base:precipitateAnalysisWorkflow ;
+    co:output base:darkfieldTransmissionElectronMicroscopeImage .
+
+base:diskRadius a owl:NamedIndividual,
+        co:Metadata,
+        co:Radius,
+        co:SetPoint .
+
+base:imageRendering a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:grayscaleConversion .
+
 base:kernelSize a owl:NamedIndividual,
         co:Metadata,
         co:SetPoint,
-        co:ValueObject ;
-    co:characteristic base:dilation .
+        co:ValueObject .
+
+base:precipitateAnalysisWorkflow a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input base:darkfieldTransmissionElectronMicroscopeImage ;
+    co:output base:precipitateRegion ;
+    co:subordinateProcess base:borderClearing,
+        base:contourFinding,
+        base:grayscaleConversion,
+        base:imageRendering,
+        base:imageThresholding,
+        base:mageDilation,
+        base:medianFilter,
+        base:morphologicalOpening,
+        base:precipitateLableing .
+
+base:precipitateRegion a owl:NamedIndividual,
+        co:Dataset,
+        co:Measurement .
 
 base:specimenAgingTemperature a owl:NamedIndividual,
         co:AgingTemperature,
@@ -46,40 +90,7 @@ base:specimenName a owl:NamedIndividual,
 base:thresholdMethod a owl:NamedIndividual,
         co:Metadata,
         co:Method,
-        co:SetPoint ;
-    co:characteristic base:thresholdImage .
-
-co:characteristic a owl:ObjectProperty .
-
-co:input a owl:ObjectProperty .
-
-co:nextProcess a owl:ObjectProperty .
-
-co:output a owl:ObjectProperty .
-
-co:subordinateProcess a owl:ObjectProperty .
-
-base:AcceleratedCreep a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    co:nextProcess base:darkfieldTransmissionElectronMicroscopyImaging ;
-    co:output base:transmissionElectronMicroscopeSpecimen .
-
-base:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
-        co:Image ;
-    co:input base:precipitateAnalysisWorkflow .
-
-base:precipitateRegion a owl:NamedIndividual,
-        co:Dataset,
-        co:Measurement .
-
-base:renderImage a owl:NamedIndividual,
-        co:AnalysingProcess ;
-    co:nextProcess base:grayscaleConversion .
-
-base:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
-        co:Specimen ;
-    co:input base:AcceleratedCreep,
-        base:darkfieldTransmissionElectronMicroscopyImaging .
+        co:SetPoint .
 
 co:AgingTemperature a owl:Class .
 
@@ -105,56 +116,48 @@ co:SpecimenName a owl:Class .
 
 co:ValueObject a owl:Class .
 
-base:clearBorder a owl:NamedIndividual,
+base:borderClearing a owl:NamedIndividual,
         co:AnalysingProcess ;
-    co:nextProcess base:findContour .
+    co:nextProcess base:contourFinding .
 
-base:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    co:nextProcess base:precipitateAnalysisWorkflow ;
-    co:output base:darkfieldTransmissionElectronMicroscopeImage .
-
-base:findContour a owl:NamedIndividual,
+base:contourFinding a owl:NamedIndividual,
         co:MeasuringProcess ;
-    co:nextProcess base:labelPrecipitates .
+    co:nextProcess base:precipitateLableing .
+
+base:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
+        co:Image .
 
 base:grayscaleConversion a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess base:medianFilter .
 
-base:labelPrecipitates a owl:NamedIndividual,
-        co:Analysingprocess .
-
-base:morphologicalOpening a owl:NamedIndividual,
+base:imageThresholding a owl:NamedIndividual,
         co:AnalysingProcess ;
-    co:nextProcess base:clearBorder .
+    co:characteristic base:thresholdMethod ;
+    co:nextProcess base:mageDilation .
 
-base:precipitateAnalysisWorkflow a owl:NamedIndividual,
+base:mageDilation a owl:NamedIndividual,
         co:AnalysingProcess ;
-    co:output base:precipitateRegion ;
-    co:subordinateProcess base:clearBorder,
-        base:dilation,
-        base:findContour,
-        base:grayscaleConversion,
-        base:labelPrecipitates,
-        base:medianFilter,
-        base:morphologicalOpening,
-        base:renderImage,
-        base:thresholdImage .
-
-co:TransmissionElectronMicroscopy a owl:Class .
-
-base:dilation a owl:NamedIndividual,
-        co:AnalysingProcess ;
+    co:characteristic base:kernelSize ;
     co:nextProcess base:morphologicalOpening .
 
 base:medianFilter a owl:NamedIndividual,
         co:AnalysingProcess ;
-    co:nextProcess base:thresholdImage .
+    co:characteristic base:diskRadius ;
+    co:nextProcess base:imageThresholding .
 
-base:thresholdImage a owl:NamedIndividual,
+base:morphologicalOpening a owl:NamedIndividual,
         co:AnalysingProcess ;
-    co:nextProcess base:dilation .
+    co:nextProcess base:borderClearing .
+
+base:precipitateLableing a owl:NamedIndividual,
+        co:Analysingprocess .
+
+base:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
+        co:Specimen ;
+    co:characteristic base:specimenName .
+
+co:TransmissionElectronMicroscopy a owl:Class .
 
 co:CreepStress a owl:Class .
 
