@@ -48,7 +48,7 @@ mappings:
       - [str2, AgingTempC]
     po:
     - ['https://w3id.org/pmd/co/isResourceOf', 'method:specimenAgingTemperature~iri']
-  specimenCreepStess:
+  specimenCreepStress:
     sources: [data_entities]
     s: $(@id)
     condition:
@@ -57,7 +57,7 @@ mappings:
       - [str1, $(name)]
       - [str2, CreepStressMpa]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:specimenCreepStess~iri']
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:specimenCreepStress~iri']
   specimenName:
     sources: [data_entities]
     s: $(@id)
