@@ -78,7 +78,7 @@ mappings:
       - [str2, Specimenname]
     po:
     - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenName~iri']
-  darkfieldTransmissionElectronMicroscopeImage_:
+  darkfieldTransmissionElectronMicroscopeImage:
     sources: [data_entities]
     s: $(@id)
     condition:
@@ -87,7 +87,7 @@ mappings:
       - [str1, $(name)]
       - [str2, Image]
     po:
-    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:darkfieldTransmissionElectronMicroscopeImage_~iri']
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:darkfieldTransmissionElectronMicroscopeImage~iri']
   precipitateRegion:
     sources: [data_entities]
     s: $(@id)
