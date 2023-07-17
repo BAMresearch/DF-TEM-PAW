@@ -13,7 +13,7 @@ base:ArtificalAging a owl:NamedIndividual,
         co:TransmissionElectronMicroscopy ;
     co:input base:specimenAgingTemperature,
         base:specimenAgingTime,
-        base:specimenCreepStess ;
+        base:specimenCreepStress ;
     co:nextProcess base:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output base:transmissionElectronMicroscopeSpecimen .
 
@@ -73,7 +73,7 @@ base:specimenAgingTemperature a owl:NamedIndividual,
 base:specimenAgingTime a owl:NamedIndividual,
         co:AgingTime .
 
-base:specimenCreepStess a owl:NamedIndividual,
+base:specimenCreepStress a owl:NamedIndividual,
         co:CreepStress .
 
 base:specimenName a owl:NamedIndividual,

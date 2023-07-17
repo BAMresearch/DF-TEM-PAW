@@ -48,16 +48,6 @@ mappings:
       - [str2, AgingTempC]
     po:
     - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenAgingTemperature~iri']
-  specimenAgingTime:
-    sources: [data_entities]
-    s: $(@id)
-    condition:
-      function: equal
-      parameters:
-      - [str1, $(name)]
-      - [str2, AgingTimeH]
-    po:
-    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenAgingTime~iri']
   specimenCreepStess:
     sources: [data_entities]
     s: $(@id)
@@ -78,6 +68,16 @@ mappings:
       - [str2, Specimenname]
     po:
     - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenName~iri']
+  specimenAgingTime:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, AgingTimeH]
+    po:
+    - ['https://w3id.org/pmd/co/isRessourceOf', 'method:specimenAgingTime~iri']
   darkfieldTransmissionElectronMicroscopeImage:
     sources: [data_entities]
     s: $(@id)
