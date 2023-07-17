@@ -9,9 +9,9 @@ base: a owl:Ontology ;
     dc:title "Precipitate Analysis Workflow Ontology (PAWO)" ;
     owl:versionInfo "1.0.1" .
 
-base:AcceleratedCreep a owl:NamedIndividual,
+base:ArtificalAging a owl:NamedIndividual,
         co:TransmissionElectronMicroscopy ;
-    co:characteristic base:specimenAgingTemperature,
+    co:input base:specimenAgingTemperature,
         base:specimenAgingTime,
         base:specimenCreepStess ;
     co:nextProcess base:darkfieldTransmissionElectronMicroscopyImaging ;
@@ -40,17 +40,13 @@ base:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
     co:output base:darkfieldTransmissionElectronMicroscopeImage .
 
 base:diskRadius a owl:NamedIndividual,
-        co:Metadata,
-        co:Radius,
-        co:SetPoint .
+        co:Radius .
 
 base:imageRendering a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess base:grayscaleConversion .
 
 base:kernelSize a owl:NamedIndividual,
-        co:Metadata,
-        co:SetPoint,
         co:ValueObject .
 
 base:precipitateAnalysisWorkflow a owl:NamedIndividual,
@@ -65,32 +61,26 @@ base:precipitateAnalysisWorkflow a owl:NamedIndividual,
         base:mageDilation,
         base:medianFilter,
         base:morphologicalOpening,
-        base:precipitateLableing .
+        base:precipitateLabeling .
 
 base:precipitateRegion a owl:NamedIndividual,
         co:Dataset,
         co:Measurement .
 
 base:specimenAgingTemperature a owl:NamedIndividual,
-        co:AgingTemperature,
-        co:Metadata .
+        co:AgingTemperature .
 
 base:specimenAgingTime a owl:NamedIndividual,
-        co:AgingTime,
-        co:Metadata .
+        co:AgingTime .
 
 base:specimenCreepStess a owl:NamedIndividual,
-        co:CreepStress,
-        co:Metadata .
+        co:CreepStress .
 
 base:specimenName a owl:NamedIndividual,
-        co:Metadata,
         co:SpecimenName .
 
 base:thresholdMethod a owl:NamedIndividual,
-        co:Metadata,
-        co:Method,
-        co:SetPoint .
+        co:Method .
 
 co:AgingTemperature a owl:Class .
 
@@ -122,7 +112,7 @@ base:borderClearing a owl:NamedIndividual,
 
 base:contourFinding a owl:NamedIndividual,
         co:MeasuringProcess ;
-    co:nextProcess base:precipitateLableing .
+    co:nextProcess base:precipitateLabeling .
 
 base:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image .
@@ -133,24 +123,24 @@ base:grayscaleConversion a owl:NamedIndividual,
 
 base:imageThresholding a owl:NamedIndividual,
         co:AnalysingProcess ;
-    co:characteristic base:thresholdMethod ;
+    co:input base:thresholdMethod ;
     co:nextProcess base:mageDilation .
 
 base:mageDilation a owl:NamedIndividual,
         co:AnalysingProcess ;
-    co:characteristic base:kernelSize ;
+    co:input base:kernelSize ;
     co:nextProcess base:morphologicalOpening .
 
 base:medianFilter a owl:NamedIndividual,
         co:AnalysingProcess ;
-    co:characteristic base:diskRadius ;
+    co:input base:diskRadius ;
     co:nextProcess base:imageThresholding .
 
 base:morphologicalOpening a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess base:borderClearing .
 
-base:precipitateLableing a owl:NamedIndividual,
+base:precipitateLabeling a owl:NamedIndividual,
         co:Analysingprocess .
 
 base:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
@@ -161,8 +151,5 @@ co:TransmissionElectronMicroscopy a owl:Class .
 
 co:CreepStress a owl:Class .
 
-co:SetPoint a owl:Class .
-
-co:Metadata a owl:Class .
-
 co:AnalysingProcess a owl:Class .
+
