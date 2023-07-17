@@ -1351,14 +1351,6 @@ row0:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row0:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row0:transmissionElectronMicroscopeSpecimen .
 
-row0:DFTEMImaging a owl:NamedIndividual ;
-    co:output row0:darkfieldTransmissionElectronMicroscopeImage .
-
-row0:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row0:investigationPosition ;
-    co:nextProcess row0:precipitateAnalysisWorkflow .
-
 row0:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -1388,7 +1380,7 @@ row0:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row0:specimenName ;
     co:input row0:AcceleratedCreep,
-        row0:DFTEMImaging .
+        row0:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-1 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -1441,14 +1433,6 @@ row1:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row1:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row1:transmissionElectronMicroscopeSpecimen .
 
-row1:DFTEMImaging a owl:NamedIndividual ;
-    co:output row1:darkfieldTransmissionElectronMicroscopeImage .
-
-row1:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row1:investigationPosition ;
-    co:nextProcess row1:precipitateAnalysisWorkflow .
-
 row1:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -1478,7 +1462,7 @@ row1:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row1:specimenName ;
     co:input row1:AcceleratedCreep,
-        row1:DFTEMImaging .
+        row1:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-10 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -1531,14 +1515,6 @@ row10:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row10:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row10:transmissionElectronMicroscopeSpecimen .
 
-row10:DFTEMImaging a owl:NamedIndividual ;
-    co:output row10:darkfieldTransmissionElectronMicroscopeImage .
-
-row10:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row10:investigationPosition ;
-    co:nextProcess row10:precipitateAnalysisWorkflow .
-
 row10:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -1568,7 +1544,7 @@ row10:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row10:specimenName ;
     co:input row10:AcceleratedCreep,
-        row10:DFTEMImaging .
+        row10:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-100 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -1621,14 +1597,6 @@ row100:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row100:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row100:transmissionElectronMicroscopeSpecimen .
 
-row100:DFTEMImaging a owl:NamedIndividual ;
-    co:output row100:darkfieldTransmissionElectronMicroscopeImage .
-
-row100:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row100:investigationPosition ;
-    co:nextProcess row100:precipitateAnalysisWorkflow .
-
 row100:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -1658,7 +1626,7 @@ row100:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row100:specimenName ;
     co:input row100:AcceleratedCreep,
-        row100:DFTEMImaging .
+        row100:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-101 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -1711,14 +1679,6 @@ row101:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row101:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row101:transmissionElectronMicroscopeSpecimen .
 
-row101:DFTEMImaging a owl:NamedIndividual ;
-    co:output row101:darkfieldTransmissionElectronMicroscopeImage .
-
-row101:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row101:investigationPosition ;
-    co:nextProcess row101:precipitateAnalysisWorkflow .
-
 row101:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -1748,7 +1708,7 @@ row101:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row101:specimenName ;
     co:input row101:AcceleratedCreep,
-        row101:DFTEMImaging .
+        row101:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-102 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -1801,14 +1761,6 @@ row102:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row102:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row102:transmissionElectronMicroscopeSpecimen .
 
-row102:DFTEMImaging a owl:NamedIndividual ;
-    co:output row102:darkfieldTransmissionElectronMicroscopeImage .
-
-row102:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row102:investigationPosition ;
-    co:nextProcess row102:precipitateAnalysisWorkflow .
-
 row102:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -1838,7 +1790,7 @@ row102:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row102:specimenName ;
     co:input row102:AcceleratedCreep,
-        row102:DFTEMImaging .
+        row102:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-103 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -1891,14 +1843,6 @@ row103:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row103:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row103:transmissionElectronMicroscopeSpecimen .
 
-row103:DFTEMImaging a owl:NamedIndividual ;
-    co:output row103:darkfieldTransmissionElectronMicroscopeImage .
-
-row103:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row103:investigationPosition ;
-    co:nextProcess row103:precipitateAnalysisWorkflow .
-
 row103:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -1928,7 +1872,7 @@ row103:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row103:specimenName ;
     co:input row103:AcceleratedCreep,
-        row103:DFTEMImaging .
+        row103:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-104 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -1981,14 +1925,6 @@ row104:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row104:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row104:transmissionElectronMicroscopeSpecimen .
 
-row104:DFTEMImaging a owl:NamedIndividual ;
-    co:output row104:darkfieldTransmissionElectronMicroscopeImage .
-
-row104:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row104:investigationPosition ;
-    co:nextProcess row104:precipitateAnalysisWorkflow .
-
 row104:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2018,7 +1954,7 @@ row104:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row104:specimenName ;
     co:input row104:AcceleratedCreep,
-        row104:DFTEMImaging .
+        row104:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-105 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2071,14 +2007,6 @@ row105:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row105:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row105:transmissionElectronMicroscopeSpecimen .
 
-row105:DFTEMImaging a owl:NamedIndividual ;
-    co:output row105:darkfieldTransmissionElectronMicroscopeImage .
-
-row105:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row105:investigationPosition ;
-    co:nextProcess row105:precipitateAnalysisWorkflow .
-
 row105:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2108,7 +2036,7 @@ row105:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row105:specimenName ;
     co:input row105:AcceleratedCreep,
-        row105:DFTEMImaging .
+        row105:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-106 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2161,14 +2089,6 @@ row106:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row106:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row106:transmissionElectronMicroscopeSpecimen .
 
-row106:DFTEMImaging a owl:NamedIndividual ;
-    co:output row106:darkfieldTransmissionElectronMicroscopeImage .
-
-row106:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row106:investigationPosition ;
-    co:nextProcess row106:precipitateAnalysisWorkflow .
-
 row106:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2198,7 +2118,7 @@ row106:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row106:specimenName ;
     co:input row106:AcceleratedCreep,
-        row106:DFTEMImaging .
+        row106:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-107 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2251,14 +2171,6 @@ row107:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row107:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row107:transmissionElectronMicroscopeSpecimen .
 
-row107:DFTEMImaging a owl:NamedIndividual ;
-    co:output row107:darkfieldTransmissionElectronMicroscopeImage .
-
-row107:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row107:investigationPosition ;
-    co:nextProcess row107:precipitateAnalysisWorkflow .
-
 row107:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2288,7 +2200,7 @@ row107:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row107:specimenName ;
     co:input row107:AcceleratedCreep,
-        row107:DFTEMImaging .
+        row107:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-108 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2341,14 +2253,6 @@ row108:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row108:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row108:transmissionElectronMicroscopeSpecimen .
 
-row108:DFTEMImaging a owl:NamedIndividual ;
-    co:output row108:darkfieldTransmissionElectronMicroscopeImage .
-
-row108:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row108:investigationPosition ;
-    co:nextProcess row108:precipitateAnalysisWorkflow .
-
 row108:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2378,7 +2282,7 @@ row108:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row108:specimenName ;
     co:input row108:AcceleratedCreep,
-        row108:DFTEMImaging .
+        row108:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-109 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2431,14 +2335,6 @@ row109:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row109:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row109:transmissionElectronMicroscopeSpecimen .
 
-row109:DFTEMImaging a owl:NamedIndividual ;
-    co:output row109:darkfieldTransmissionElectronMicroscopeImage .
-
-row109:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row109:investigationPosition ;
-    co:nextProcess row109:precipitateAnalysisWorkflow .
-
 row109:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2468,7 +2364,7 @@ row109:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row109:specimenName ;
     co:input row109:AcceleratedCreep,
-        row109:DFTEMImaging .
+        row109:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-11 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2521,14 +2417,6 @@ row11:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row11:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row11:transmissionElectronMicroscopeSpecimen .
 
-row11:DFTEMImaging a owl:NamedIndividual ;
-    co:output row11:darkfieldTransmissionElectronMicroscopeImage .
-
-row11:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row11:investigationPosition ;
-    co:nextProcess row11:precipitateAnalysisWorkflow .
-
 row11:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2558,7 +2446,7 @@ row11:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row11:specimenName ;
     co:input row11:AcceleratedCreep,
-        row11:DFTEMImaging .
+        row11:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-110 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2611,14 +2499,6 @@ row110:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row110:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row110:transmissionElectronMicroscopeSpecimen .
 
-row110:DFTEMImaging a owl:NamedIndividual ;
-    co:output row110:darkfieldTransmissionElectronMicroscopeImage .
-
-row110:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row110:investigationPosition ;
-    co:nextProcess row110:precipitateAnalysisWorkflow .
-
 row110:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2648,7 +2528,7 @@ row110:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row110:specimenName ;
     co:input row110:AcceleratedCreep,
-        row110:DFTEMImaging .
+        row110:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-111 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2701,14 +2581,6 @@ row111:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row111:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row111:transmissionElectronMicroscopeSpecimen .
 
-row111:DFTEMImaging a owl:NamedIndividual ;
-    co:output row111:darkfieldTransmissionElectronMicroscopeImage .
-
-row111:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row111:investigationPosition ;
-    co:nextProcess row111:precipitateAnalysisWorkflow .
-
 row111:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2738,7 +2610,7 @@ row111:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row111:specimenName ;
     co:input row111:AcceleratedCreep,
-        row111:DFTEMImaging .
+        row111:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-112 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2791,14 +2663,6 @@ row112:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row112:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row112:transmissionElectronMicroscopeSpecimen .
 
-row112:DFTEMImaging a owl:NamedIndividual ;
-    co:output row112:darkfieldTransmissionElectronMicroscopeImage .
-
-row112:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row112:investigationPosition ;
-    co:nextProcess row112:precipitateAnalysisWorkflow .
-
 row112:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2828,7 +2692,7 @@ row112:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row112:specimenName ;
     co:input row112:AcceleratedCreep,
-        row112:DFTEMImaging .
+        row112:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-113 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2881,14 +2745,6 @@ row113:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row113:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row113:transmissionElectronMicroscopeSpecimen .
 
-row113:DFTEMImaging a owl:NamedIndividual ;
-    co:output row113:darkfieldTransmissionElectronMicroscopeImage .
-
-row113:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row113:investigationPosition ;
-    co:nextProcess row113:precipitateAnalysisWorkflow .
-
 row113:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -2918,7 +2774,7 @@ row113:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row113:specimenName ;
     co:input row113:AcceleratedCreep,
-        row113:DFTEMImaging .
+        row113:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-114 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -2971,14 +2827,6 @@ row114:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row114:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row114:transmissionElectronMicroscopeSpecimen .
 
-row114:DFTEMImaging a owl:NamedIndividual ;
-    co:output row114:darkfieldTransmissionElectronMicroscopeImage .
-
-row114:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row114:investigationPosition ;
-    co:nextProcess row114:precipitateAnalysisWorkflow .
-
 row114:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3008,7 +2856,7 @@ row114:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row114:specimenName ;
     co:input row114:AcceleratedCreep,
-        row114:DFTEMImaging .
+        row114:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-115 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3061,14 +2909,6 @@ row115:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row115:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row115:transmissionElectronMicroscopeSpecimen .
 
-row115:DFTEMImaging a owl:NamedIndividual ;
-    co:output row115:darkfieldTransmissionElectronMicroscopeImage .
-
-row115:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row115:investigationPosition ;
-    co:nextProcess row115:precipitateAnalysisWorkflow .
-
 row115:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3098,7 +2938,7 @@ row115:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row115:specimenName ;
     co:input row115:AcceleratedCreep,
-        row115:DFTEMImaging .
+        row115:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-12 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3151,14 +2991,6 @@ row12:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row12:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row12:transmissionElectronMicroscopeSpecimen .
 
-row12:DFTEMImaging a owl:NamedIndividual ;
-    co:output row12:darkfieldTransmissionElectronMicroscopeImage .
-
-row12:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row12:investigationPosition ;
-    co:nextProcess row12:precipitateAnalysisWorkflow .
-
 row12:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3188,7 +3020,7 @@ row12:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row12:specimenName ;
     co:input row12:AcceleratedCreep,
-        row12:DFTEMImaging .
+        row12:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-13 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3241,14 +3073,6 @@ row13:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row13:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row13:transmissionElectronMicroscopeSpecimen .
 
-row13:DFTEMImaging a owl:NamedIndividual ;
-    co:output row13:darkfieldTransmissionElectronMicroscopeImage .
-
-row13:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row13:investigationPosition ;
-    co:nextProcess row13:precipitateAnalysisWorkflow .
-
 row13:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3278,7 +3102,7 @@ row13:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row13:specimenName ;
     co:input row13:AcceleratedCreep,
-        row13:DFTEMImaging .
+        row13:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-14 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3331,14 +3155,6 @@ row14:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row14:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row14:transmissionElectronMicroscopeSpecimen .
 
-row14:DFTEMImaging a owl:NamedIndividual ;
-    co:output row14:darkfieldTransmissionElectronMicroscopeImage .
-
-row14:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row14:investigationPosition ;
-    co:nextProcess row14:precipitateAnalysisWorkflow .
-
 row14:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3368,7 +3184,7 @@ row14:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row14:specimenName ;
     co:input row14:AcceleratedCreep,
-        row14:DFTEMImaging .
+        row14:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-15 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3421,14 +3237,6 @@ row15:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row15:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row15:transmissionElectronMicroscopeSpecimen .
 
-row15:DFTEMImaging a owl:NamedIndividual ;
-    co:output row15:darkfieldTransmissionElectronMicroscopeImage .
-
-row15:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row15:investigationPosition ;
-    co:nextProcess row15:precipitateAnalysisWorkflow .
-
 row15:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3458,7 +3266,7 @@ row15:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row15:specimenName ;
     co:input row15:AcceleratedCreep,
-        row15:DFTEMImaging .
+        row15:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-16 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3511,14 +3319,6 @@ row16:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row16:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row16:transmissionElectronMicroscopeSpecimen .
 
-row16:DFTEMImaging a owl:NamedIndividual ;
-    co:output row16:darkfieldTransmissionElectronMicroscopeImage .
-
-row16:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row16:investigationPosition ;
-    co:nextProcess row16:precipitateAnalysisWorkflow .
-
 row16:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3548,7 +3348,7 @@ row16:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row16:specimenName ;
     co:input row16:AcceleratedCreep,
-        row16:DFTEMImaging .
+        row16:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-17 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3601,14 +3401,6 @@ row17:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row17:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row17:transmissionElectronMicroscopeSpecimen .
 
-row17:DFTEMImaging a owl:NamedIndividual ;
-    co:output row17:darkfieldTransmissionElectronMicroscopeImage .
-
-row17:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row17:investigationPosition ;
-    co:nextProcess row17:precipitateAnalysisWorkflow .
-
 row17:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3638,7 +3430,7 @@ row17:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row17:specimenName ;
     co:input row17:AcceleratedCreep,
-        row17:DFTEMImaging .
+        row17:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-18 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3691,14 +3483,6 @@ row18:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row18:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row18:transmissionElectronMicroscopeSpecimen .
 
-row18:DFTEMImaging a owl:NamedIndividual ;
-    co:output row18:darkfieldTransmissionElectronMicroscopeImage .
-
-row18:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row18:investigationPosition ;
-    co:nextProcess row18:precipitateAnalysisWorkflow .
-
 row18:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3728,7 +3512,7 @@ row18:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row18:specimenName ;
     co:input row18:AcceleratedCreep,
-        row18:DFTEMImaging .
+        row18:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-19 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3781,14 +3565,6 @@ row19:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row19:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row19:transmissionElectronMicroscopeSpecimen .
 
-row19:DFTEMImaging a owl:NamedIndividual ;
-    co:output row19:darkfieldTransmissionElectronMicroscopeImage .
-
-row19:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row19:investigationPosition ;
-    co:nextProcess row19:precipitateAnalysisWorkflow .
-
 row19:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3818,7 +3594,7 @@ row19:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row19:specimenName ;
     co:input row19:AcceleratedCreep,
-        row19:DFTEMImaging .
+        row19:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-2 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3871,14 +3647,6 @@ row2:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row2:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row2:transmissionElectronMicroscopeSpecimen .
 
-row2:DFTEMImaging a owl:NamedIndividual ;
-    co:output row2:darkfieldTransmissionElectronMicroscopeImage .
-
-row2:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row2:investigationPosition ;
-    co:nextProcess row2:precipitateAnalysisWorkflow .
-
 row2:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3908,7 +3676,7 @@ row2:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row2:specimenName ;
     co:input row2:AcceleratedCreep,
-        row2:DFTEMImaging .
+        row2:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-20 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -3961,14 +3729,6 @@ row20:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row20:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row20:transmissionElectronMicroscopeSpecimen .
 
-row20:DFTEMImaging a owl:NamedIndividual ;
-    co:output row20:darkfieldTransmissionElectronMicroscopeImage .
-
-row20:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row20:investigationPosition ;
-    co:nextProcess row20:precipitateAnalysisWorkflow .
-
 row20:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -3998,7 +3758,7 @@ row20:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row20:specimenName ;
     co:input row20:AcceleratedCreep,
-        row20:DFTEMImaging .
+        row20:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-21 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4051,14 +3811,6 @@ row21:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row21:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row21:transmissionElectronMicroscopeSpecimen .
 
-row21:DFTEMImaging a owl:NamedIndividual ;
-    co:output row21:darkfieldTransmissionElectronMicroscopeImage .
-
-row21:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row21:investigationPosition ;
-    co:nextProcess row21:precipitateAnalysisWorkflow .
-
 row21:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4088,7 +3840,7 @@ row21:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row21:specimenName ;
     co:input row21:AcceleratedCreep,
-        row21:DFTEMImaging .
+        row21:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-22 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4141,14 +3893,6 @@ row22:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row22:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row22:transmissionElectronMicroscopeSpecimen .
 
-row22:DFTEMImaging a owl:NamedIndividual ;
-    co:output row22:darkfieldTransmissionElectronMicroscopeImage .
-
-row22:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row22:investigationPosition ;
-    co:nextProcess row22:precipitateAnalysisWorkflow .
-
 row22:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4178,7 +3922,7 @@ row22:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row22:specimenName ;
     co:input row22:AcceleratedCreep,
-        row22:DFTEMImaging .
+        row22:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-23 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4231,14 +3975,6 @@ row23:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row23:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row23:transmissionElectronMicroscopeSpecimen .
 
-row23:DFTEMImaging a owl:NamedIndividual ;
-    co:output row23:darkfieldTransmissionElectronMicroscopeImage .
-
-row23:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row23:investigationPosition ;
-    co:nextProcess row23:precipitateAnalysisWorkflow .
-
 row23:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4268,7 +4004,7 @@ row23:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row23:specimenName ;
     co:input row23:AcceleratedCreep,
-        row23:DFTEMImaging .
+        row23:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-24 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4321,14 +4057,6 @@ row24:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row24:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row24:transmissionElectronMicroscopeSpecimen .
 
-row24:DFTEMImaging a owl:NamedIndividual ;
-    co:output row24:darkfieldTransmissionElectronMicroscopeImage .
-
-row24:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row24:investigationPosition ;
-    co:nextProcess row24:precipitateAnalysisWorkflow .
-
 row24:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4358,7 +4086,7 @@ row24:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row24:specimenName ;
     co:input row24:AcceleratedCreep,
-        row24:DFTEMImaging .
+        row24:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-25 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4411,14 +4139,6 @@ row25:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row25:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row25:transmissionElectronMicroscopeSpecimen .
 
-row25:DFTEMImaging a owl:NamedIndividual ;
-    co:output row25:darkfieldTransmissionElectronMicroscopeImage .
-
-row25:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row25:investigationPosition ;
-    co:nextProcess row25:precipitateAnalysisWorkflow .
-
 row25:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4448,7 +4168,7 @@ row25:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row25:specimenName ;
     co:input row25:AcceleratedCreep,
-        row25:DFTEMImaging .
+        row25:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-26 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4501,14 +4221,6 @@ row26:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row26:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row26:transmissionElectronMicroscopeSpecimen .
 
-row26:DFTEMImaging a owl:NamedIndividual ;
-    co:output row26:darkfieldTransmissionElectronMicroscopeImage .
-
-row26:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row26:investigationPosition ;
-    co:nextProcess row26:precipitateAnalysisWorkflow .
-
 row26:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4538,7 +4250,7 @@ row26:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row26:specimenName ;
     co:input row26:AcceleratedCreep,
-        row26:DFTEMImaging .
+        row26:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-27 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4591,14 +4303,6 @@ row27:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row27:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row27:transmissionElectronMicroscopeSpecimen .
 
-row27:DFTEMImaging a owl:NamedIndividual ;
-    co:output row27:darkfieldTransmissionElectronMicroscopeImage .
-
-row27:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row27:investigationPosition ;
-    co:nextProcess row27:precipitateAnalysisWorkflow .
-
 row27:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4628,7 +4332,7 @@ row27:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row27:specimenName ;
     co:input row27:AcceleratedCreep,
-        row27:DFTEMImaging .
+        row27:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-28 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4681,14 +4385,6 @@ row28:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row28:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row28:transmissionElectronMicroscopeSpecimen .
 
-row28:DFTEMImaging a owl:NamedIndividual ;
-    co:output row28:darkfieldTransmissionElectronMicroscopeImage .
-
-row28:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row28:investigationPosition ;
-    co:nextProcess row28:precipitateAnalysisWorkflow .
-
 row28:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4718,7 +4414,7 @@ row28:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row28:specimenName ;
     co:input row28:AcceleratedCreep,
-        row28:DFTEMImaging .
+        row28:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-29 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4771,14 +4467,6 @@ row29:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row29:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row29:transmissionElectronMicroscopeSpecimen .
 
-row29:DFTEMImaging a owl:NamedIndividual ;
-    co:output row29:darkfieldTransmissionElectronMicroscopeImage .
-
-row29:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row29:investigationPosition ;
-    co:nextProcess row29:precipitateAnalysisWorkflow .
-
 row29:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4808,7 +4496,7 @@ row29:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row29:specimenName ;
     co:input row29:AcceleratedCreep,
-        row29:DFTEMImaging .
+        row29:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-3 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4861,14 +4549,6 @@ row3:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row3:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row3:transmissionElectronMicroscopeSpecimen .
 
-row3:DFTEMImaging a owl:NamedIndividual ;
-    co:output row3:darkfieldTransmissionElectronMicroscopeImage .
-
-row3:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row3:investigationPosition ;
-    co:nextProcess row3:precipitateAnalysisWorkflow .
-
 row3:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4898,7 +4578,7 @@ row3:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row3:specimenName ;
     co:input row3:AcceleratedCreep,
-        row3:DFTEMImaging .
+        row3:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-30 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -4951,14 +4631,6 @@ row30:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row30:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row30:transmissionElectronMicroscopeSpecimen .
 
-row30:DFTEMImaging a owl:NamedIndividual ;
-    co:output row30:darkfieldTransmissionElectronMicroscopeImage .
-
-row30:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row30:investigationPosition ;
-    co:nextProcess row30:precipitateAnalysisWorkflow .
-
 row30:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -4988,7 +4660,7 @@ row30:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row30:specimenName ;
     co:input row30:AcceleratedCreep,
-        row30:DFTEMImaging .
+        row30:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-31 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5041,14 +4713,6 @@ row31:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row31:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row31:transmissionElectronMicroscopeSpecimen .
 
-row31:DFTEMImaging a owl:NamedIndividual ;
-    co:output row31:darkfieldTransmissionElectronMicroscopeImage .
-
-row31:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row31:investigationPosition ;
-    co:nextProcess row31:precipitateAnalysisWorkflow .
-
 row31:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5078,7 +4742,7 @@ row31:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row31:specimenName ;
     co:input row31:AcceleratedCreep,
-        row31:DFTEMImaging .
+        row31:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-32 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5131,14 +4795,6 @@ row32:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row32:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row32:transmissionElectronMicroscopeSpecimen .
 
-row32:DFTEMImaging a owl:NamedIndividual ;
-    co:output row32:darkfieldTransmissionElectronMicroscopeImage .
-
-row32:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row32:investigationPosition ;
-    co:nextProcess row32:precipitateAnalysisWorkflow .
-
 row32:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5168,7 +4824,7 @@ row32:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row32:specimenName ;
     co:input row32:AcceleratedCreep,
-        row32:DFTEMImaging .
+        row32:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-33 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5221,14 +4877,6 @@ row33:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row33:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row33:transmissionElectronMicroscopeSpecimen .
 
-row33:DFTEMImaging a owl:NamedIndividual ;
-    co:output row33:darkfieldTransmissionElectronMicroscopeImage .
-
-row33:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row33:investigationPosition ;
-    co:nextProcess row33:precipitateAnalysisWorkflow .
-
 row33:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5258,7 +4906,7 @@ row33:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row33:specimenName ;
     co:input row33:AcceleratedCreep,
-        row33:DFTEMImaging .
+        row33:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-34 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5311,14 +4959,6 @@ row34:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row34:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row34:transmissionElectronMicroscopeSpecimen .
 
-row34:DFTEMImaging a owl:NamedIndividual ;
-    co:output row34:darkfieldTransmissionElectronMicroscopeImage .
-
-row34:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row34:investigationPosition ;
-    co:nextProcess row34:precipitateAnalysisWorkflow .
-
 row34:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5348,7 +4988,7 @@ row34:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row34:specimenName ;
     co:input row34:AcceleratedCreep,
-        row34:DFTEMImaging .
+        row34:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-35 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5401,14 +5041,6 @@ row35:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row35:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row35:transmissionElectronMicroscopeSpecimen .
 
-row35:DFTEMImaging a owl:NamedIndividual ;
-    co:output row35:darkfieldTransmissionElectronMicroscopeImage .
-
-row35:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row35:investigationPosition ;
-    co:nextProcess row35:precipitateAnalysisWorkflow .
-
 row35:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5438,7 +5070,7 @@ row35:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row35:specimenName ;
     co:input row35:AcceleratedCreep,
-        row35:DFTEMImaging .
+        row35:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-36 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5491,14 +5123,6 @@ row36:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row36:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row36:transmissionElectronMicroscopeSpecimen .
 
-row36:DFTEMImaging a owl:NamedIndividual ;
-    co:output row36:darkfieldTransmissionElectronMicroscopeImage .
-
-row36:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row36:investigationPosition ;
-    co:nextProcess row36:precipitateAnalysisWorkflow .
-
 row36:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5528,7 +5152,7 @@ row36:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row36:specimenName ;
     co:input row36:AcceleratedCreep,
-        row36:DFTEMImaging .
+        row36:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-37 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5581,14 +5205,6 @@ row37:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row37:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row37:transmissionElectronMicroscopeSpecimen .
 
-row37:DFTEMImaging a owl:NamedIndividual ;
-    co:output row37:darkfieldTransmissionElectronMicroscopeImage .
-
-row37:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row37:investigationPosition ;
-    co:nextProcess row37:precipitateAnalysisWorkflow .
-
 row37:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5618,7 +5234,7 @@ row37:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row37:specimenName ;
     co:input row37:AcceleratedCreep,
-        row37:DFTEMImaging .
+        row37:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-38 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5671,14 +5287,6 @@ row38:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row38:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row38:transmissionElectronMicroscopeSpecimen .
 
-row38:DFTEMImaging a owl:NamedIndividual ;
-    co:output row38:darkfieldTransmissionElectronMicroscopeImage .
-
-row38:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row38:investigationPosition ;
-    co:nextProcess row38:precipitateAnalysisWorkflow .
-
 row38:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5708,7 +5316,7 @@ row38:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row38:specimenName ;
     co:input row38:AcceleratedCreep,
-        row38:DFTEMImaging .
+        row38:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-39 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5761,14 +5369,6 @@ row39:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row39:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row39:transmissionElectronMicroscopeSpecimen .
 
-row39:DFTEMImaging a owl:NamedIndividual ;
-    co:output row39:darkfieldTransmissionElectronMicroscopeImage .
-
-row39:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row39:investigationPosition ;
-    co:nextProcess row39:precipitateAnalysisWorkflow .
-
 row39:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5798,7 +5398,7 @@ row39:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row39:specimenName ;
     co:input row39:AcceleratedCreep,
-        row39:DFTEMImaging .
+        row39:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-4 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5851,14 +5451,6 @@ row4:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row4:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row4:transmissionElectronMicroscopeSpecimen .
 
-row4:DFTEMImaging a owl:NamedIndividual ;
-    co:output row4:darkfieldTransmissionElectronMicroscopeImage .
-
-row4:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row4:investigationPosition ;
-    co:nextProcess row4:precipitateAnalysisWorkflow .
-
 row4:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5888,7 +5480,7 @@ row4:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row4:specimenName ;
     co:input row4:AcceleratedCreep,
-        row4:DFTEMImaging .
+        row4:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-40 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -5941,14 +5533,6 @@ row40:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row40:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row40:transmissionElectronMicroscopeSpecimen .
 
-row40:DFTEMImaging a owl:NamedIndividual ;
-    co:output row40:darkfieldTransmissionElectronMicroscopeImage .
-
-row40:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row40:investigationPosition ;
-    co:nextProcess row40:precipitateAnalysisWorkflow .
-
 row40:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -5978,7 +5562,7 @@ row40:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row40:specimenName ;
     co:input row40:AcceleratedCreep,
-        row40:DFTEMImaging .
+        row40:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-41 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6031,14 +5615,6 @@ row41:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row41:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row41:transmissionElectronMicroscopeSpecimen .
 
-row41:DFTEMImaging a owl:NamedIndividual ;
-    co:output row41:darkfieldTransmissionElectronMicroscopeImage .
-
-row41:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row41:investigationPosition ;
-    co:nextProcess row41:precipitateAnalysisWorkflow .
-
 row41:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6068,7 +5644,7 @@ row41:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row41:specimenName ;
     co:input row41:AcceleratedCreep,
-        row41:DFTEMImaging .
+        row41:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-42 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6121,14 +5697,6 @@ row42:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row42:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row42:transmissionElectronMicroscopeSpecimen .
 
-row42:DFTEMImaging a owl:NamedIndividual ;
-    co:output row42:darkfieldTransmissionElectronMicroscopeImage .
-
-row42:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row42:investigationPosition ;
-    co:nextProcess row42:precipitateAnalysisWorkflow .
-
 row42:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6158,7 +5726,7 @@ row42:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row42:specimenName ;
     co:input row42:AcceleratedCreep,
-        row42:DFTEMImaging .
+        row42:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-43 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6211,14 +5779,6 @@ row43:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row43:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row43:transmissionElectronMicroscopeSpecimen .
 
-row43:DFTEMImaging a owl:NamedIndividual ;
-    co:output row43:darkfieldTransmissionElectronMicroscopeImage .
-
-row43:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row43:investigationPosition ;
-    co:nextProcess row43:precipitateAnalysisWorkflow .
-
 row43:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6248,7 +5808,7 @@ row43:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row43:specimenName ;
     co:input row43:AcceleratedCreep,
-        row43:DFTEMImaging .
+        row43:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-44 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6301,14 +5861,6 @@ row44:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row44:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row44:transmissionElectronMicroscopeSpecimen .
 
-row44:DFTEMImaging a owl:NamedIndividual ;
-    co:output row44:darkfieldTransmissionElectronMicroscopeImage .
-
-row44:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row44:investigationPosition ;
-    co:nextProcess row44:precipitateAnalysisWorkflow .
-
 row44:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6338,7 +5890,7 @@ row44:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row44:specimenName ;
     co:input row44:AcceleratedCreep,
-        row44:DFTEMImaging .
+        row44:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-45 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6391,14 +5943,6 @@ row45:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row45:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row45:transmissionElectronMicroscopeSpecimen .
 
-row45:DFTEMImaging a owl:NamedIndividual ;
-    co:output row45:darkfieldTransmissionElectronMicroscopeImage .
-
-row45:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row45:investigationPosition ;
-    co:nextProcess row45:precipitateAnalysisWorkflow .
-
 row45:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6428,7 +5972,7 @@ row45:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row45:specimenName ;
     co:input row45:AcceleratedCreep,
-        row45:DFTEMImaging .
+        row45:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-46 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6481,14 +6025,6 @@ row46:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row46:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row46:transmissionElectronMicroscopeSpecimen .
 
-row46:DFTEMImaging a owl:NamedIndividual ;
-    co:output row46:darkfieldTransmissionElectronMicroscopeImage .
-
-row46:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row46:investigationPosition ;
-    co:nextProcess row46:precipitateAnalysisWorkflow .
-
 row46:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6518,7 +6054,7 @@ row46:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row46:specimenName ;
     co:input row46:AcceleratedCreep,
-        row46:DFTEMImaging .
+        row46:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-47 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6571,14 +6107,6 @@ row47:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row47:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row47:transmissionElectronMicroscopeSpecimen .
 
-row47:DFTEMImaging a owl:NamedIndividual ;
-    co:output row47:darkfieldTransmissionElectronMicroscopeImage .
-
-row47:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row47:investigationPosition ;
-    co:nextProcess row47:precipitateAnalysisWorkflow .
-
 row47:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6608,7 +6136,7 @@ row47:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row47:specimenName ;
     co:input row47:AcceleratedCreep,
-        row47:DFTEMImaging .
+        row47:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-48 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6661,14 +6189,6 @@ row48:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row48:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row48:transmissionElectronMicroscopeSpecimen .
 
-row48:DFTEMImaging a owl:NamedIndividual ;
-    co:output row48:darkfieldTransmissionElectronMicroscopeImage .
-
-row48:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row48:investigationPosition ;
-    co:nextProcess row48:precipitateAnalysisWorkflow .
-
 row48:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6698,7 +6218,7 @@ row48:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row48:specimenName ;
     co:input row48:AcceleratedCreep,
-        row48:DFTEMImaging .
+        row48:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-49 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6751,14 +6271,6 @@ row49:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row49:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row49:transmissionElectronMicroscopeSpecimen .
 
-row49:DFTEMImaging a owl:NamedIndividual ;
-    co:output row49:darkfieldTransmissionElectronMicroscopeImage .
-
-row49:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row49:investigationPosition ;
-    co:nextProcess row49:precipitateAnalysisWorkflow .
-
 row49:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6788,7 +6300,7 @@ row49:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row49:specimenName ;
     co:input row49:AcceleratedCreep,
-        row49:DFTEMImaging .
+        row49:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-5 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6841,14 +6353,6 @@ row5:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row5:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row5:transmissionElectronMicroscopeSpecimen .
 
-row5:DFTEMImaging a owl:NamedIndividual ;
-    co:output row5:darkfieldTransmissionElectronMicroscopeImage .
-
-row5:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row5:investigationPosition ;
-    co:nextProcess row5:precipitateAnalysisWorkflow .
-
 row5:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6878,7 +6382,7 @@ row5:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row5:specimenName ;
     co:input row5:AcceleratedCreep,
-        row5:DFTEMImaging .
+        row5:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-50 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -6931,14 +6435,6 @@ row50:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row50:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row50:transmissionElectronMicroscopeSpecimen .
 
-row50:DFTEMImaging a owl:NamedIndividual ;
-    co:output row50:darkfieldTransmissionElectronMicroscopeImage .
-
-row50:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row50:investigationPosition ;
-    co:nextProcess row50:precipitateAnalysisWorkflow .
-
 row50:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -6968,7 +6464,7 @@ row50:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row50:specimenName ;
     co:input row50:AcceleratedCreep,
-        row50:DFTEMImaging .
+        row50:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-51 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7021,14 +6517,6 @@ row51:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row51:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row51:transmissionElectronMicroscopeSpecimen .
 
-row51:DFTEMImaging a owl:NamedIndividual ;
-    co:output row51:darkfieldTransmissionElectronMicroscopeImage .
-
-row51:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row51:investigationPosition ;
-    co:nextProcess row51:precipitateAnalysisWorkflow .
-
 row51:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7058,7 +6546,7 @@ row51:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row51:specimenName ;
     co:input row51:AcceleratedCreep,
-        row51:DFTEMImaging .
+        row51:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-52 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7111,14 +6599,6 @@ row52:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row52:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row52:transmissionElectronMicroscopeSpecimen .
 
-row52:DFTEMImaging a owl:NamedIndividual ;
-    co:output row52:darkfieldTransmissionElectronMicroscopeImage .
-
-row52:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row52:investigationPosition ;
-    co:nextProcess row52:precipitateAnalysisWorkflow .
-
 row52:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7148,7 +6628,7 @@ row52:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row52:specimenName ;
     co:input row52:AcceleratedCreep,
-        row52:DFTEMImaging .
+        row52:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-53 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7201,14 +6681,6 @@ row53:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row53:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row53:transmissionElectronMicroscopeSpecimen .
 
-row53:DFTEMImaging a owl:NamedIndividual ;
-    co:output row53:darkfieldTransmissionElectronMicroscopeImage .
-
-row53:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row53:investigationPosition ;
-    co:nextProcess row53:precipitateAnalysisWorkflow .
-
 row53:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7238,7 +6710,7 @@ row53:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row53:specimenName ;
     co:input row53:AcceleratedCreep,
-        row53:DFTEMImaging .
+        row53:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-54 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7291,14 +6763,6 @@ row54:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row54:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row54:transmissionElectronMicroscopeSpecimen .
 
-row54:DFTEMImaging a owl:NamedIndividual ;
-    co:output row54:darkfieldTransmissionElectronMicroscopeImage .
-
-row54:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row54:investigationPosition ;
-    co:nextProcess row54:precipitateAnalysisWorkflow .
-
 row54:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7328,7 +6792,7 @@ row54:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row54:specimenName ;
     co:input row54:AcceleratedCreep,
-        row54:DFTEMImaging .
+        row54:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-55 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7381,14 +6845,6 @@ row55:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row55:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row55:transmissionElectronMicroscopeSpecimen .
 
-row55:DFTEMImaging a owl:NamedIndividual ;
-    co:output row55:darkfieldTransmissionElectronMicroscopeImage .
-
-row55:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row55:investigationPosition ;
-    co:nextProcess row55:precipitateAnalysisWorkflow .
-
 row55:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7418,7 +6874,7 @@ row55:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row55:specimenName ;
     co:input row55:AcceleratedCreep,
-        row55:DFTEMImaging .
+        row55:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-56 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7471,14 +6927,6 @@ row56:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row56:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row56:transmissionElectronMicroscopeSpecimen .
 
-row56:DFTEMImaging a owl:NamedIndividual ;
-    co:output row56:darkfieldTransmissionElectronMicroscopeImage .
-
-row56:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row56:investigationPosition ;
-    co:nextProcess row56:precipitateAnalysisWorkflow .
-
 row56:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7508,7 +6956,7 @@ row56:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row56:specimenName ;
     co:input row56:AcceleratedCreep,
-        row56:DFTEMImaging .
+        row56:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-57 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7561,14 +7009,6 @@ row57:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row57:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row57:transmissionElectronMicroscopeSpecimen .
 
-row57:DFTEMImaging a owl:NamedIndividual ;
-    co:output row57:darkfieldTransmissionElectronMicroscopeImage .
-
-row57:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row57:investigationPosition ;
-    co:nextProcess row57:precipitateAnalysisWorkflow .
-
 row57:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7598,7 +7038,7 @@ row57:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row57:specimenName ;
     co:input row57:AcceleratedCreep,
-        row57:DFTEMImaging .
+        row57:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-58 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7651,14 +7091,6 @@ row58:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row58:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row58:transmissionElectronMicroscopeSpecimen .
 
-row58:DFTEMImaging a owl:NamedIndividual ;
-    co:output row58:darkfieldTransmissionElectronMicroscopeImage .
-
-row58:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row58:investigationPosition ;
-    co:nextProcess row58:precipitateAnalysisWorkflow .
-
 row58:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7688,7 +7120,7 @@ row58:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row58:specimenName ;
     co:input row58:AcceleratedCreep,
-        row58:DFTEMImaging .
+        row58:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-59 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7741,14 +7173,6 @@ row59:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row59:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row59:transmissionElectronMicroscopeSpecimen .
 
-row59:DFTEMImaging a owl:NamedIndividual ;
-    co:output row59:darkfieldTransmissionElectronMicroscopeImage .
-
-row59:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row59:investigationPosition ;
-    co:nextProcess row59:precipitateAnalysisWorkflow .
-
 row59:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7778,7 +7202,7 @@ row59:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row59:specimenName ;
     co:input row59:AcceleratedCreep,
-        row59:DFTEMImaging .
+        row59:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-6 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7831,14 +7255,6 @@ row6:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row6:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row6:transmissionElectronMicroscopeSpecimen .
 
-row6:DFTEMImaging a owl:NamedIndividual ;
-    co:output row6:darkfieldTransmissionElectronMicroscopeImage .
-
-row6:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row6:investigationPosition ;
-    co:nextProcess row6:precipitateAnalysisWorkflow .
-
 row6:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7868,7 +7284,7 @@ row6:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row6:specimenName ;
     co:input row6:AcceleratedCreep,
-        row6:DFTEMImaging .
+        row6:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-60 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -7921,14 +7337,6 @@ row60:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row60:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row60:transmissionElectronMicroscopeSpecimen .
 
-row60:DFTEMImaging a owl:NamedIndividual ;
-    co:output row60:darkfieldTransmissionElectronMicroscopeImage .
-
-row60:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row60:investigationPosition ;
-    co:nextProcess row60:precipitateAnalysisWorkflow .
-
 row60:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -7958,7 +7366,7 @@ row60:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row60:specimenName ;
     co:input row60:AcceleratedCreep,
-        row60:DFTEMImaging .
+        row60:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-61 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8011,14 +7419,6 @@ row61:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row61:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row61:transmissionElectronMicroscopeSpecimen .
 
-row61:DFTEMImaging a owl:NamedIndividual ;
-    co:output row61:darkfieldTransmissionElectronMicroscopeImage .
-
-row61:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row61:investigationPosition ;
-    co:nextProcess row61:precipitateAnalysisWorkflow .
-
 row61:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8048,7 +7448,7 @@ row61:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row61:specimenName ;
     co:input row61:AcceleratedCreep,
-        row61:DFTEMImaging .
+        row61:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-62 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8101,14 +7501,6 @@ row62:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row62:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row62:transmissionElectronMicroscopeSpecimen .
 
-row62:DFTEMImaging a owl:NamedIndividual ;
-    co:output row62:darkfieldTransmissionElectronMicroscopeImage .
-
-row62:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row62:investigationPosition ;
-    co:nextProcess row62:precipitateAnalysisWorkflow .
-
 row62:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8138,7 +7530,7 @@ row62:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row62:specimenName ;
     co:input row62:AcceleratedCreep,
-        row62:DFTEMImaging .
+        row62:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-63 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8191,14 +7583,6 @@ row63:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row63:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row63:transmissionElectronMicroscopeSpecimen .
 
-row63:DFTEMImaging a owl:NamedIndividual ;
-    co:output row63:darkfieldTransmissionElectronMicroscopeImage .
-
-row63:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row63:investigationPosition ;
-    co:nextProcess row63:precipitateAnalysisWorkflow .
-
 row63:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8228,7 +7612,7 @@ row63:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row63:specimenName ;
     co:input row63:AcceleratedCreep,
-        row63:DFTEMImaging .
+        row63:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-64 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8281,14 +7665,6 @@ row64:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row64:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row64:transmissionElectronMicroscopeSpecimen .
 
-row64:DFTEMImaging a owl:NamedIndividual ;
-    co:output row64:darkfieldTransmissionElectronMicroscopeImage .
-
-row64:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row64:investigationPosition ;
-    co:nextProcess row64:precipitateAnalysisWorkflow .
-
 row64:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8318,7 +7694,7 @@ row64:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row64:specimenName ;
     co:input row64:AcceleratedCreep,
-        row64:DFTEMImaging .
+        row64:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-65 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8371,14 +7747,6 @@ row65:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row65:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row65:transmissionElectronMicroscopeSpecimen .
 
-row65:DFTEMImaging a owl:NamedIndividual ;
-    co:output row65:darkfieldTransmissionElectronMicroscopeImage .
-
-row65:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row65:investigationPosition ;
-    co:nextProcess row65:precipitateAnalysisWorkflow .
-
 row65:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8408,7 +7776,7 @@ row65:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row65:specimenName ;
     co:input row65:AcceleratedCreep,
-        row65:DFTEMImaging .
+        row65:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-66 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8461,14 +7829,6 @@ row66:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row66:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row66:transmissionElectronMicroscopeSpecimen .
 
-row66:DFTEMImaging a owl:NamedIndividual ;
-    co:output row66:darkfieldTransmissionElectronMicroscopeImage .
-
-row66:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row66:investigationPosition ;
-    co:nextProcess row66:precipitateAnalysisWorkflow .
-
 row66:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8498,7 +7858,7 @@ row66:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row66:specimenName ;
     co:input row66:AcceleratedCreep,
-        row66:DFTEMImaging .
+        row66:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-67 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8551,14 +7911,6 @@ row67:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row67:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row67:transmissionElectronMicroscopeSpecimen .
 
-row67:DFTEMImaging a owl:NamedIndividual ;
-    co:output row67:darkfieldTransmissionElectronMicroscopeImage .
-
-row67:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row67:investigationPosition ;
-    co:nextProcess row67:precipitateAnalysisWorkflow .
-
 row67:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8588,7 +7940,7 @@ row67:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row67:specimenName ;
     co:input row67:AcceleratedCreep,
-        row67:DFTEMImaging .
+        row67:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-68 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8641,14 +7993,6 @@ row68:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row68:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row68:transmissionElectronMicroscopeSpecimen .
 
-row68:DFTEMImaging a owl:NamedIndividual ;
-    co:output row68:darkfieldTransmissionElectronMicroscopeImage .
-
-row68:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row68:investigationPosition ;
-    co:nextProcess row68:precipitateAnalysisWorkflow .
-
 row68:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8678,7 +8022,7 @@ row68:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row68:specimenName ;
     co:input row68:AcceleratedCreep,
-        row68:DFTEMImaging .
+        row68:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-69 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8731,14 +8075,6 @@ row69:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row69:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row69:transmissionElectronMicroscopeSpecimen .
 
-row69:DFTEMImaging a owl:NamedIndividual ;
-    co:output row69:darkfieldTransmissionElectronMicroscopeImage .
-
-row69:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row69:investigationPosition ;
-    co:nextProcess row69:precipitateAnalysisWorkflow .
-
 row69:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8768,7 +8104,7 @@ row69:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row69:specimenName ;
     co:input row69:AcceleratedCreep,
-        row69:DFTEMImaging .
+        row69:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-7 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8821,14 +8157,6 @@ row7:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row7:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row7:transmissionElectronMicroscopeSpecimen .
 
-row7:DFTEMImaging a owl:NamedIndividual ;
-    co:output row7:darkfieldTransmissionElectronMicroscopeImage .
-
-row7:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row7:investigationPosition ;
-    co:nextProcess row7:precipitateAnalysisWorkflow .
-
 row7:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8858,7 +8186,7 @@ row7:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row7:specimenName ;
     co:input row7:AcceleratedCreep,
-        row7:DFTEMImaging .
+        row7:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-70 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -8911,14 +8239,6 @@ row70:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row70:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row70:transmissionElectronMicroscopeSpecimen .
 
-row70:DFTEMImaging a owl:NamedIndividual ;
-    co:output row70:darkfieldTransmissionElectronMicroscopeImage .
-
-row70:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row70:investigationPosition ;
-    co:nextProcess row70:precipitateAnalysisWorkflow .
-
 row70:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -8948,7 +8268,7 @@ row70:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row70:specimenName ;
     co:input row70:AcceleratedCreep,
-        row70:DFTEMImaging .
+        row70:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-71 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9001,14 +8321,6 @@ row71:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row71:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row71:transmissionElectronMicroscopeSpecimen .
 
-row71:DFTEMImaging a owl:NamedIndividual ;
-    co:output row71:darkfieldTransmissionElectronMicroscopeImage .
-
-row71:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row71:investigationPosition ;
-    co:nextProcess row71:precipitateAnalysisWorkflow .
-
 row71:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9038,7 +8350,7 @@ row71:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row71:specimenName ;
     co:input row71:AcceleratedCreep,
-        row71:DFTEMImaging .
+        row71:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-72 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9091,14 +8403,6 @@ row72:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row72:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row72:transmissionElectronMicroscopeSpecimen .
 
-row72:DFTEMImaging a owl:NamedIndividual ;
-    co:output row72:darkfieldTransmissionElectronMicroscopeImage .
-
-row72:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row72:investigationPosition ;
-    co:nextProcess row72:precipitateAnalysisWorkflow .
-
 row72:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9128,7 +8432,7 @@ row72:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row72:specimenName ;
     co:input row72:AcceleratedCreep,
-        row72:DFTEMImaging .
+        row72:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-73 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9181,14 +8485,6 @@ row73:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row73:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row73:transmissionElectronMicroscopeSpecimen .
 
-row73:DFTEMImaging a owl:NamedIndividual ;
-    co:output row73:darkfieldTransmissionElectronMicroscopeImage .
-
-row73:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row73:investigationPosition ;
-    co:nextProcess row73:precipitateAnalysisWorkflow .
-
 row73:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9218,7 +8514,7 @@ row73:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row73:specimenName ;
     co:input row73:AcceleratedCreep,
-        row73:DFTEMImaging .
+        row73:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-74 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9271,14 +8567,6 @@ row74:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row74:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row74:transmissionElectronMicroscopeSpecimen .
 
-row74:DFTEMImaging a owl:NamedIndividual ;
-    co:output row74:darkfieldTransmissionElectronMicroscopeImage .
-
-row74:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row74:investigationPosition ;
-    co:nextProcess row74:precipitateAnalysisWorkflow .
-
 row74:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9308,7 +8596,7 @@ row74:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row74:specimenName ;
     co:input row74:AcceleratedCreep,
-        row74:DFTEMImaging .
+        row74:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-75 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9361,14 +8649,6 @@ row75:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row75:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row75:transmissionElectronMicroscopeSpecimen .
 
-row75:DFTEMImaging a owl:NamedIndividual ;
-    co:output row75:darkfieldTransmissionElectronMicroscopeImage .
-
-row75:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row75:investigationPosition ;
-    co:nextProcess row75:precipitateAnalysisWorkflow .
-
 row75:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9398,7 +8678,7 @@ row75:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row75:specimenName ;
     co:input row75:AcceleratedCreep,
-        row75:DFTEMImaging .
+        row75:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-76 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9451,14 +8731,6 @@ row76:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row76:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row76:transmissionElectronMicroscopeSpecimen .
 
-row76:DFTEMImaging a owl:NamedIndividual ;
-    co:output row76:darkfieldTransmissionElectronMicroscopeImage .
-
-row76:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row76:investigationPosition ;
-    co:nextProcess row76:precipitateAnalysisWorkflow .
-
 row76:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9488,7 +8760,7 @@ row76:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row76:specimenName ;
     co:input row76:AcceleratedCreep,
-        row76:DFTEMImaging .
+        row76:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-77 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9541,14 +8813,6 @@ row77:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row77:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row77:transmissionElectronMicroscopeSpecimen .
 
-row77:DFTEMImaging a owl:NamedIndividual ;
-    co:output row77:darkfieldTransmissionElectronMicroscopeImage .
-
-row77:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row77:investigationPosition ;
-    co:nextProcess row77:precipitateAnalysisWorkflow .
-
 row77:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9578,7 +8842,7 @@ row77:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row77:specimenName ;
     co:input row77:AcceleratedCreep,
-        row77:DFTEMImaging .
+        row77:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-78 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9631,14 +8895,6 @@ row78:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row78:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row78:transmissionElectronMicroscopeSpecimen .
 
-row78:DFTEMImaging a owl:NamedIndividual ;
-    co:output row78:darkfieldTransmissionElectronMicroscopeImage .
-
-row78:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row78:investigationPosition ;
-    co:nextProcess row78:precipitateAnalysisWorkflow .
-
 row78:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9668,7 +8924,7 @@ row78:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row78:specimenName ;
     co:input row78:AcceleratedCreep,
-        row78:DFTEMImaging .
+        row78:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-79 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9721,14 +8977,6 @@ row79:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row79:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row79:transmissionElectronMicroscopeSpecimen .
 
-row79:DFTEMImaging a owl:NamedIndividual ;
-    co:output row79:darkfieldTransmissionElectronMicroscopeImage .
-
-row79:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row79:investigationPosition ;
-    co:nextProcess row79:precipitateAnalysisWorkflow .
-
 row79:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9758,7 +9006,7 @@ row79:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row79:specimenName ;
     co:input row79:AcceleratedCreep,
-        row79:DFTEMImaging .
+        row79:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-8 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9811,14 +9059,6 @@ row8:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row8:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row8:transmissionElectronMicroscopeSpecimen .
 
-row8:DFTEMImaging a owl:NamedIndividual ;
-    co:output row8:darkfieldTransmissionElectronMicroscopeImage .
-
-row8:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row8:investigationPosition ;
-    co:nextProcess row8:precipitateAnalysisWorkflow .
-
 row8:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9848,7 +9088,7 @@ row8:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row8:specimenName ;
     co:input row8:AcceleratedCreep,
-        row8:DFTEMImaging .
+        row8:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-80 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9901,14 +9141,6 @@ row80:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row80:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row80:transmissionElectronMicroscopeSpecimen .
 
-row80:DFTEMImaging a owl:NamedIndividual ;
-    co:output row80:darkfieldTransmissionElectronMicroscopeImage .
-
-row80:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row80:investigationPosition ;
-    co:nextProcess row80:precipitateAnalysisWorkflow .
-
 row80:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -9938,7 +9170,7 @@ row80:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row80:specimenName ;
     co:input row80:AcceleratedCreep,
-        row80:DFTEMImaging .
+        row80:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-81 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -9991,14 +9223,6 @@ row81:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row81:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row81:transmissionElectronMicroscopeSpecimen .
 
-row81:DFTEMImaging a owl:NamedIndividual ;
-    co:output row81:darkfieldTransmissionElectronMicroscopeImage .
-
-row81:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row81:investigationPosition ;
-    co:nextProcess row81:precipitateAnalysisWorkflow .
-
 row81:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10028,7 +9252,7 @@ row81:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row81:specimenName ;
     co:input row81:AcceleratedCreep,
-        row81:DFTEMImaging .
+        row81:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-82 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10081,14 +9305,6 @@ row82:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row82:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row82:transmissionElectronMicroscopeSpecimen .
 
-row82:DFTEMImaging a owl:NamedIndividual ;
-    co:output row82:darkfieldTransmissionElectronMicroscopeImage .
-
-row82:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row82:investigationPosition ;
-    co:nextProcess row82:precipitateAnalysisWorkflow .
-
 row82:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10118,7 +9334,7 @@ row82:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row82:specimenName ;
     co:input row82:AcceleratedCreep,
-        row82:DFTEMImaging .
+        row82:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-83 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10171,14 +9387,6 @@ row83:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row83:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row83:transmissionElectronMicroscopeSpecimen .
 
-row83:DFTEMImaging a owl:NamedIndividual ;
-    co:output row83:darkfieldTransmissionElectronMicroscopeImage .
-
-row83:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row83:investigationPosition ;
-    co:nextProcess row83:precipitateAnalysisWorkflow .
-
 row83:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10208,7 +9416,7 @@ row83:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row83:specimenName ;
     co:input row83:AcceleratedCreep,
-        row83:DFTEMImaging .
+        row83:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-84 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10261,14 +9469,6 @@ row84:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row84:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row84:transmissionElectronMicroscopeSpecimen .
 
-row84:DFTEMImaging a owl:NamedIndividual ;
-    co:output row84:darkfieldTransmissionElectronMicroscopeImage .
-
-row84:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row84:investigationPosition ;
-    co:nextProcess row84:precipitateAnalysisWorkflow .
-
 row84:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10298,7 +9498,7 @@ row84:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row84:specimenName ;
     co:input row84:AcceleratedCreep,
-        row84:DFTEMImaging .
+        row84:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-85 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10351,14 +9551,6 @@ row85:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row85:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row85:transmissionElectronMicroscopeSpecimen .
 
-row85:DFTEMImaging a owl:NamedIndividual ;
-    co:output row85:darkfieldTransmissionElectronMicroscopeImage .
-
-row85:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row85:investigationPosition ;
-    co:nextProcess row85:precipitateAnalysisWorkflow .
-
 row85:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10388,7 +9580,7 @@ row85:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row85:specimenName ;
     co:input row85:AcceleratedCreep,
-        row85:DFTEMImaging .
+        row85:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-86 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10441,14 +9633,6 @@ row86:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row86:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row86:transmissionElectronMicroscopeSpecimen .
 
-row86:DFTEMImaging a owl:NamedIndividual ;
-    co:output row86:darkfieldTransmissionElectronMicroscopeImage .
-
-row86:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row86:investigationPosition ;
-    co:nextProcess row86:precipitateAnalysisWorkflow .
-
 row86:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10478,7 +9662,7 @@ row86:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row86:specimenName ;
     co:input row86:AcceleratedCreep,
-        row86:DFTEMImaging .
+        row86:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-87 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10531,14 +9715,6 @@ row87:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row87:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row87:transmissionElectronMicroscopeSpecimen .
 
-row87:DFTEMImaging a owl:NamedIndividual ;
-    co:output row87:darkfieldTransmissionElectronMicroscopeImage .
-
-row87:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row87:investigationPosition ;
-    co:nextProcess row87:precipitateAnalysisWorkflow .
-
 row87:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10568,7 +9744,7 @@ row87:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row87:specimenName ;
     co:input row87:AcceleratedCreep,
-        row87:DFTEMImaging .
+        row87:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-88 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10621,14 +9797,6 @@ row88:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row88:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row88:transmissionElectronMicroscopeSpecimen .
 
-row88:DFTEMImaging a owl:NamedIndividual ;
-    co:output row88:darkfieldTransmissionElectronMicroscopeImage .
-
-row88:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row88:investigationPosition ;
-    co:nextProcess row88:precipitateAnalysisWorkflow .
-
 row88:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10658,7 +9826,7 @@ row88:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row88:specimenName ;
     co:input row88:AcceleratedCreep,
-        row88:DFTEMImaging .
+        row88:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-89 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10711,14 +9879,6 @@ row89:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row89:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row89:transmissionElectronMicroscopeSpecimen .
 
-row89:DFTEMImaging a owl:NamedIndividual ;
-    co:output row89:darkfieldTransmissionElectronMicroscopeImage .
-
-row89:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row89:investigationPosition ;
-    co:nextProcess row89:precipitateAnalysisWorkflow .
-
 row89:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10748,7 +9908,7 @@ row89:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row89:specimenName ;
     co:input row89:AcceleratedCreep,
-        row89:DFTEMImaging .
+        row89:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-9 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10801,14 +9961,6 @@ row9:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row9:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row9:transmissionElectronMicroscopeSpecimen .
 
-row9:DFTEMImaging a owl:NamedIndividual ;
-    co:output row9:darkfieldTransmissionElectronMicroscopeImage .
-
-row9:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row9:investigationPosition ;
-    co:nextProcess row9:precipitateAnalysisWorkflow .
-
 row9:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10838,7 +9990,7 @@ row9:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row9:specimenName ;
     co:input row9:AcceleratedCreep,
-        row9:DFTEMImaging .
+        row9:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-90 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10891,14 +10043,6 @@ row90:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row90:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row90:transmissionElectronMicroscopeSpecimen .
 
-row90:DFTEMImaging a owl:NamedIndividual ;
-    co:output row90:darkfieldTransmissionElectronMicroscopeImage .
-
-row90:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row90:investigationPosition ;
-    co:nextProcess row90:precipitateAnalysisWorkflow .
-
 row90:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -10928,7 +10072,7 @@ row90:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row90:specimenName ;
     co:input row90:AcceleratedCreep,
-        row90:DFTEMImaging .
+        row90:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-91 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -10981,14 +10125,6 @@ row91:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row91:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row91:transmissionElectronMicroscopeSpecimen .
 
-row91:DFTEMImaging a owl:NamedIndividual ;
-    co:output row91:darkfieldTransmissionElectronMicroscopeImage .
-
-row91:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row91:investigationPosition ;
-    co:nextProcess row91:precipitateAnalysisWorkflow .
-
 row91:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11018,7 +10154,7 @@ row91:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row91:specimenName ;
     co:input row91:AcceleratedCreep,
-        row91:DFTEMImaging .
+        row91:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-92 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -11071,14 +10207,6 @@ row92:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row92:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row92:transmissionElectronMicroscopeSpecimen .
 
-row92:DFTEMImaging a owl:NamedIndividual ;
-    co:output row92:darkfieldTransmissionElectronMicroscopeImage .
-
-row92:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row92:investigationPosition ;
-    co:nextProcess row92:precipitateAnalysisWorkflow .
-
 row92:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11108,7 +10236,7 @@ row92:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row92:specimenName ;
     co:input row92:AcceleratedCreep,
-        row92:DFTEMImaging .
+        row92:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-93 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -11161,14 +10289,6 @@ row93:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row93:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row93:transmissionElectronMicroscopeSpecimen .
 
-row93:DFTEMImaging a owl:NamedIndividual ;
-    co:output row93:darkfieldTransmissionElectronMicroscopeImage .
-
-row93:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row93:investigationPosition ;
-    co:nextProcess row93:precipitateAnalysisWorkflow .
-
 row93:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11198,7 +10318,7 @@ row93:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row93:specimenName ;
     co:input row93:AcceleratedCreep,
-        row93:DFTEMImaging .
+        row93:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-94 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -11251,14 +10371,6 @@ row94:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row94:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row94:transmissionElectronMicroscopeSpecimen .
 
-row94:DFTEMImaging a owl:NamedIndividual ;
-    co:output row94:darkfieldTransmissionElectronMicroscopeImage .
-
-row94:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row94:investigationPosition ;
-    co:nextProcess row94:precipitateAnalysisWorkflow .
-
 row94:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11288,7 +10400,7 @@ row94:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row94:specimenName ;
     co:input row94:AcceleratedCreep,
-        row94:DFTEMImaging .
+        row94:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-95 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -11341,14 +10453,6 @@ row95:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row95:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row95:transmissionElectronMicroscopeSpecimen .
 
-row95:DFTEMImaging a owl:NamedIndividual ;
-    co:output row95:darkfieldTransmissionElectronMicroscopeImage .
-
-row95:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row95:investigationPosition ;
-    co:nextProcess row95:precipitateAnalysisWorkflow .
-
 row95:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11378,7 +10482,7 @@ row95:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row95:specimenName ;
     co:input row95:AcceleratedCreep,
-        row95:DFTEMImaging .
+        row95:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-96 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -11431,14 +10535,6 @@ row96:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row96:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row96:transmissionElectronMicroscopeSpecimen .
 
-row96:DFTEMImaging a owl:NamedIndividual ;
-    co:output row96:darkfieldTransmissionElectronMicroscopeImage .
-
-row96:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row96:investigationPosition ;
-    co:nextProcess row96:precipitateAnalysisWorkflow .
-
 row96:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11468,7 +10564,7 @@ row96:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row96:specimenName ;
     co:input row96:AcceleratedCreep,
-        row96:DFTEMImaging .
+        row96:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-97 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -11521,14 +10617,6 @@ row97:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row97:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row97:transmissionElectronMicroscopeSpecimen .
 
-row97:DFTEMImaging a owl:NamedIndividual ;
-    co:output row97:darkfieldTransmissionElectronMicroscopeImage .
-
-row97:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row97:investigationPosition ;
-    co:nextProcess row97:precipitateAnalysisWorkflow .
-
 row97:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11558,7 +10646,7 @@ row97:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row97:specimenName ;
     co:input row97:AcceleratedCreep,
-        row97:DFTEMImaging .
+        row97:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-98 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -11611,14 +10699,6 @@ row98:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row98:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row98:transmissionElectronMicroscopeSpecimen .
 
-row98:DFTEMImaging a owl:NamedIndividual ;
-    co:output row98:darkfieldTransmissionElectronMicroscopeImage .
-
-row98:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row98:investigationPosition ;
-    co:nextProcess row98:precipitateAnalysisWorkflow .
-
 row98:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11648,7 +10728,7 @@ row98:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row98:specimenName ;
     co:input row98:AcceleratedCreep,
-        row98:DFTEMImaging .
+        row98:darkfieldTransmissionElectronMicroscopyImaging .
 
 ns2:table-1-gid-99 ns2:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
@@ -11701,14 +10781,6 @@ row99:AcceleratedCreep a owl:NamedIndividual,
     co:nextProcess row99:darkfieldTransmissionElectronMicroscopyImaging ;
     co:output row99:transmissionElectronMicroscopeSpecimen .
 
-row99:DFTEMImaging a owl:NamedIndividual ;
-    co:output row99:darkfieldTransmissionElectronMicroscopeImage .
-
-row99:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic row99:investigationPosition ;
-    co:nextProcess row99:precipitateAnalysisWorkflow .
-
 row99:diskRadius a owl:NamedIndividual,
         co:Metadata,
         co:Radius,
@@ -11738,7 +10810,7 @@ row99:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
     ns1:hasCharacteristic row99:specimenName ;
     co:input row99:AcceleratedCreep,
-        row99:DFTEMImaging .
+        row99:darkfieldTransmissionElectronMicroscopyImaging .
 
 <https://metadata.omero.matolab.org/api/image/100> co:isRessourceOf row38:darkfieldTransmissionElectronMicroscopeImage .
 
@@ -12212,6 +11284,12 @@ row0:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row0:precipitateAnalysisWorkflow .
 
+row0:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row0:investigationPosition ;
+    co:nextProcess row0:precipitateAnalysisWorkflow ;
+    co:output row0:darkfieldTransmissionElectronMicroscopeImage .
+
 row0:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -12271,6 +11349,12 @@ row1:clearBorder a owl:NamedIndividual,
 row1:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row1:precipitateAnalysisWorkflow .
+
+row1:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row1:investigationPosition ;
+    co:nextProcess row1:precipitateAnalysisWorkflow ;
+    co:output row1:darkfieldTransmissionElectronMicroscopeImage .
 
 row1:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -12332,6 +11416,12 @@ row10:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row10:precipitateAnalysisWorkflow .
 
+row10:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row10:investigationPosition ;
+    co:nextProcess row10:precipitateAnalysisWorkflow ;
+    co:output row10:darkfieldTransmissionElectronMicroscopeImage .
+
 row10:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -12391,6 +11481,12 @@ row100:clearBorder a owl:NamedIndividual,
 row100:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row100:precipitateAnalysisWorkflow .
+
+row100:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row100:investigationPosition ;
+    co:nextProcess row100:precipitateAnalysisWorkflow ;
+    co:output row100:darkfieldTransmissionElectronMicroscopeImage .
 
 row100:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -12452,6 +11548,12 @@ row101:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row101:precipitateAnalysisWorkflow .
 
+row101:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row101:investigationPosition ;
+    co:nextProcess row101:precipitateAnalysisWorkflow ;
+    co:output row101:darkfieldTransmissionElectronMicroscopeImage .
+
 row101:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -12511,6 +11613,12 @@ row102:clearBorder a owl:NamedIndividual,
 row102:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row102:precipitateAnalysisWorkflow .
+
+row102:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row102:investigationPosition ;
+    co:nextProcess row102:precipitateAnalysisWorkflow ;
+    co:output row102:darkfieldTransmissionElectronMicroscopeImage .
 
 row102:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -12572,6 +11680,12 @@ row103:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row103:precipitateAnalysisWorkflow .
 
+row103:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row103:investigationPosition ;
+    co:nextProcess row103:precipitateAnalysisWorkflow ;
+    co:output row103:darkfieldTransmissionElectronMicroscopeImage .
+
 row103:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -12631,6 +11745,12 @@ row104:clearBorder a owl:NamedIndividual,
 row104:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row104:precipitateAnalysisWorkflow .
+
+row104:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row104:investigationPosition ;
+    co:nextProcess row104:precipitateAnalysisWorkflow ;
+    co:output row104:darkfieldTransmissionElectronMicroscopeImage .
 
 row104:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -12692,6 +11812,12 @@ row105:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row105:precipitateAnalysisWorkflow .
 
+row105:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row105:investigationPosition ;
+    co:nextProcess row105:precipitateAnalysisWorkflow ;
+    co:output row105:darkfieldTransmissionElectronMicroscopeImage .
+
 row105:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -12751,6 +11877,12 @@ row106:clearBorder a owl:NamedIndividual,
 row106:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row106:precipitateAnalysisWorkflow .
+
+row106:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row106:investigationPosition ;
+    co:nextProcess row106:precipitateAnalysisWorkflow ;
+    co:output row106:darkfieldTransmissionElectronMicroscopeImage .
 
 row106:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -12812,6 +11944,12 @@ row107:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row107:precipitateAnalysisWorkflow .
 
+row107:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row107:investigationPosition ;
+    co:nextProcess row107:precipitateAnalysisWorkflow ;
+    co:output row107:darkfieldTransmissionElectronMicroscopeImage .
+
 row107:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -12871,6 +12009,12 @@ row108:clearBorder a owl:NamedIndividual,
 row108:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row108:precipitateAnalysisWorkflow .
+
+row108:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row108:investigationPosition ;
+    co:nextProcess row108:precipitateAnalysisWorkflow ;
+    co:output row108:darkfieldTransmissionElectronMicroscopeImage .
 
 row108:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -12932,6 +12076,12 @@ row109:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row109:precipitateAnalysisWorkflow .
 
+row109:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row109:investigationPosition ;
+    co:nextProcess row109:precipitateAnalysisWorkflow ;
+    co:output row109:darkfieldTransmissionElectronMicroscopeImage .
+
 row109:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -12991,6 +12141,12 @@ row11:clearBorder a owl:NamedIndividual,
 row11:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row11:precipitateAnalysisWorkflow .
+
+row11:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row11:investigationPosition ;
+    co:nextProcess row11:precipitateAnalysisWorkflow ;
+    co:output row11:darkfieldTransmissionElectronMicroscopeImage .
 
 row11:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -13052,6 +12208,12 @@ row110:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row110:precipitateAnalysisWorkflow .
 
+row110:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row110:investigationPosition ;
+    co:nextProcess row110:precipitateAnalysisWorkflow ;
+    co:output row110:darkfieldTransmissionElectronMicroscopeImage .
+
 row110:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -13111,6 +12273,12 @@ row111:clearBorder a owl:NamedIndividual,
 row111:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row111:precipitateAnalysisWorkflow .
+
+row111:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row111:investigationPosition ;
+    co:nextProcess row111:precipitateAnalysisWorkflow ;
+    co:output row111:darkfieldTransmissionElectronMicroscopeImage .
 
 row111:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -13172,6 +12340,12 @@ row112:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row112:precipitateAnalysisWorkflow .
 
+row112:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row112:investigationPosition ;
+    co:nextProcess row112:precipitateAnalysisWorkflow ;
+    co:output row112:darkfieldTransmissionElectronMicroscopeImage .
+
 row112:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -13231,6 +12405,12 @@ row113:clearBorder a owl:NamedIndividual,
 row113:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row113:precipitateAnalysisWorkflow .
+
+row113:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row113:investigationPosition ;
+    co:nextProcess row113:precipitateAnalysisWorkflow ;
+    co:output row113:darkfieldTransmissionElectronMicroscopeImage .
 
 row113:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -13292,6 +12472,12 @@ row114:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row114:precipitateAnalysisWorkflow .
 
+row114:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row114:investigationPosition ;
+    co:nextProcess row114:precipitateAnalysisWorkflow ;
+    co:output row114:darkfieldTransmissionElectronMicroscopeImage .
+
 row114:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -13351,6 +12537,12 @@ row115:clearBorder a owl:NamedIndividual,
 row115:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row115:precipitateAnalysisWorkflow .
+
+row115:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row115:investigationPosition ;
+    co:nextProcess row115:precipitateAnalysisWorkflow ;
+    co:output row115:darkfieldTransmissionElectronMicroscopeImage .
 
 row115:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -13412,6 +12604,12 @@ row12:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row12:precipitateAnalysisWorkflow .
 
+row12:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row12:investigationPosition ;
+    co:nextProcess row12:precipitateAnalysisWorkflow ;
+    co:output row12:darkfieldTransmissionElectronMicroscopeImage .
+
 row12:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -13471,6 +12669,12 @@ row13:clearBorder a owl:NamedIndividual,
 row13:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row13:precipitateAnalysisWorkflow .
+
+row13:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row13:investigationPosition ;
+    co:nextProcess row13:precipitateAnalysisWorkflow ;
+    co:output row13:darkfieldTransmissionElectronMicroscopeImage .
 
 row13:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -13532,6 +12736,12 @@ row14:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row14:precipitateAnalysisWorkflow .
 
+row14:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row14:investigationPosition ;
+    co:nextProcess row14:precipitateAnalysisWorkflow ;
+    co:output row14:darkfieldTransmissionElectronMicroscopeImage .
+
 row14:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -13591,6 +12801,12 @@ row15:clearBorder a owl:NamedIndividual,
 row15:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row15:precipitateAnalysisWorkflow .
+
+row15:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row15:investigationPosition ;
+    co:nextProcess row15:precipitateAnalysisWorkflow ;
+    co:output row15:darkfieldTransmissionElectronMicroscopeImage .
 
 row15:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -13652,6 +12868,12 @@ row16:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row16:precipitateAnalysisWorkflow .
 
+row16:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row16:investigationPosition ;
+    co:nextProcess row16:precipitateAnalysisWorkflow ;
+    co:output row16:darkfieldTransmissionElectronMicroscopeImage .
+
 row16:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -13711,6 +12933,12 @@ row17:clearBorder a owl:NamedIndividual,
 row17:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row17:precipitateAnalysisWorkflow .
+
+row17:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row17:investigationPosition ;
+    co:nextProcess row17:precipitateAnalysisWorkflow ;
+    co:output row17:darkfieldTransmissionElectronMicroscopeImage .
 
 row17:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -13772,6 +13000,12 @@ row18:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row18:precipitateAnalysisWorkflow .
 
+row18:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row18:investigationPosition ;
+    co:nextProcess row18:precipitateAnalysisWorkflow ;
+    co:output row18:darkfieldTransmissionElectronMicroscopeImage .
+
 row18:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -13831,6 +13065,12 @@ row19:clearBorder a owl:NamedIndividual,
 row19:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row19:precipitateAnalysisWorkflow .
+
+row19:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row19:investigationPosition ;
+    co:nextProcess row19:precipitateAnalysisWorkflow ;
+    co:output row19:darkfieldTransmissionElectronMicroscopeImage .
 
 row19:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -13892,6 +13132,12 @@ row2:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row2:precipitateAnalysisWorkflow .
 
+row2:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row2:investigationPosition ;
+    co:nextProcess row2:precipitateAnalysisWorkflow ;
+    co:output row2:darkfieldTransmissionElectronMicroscopeImage .
+
 row2:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -13951,6 +13197,12 @@ row20:clearBorder a owl:NamedIndividual,
 row20:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row20:precipitateAnalysisWorkflow .
+
+row20:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row20:investigationPosition ;
+    co:nextProcess row20:precipitateAnalysisWorkflow ;
+    co:output row20:darkfieldTransmissionElectronMicroscopeImage .
 
 row20:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14012,6 +13264,12 @@ row21:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row21:precipitateAnalysisWorkflow .
 
+row21:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row21:investigationPosition ;
+    co:nextProcess row21:precipitateAnalysisWorkflow ;
+    co:output row21:darkfieldTransmissionElectronMicroscopeImage .
+
 row21:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -14071,6 +13329,12 @@ row22:clearBorder a owl:NamedIndividual,
 row22:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row22:precipitateAnalysisWorkflow .
+
+row22:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row22:investigationPosition ;
+    co:nextProcess row22:precipitateAnalysisWorkflow ;
+    co:output row22:darkfieldTransmissionElectronMicroscopeImage .
 
 row22:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14132,6 +13396,12 @@ row23:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row23:precipitateAnalysisWorkflow .
 
+row23:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row23:investigationPosition ;
+    co:nextProcess row23:precipitateAnalysisWorkflow ;
+    co:output row23:darkfieldTransmissionElectronMicroscopeImage .
+
 row23:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -14191,6 +13461,12 @@ row24:clearBorder a owl:NamedIndividual,
 row24:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row24:precipitateAnalysisWorkflow .
+
+row24:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row24:investigationPosition ;
+    co:nextProcess row24:precipitateAnalysisWorkflow ;
+    co:output row24:darkfieldTransmissionElectronMicroscopeImage .
 
 row24:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14252,6 +13528,12 @@ row25:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row25:precipitateAnalysisWorkflow .
 
+row25:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row25:investigationPosition ;
+    co:nextProcess row25:precipitateAnalysisWorkflow ;
+    co:output row25:darkfieldTransmissionElectronMicroscopeImage .
+
 row25:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -14311,6 +13593,12 @@ row26:clearBorder a owl:NamedIndividual,
 row26:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row26:precipitateAnalysisWorkflow .
+
+row26:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row26:investigationPosition ;
+    co:nextProcess row26:precipitateAnalysisWorkflow ;
+    co:output row26:darkfieldTransmissionElectronMicroscopeImage .
 
 row26:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14372,6 +13660,12 @@ row27:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row27:precipitateAnalysisWorkflow .
 
+row27:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row27:investigationPosition ;
+    co:nextProcess row27:precipitateAnalysisWorkflow ;
+    co:output row27:darkfieldTransmissionElectronMicroscopeImage .
+
 row27:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -14431,6 +13725,12 @@ row28:clearBorder a owl:NamedIndividual,
 row28:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row28:precipitateAnalysisWorkflow .
+
+row28:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row28:investigationPosition ;
+    co:nextProcess row28:precipitateAnalysisWorkflow ;
+    co:output row28:darkfieldTransmissionElectronMicroscopeImage .
 
 row28:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14492,6 +13792,12 @@ row29:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row29:precipitateAnalysisWorkflow .
 
+row29:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row29:investigationPosition ;
+    co:nextProcess row29:precipitateAnalysisWorkflow ;
+    co:output row29:darkfieldTransmissionElectronMicroscopeImage .
+
 row29:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -14551,6 +13857,12 @@ row3:clearBorder a owl:NamedIndividual,
 row3:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row3:precipitateAnalysisWorkflow .
+
+row3:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row3:investigationPosition ;
+    co:nextProcess row3:precipitateAnalysisWorkflow ;
+    co:output row3:darkfieldTransmissionElectronMicroscopeImage .
 
 row3:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14612,6 +13924,12 @@ row30:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row30:precipitateAnalysisWorkflow .
 
+row30:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row30:investigationPosition ;
+    co:nextProcess row30:precipitateAnalysisWorkflow ;
+    co:output row30:darkfieldTransmissionElectronMicroscopeImage .
+
 row30:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -14671,6 +13989,12 @@ row31:clearBorder a owl:NamedIndividual,
 row31:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row31:precipitateAnalysisWorkflow .
+
+row31:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row31:investigationPosition ;
+    co:nextProcess row31:precipitateAnalysisWorkflow ;
+    co:output row31:darkfieldTransmissionElectronMicroscopeImage .
 
 row31:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14732,6 +14056,12 @@ row32:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row32:precipitateAnalysisWorkflow .
 
+row32:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row32:investigationPosition ;
+    co:nextProcess row32:precipitateAnalysisWorkflow ;
+    co:output row32:darkfieldTransmissionElectronMicroscopeImage .
+
 row32:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -14791,6 +14121,12 @@ row33:clearBorder a owl:NamedIndividual,
 row33:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row33:precipitateAnalysisWorkflow .
+
+row33:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row33:investigationPosition ;
+    co:nextProcess row33:precipitateAnalysisWorkflow ;
+    co:output row33:darkfieldTransmissionElectronMicroscopeImage .
 
 row33:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14852,6 +14188,12 @@ row34:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row34:precipitateAnalysisWorkflow .
 
+row34:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row34:investigationPosition ;
+    co:nextProcess row34:precipitateAnalysisWorkflow ;
+    co:output row34:darkfieldTransmissionElectronMicroscopeImage .
+
 row34:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -14911,6 +14253,12 @@ row35:clearBorder a owl:NamedIndividual,
 row35:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row35:precipitateAnalysisWorkflow .
+
+row35:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row35:investigationPosition ;
+    co:nextProcess row35:precipitateAnalysisWorkflow ;
+    co:output row35:darkfieldTransmissionElectronMicroscopeImage .
 
 row35:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -14972,6 +14320,12 @@ row36:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row36:precipitateAnalysisWorkflow .
 
+row36:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row36:investigationPosition ;
+    co:nextProcess row36:precipitateAnalysisWorkflow ;
+    co:output row36:darkfieldTransmissionElectronMicroscopeImage .
+
 row36:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15031,6 +14385,12 @@ row37:clearBorder a owl:NamedIndividual,
 row37:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row37:precipitateAnalysisWorkflow .
+
+row37:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row37:investigationPosition ;
+    co:nextProcess row37:precipitateAnalysisWorkflow ;
+    co:output row37:darkfieldTransmissionElectronMicroscopeImage .
 
 row37:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -15092,6 +14452,12 @@ row38:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row38:precipitateAnalysisWorkflow .
 
+row38:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row38:investigationPosition ;
+    co:nextProcess row38:precipitateAnalysisWorkflow ;
+    co:output row38:darkfieldTransmissionElectronMicroscopeImage .
+
 row38:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15151,6 +14517,12 @@ row39:clearBorder a owl:NamedIndividual,
 row39:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row39:precipitateAnalysisWorkflow .
+
+row39:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row39:investigationPosition ;
+    co:nextProcess row39:precipitateAnalysisWorkflow ;
+    co:output row39:darkfieldTransmissionElectronMicroscopeImage .
 
 row39:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -15212,6 +14584,12 @@ row4:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row4:precipitateAnalysisWorkflow .
 
+row4:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row4:investigationPosition ;
+    co:nextProcess row4:precipitateAnalysisWorkflow ;
+    co:output row4:darkfieldTransmissionElectronMicroscopeImage .
+
 row4:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15271,6 +14649,12 @@ row40:clearBorder a owl:NamedIndividual,
 row40:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row40:precipitateAnalysisWorkflow .
+
+row40:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row40:investigationPosition ;
+    co:nextProcess row40:precipitateAnalysisWorkflow ;
+    co:output row40:darkfieldTransmissionElectronMicroscopeImage .
 
 row40:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -15332,6 +14716,12 @@ row41:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row41:precipitateAnalysisWorkflow .
 
+row41:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row41:investigationPosition ;
+    co:nextProcess row41:precipitateAnalysisWorkflow ;
+    co:output row41:darkfieldTransmissionElectronMicroscopeImage .
+
 row41:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15391,6 +14781,12 @@ row42:clearBorder a owl:NamedIndividual,
 row42:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row42:precipitateAnalysisWorkflow .
+
+row42:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row42:investigationPosition ;
+    co:nextProcess row42:precipitateAnalysisWorkflow ;
+    co:output row42:darkfieldTransmissionElectronMicroscopeImage .
 
 row42:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -15452,6 +14848,12 @@ row43:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row43:precipitateAnalysisWorkflow .
 
+row43:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row43:investigationPosition ;
+    co:nextProcess row43:precipitateAnalysisWorkflow ;
+    co:output row43:darkfieldTransmissionElectronMicroscopeImage .
+
 row43:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15511,6 +14913,12 @@ row44:clearBorder a owl:NamedIndividual,
 row44:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row44:precipitateAnalysisWorkflow .
+
+row44:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row44:investigationPosition ;
+    co:nextProcess row44:precipitateAnalysisWorkflow ;
+    co:output row44:darkfieldTransmissionElectronMicroscopeImage .
 
 row44:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -15572,6 +14980,12 @@ row45:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row45:precipitateAnalysisWorkflow .
 
+row45:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row45:investigationPosition ;
+    co:nextProcess row45:precipitateAnalysisWorkflow ;
+    co:output row45:darkfieldTransmissionElectronMicroscopeImage .
+
 row45:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15631,6 +15045,12 @@ row46:clearBorder a owl:NamedIndividual,
 row46:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row46:precipitateAnalysisWorkflow .
+
+row46:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row46:investigationPosition ;
+    co:nextProcess row46:precipitateAnalysisWorkflow ;
+    co:output row46:darkfieldTransmissionElectronMicroscopeImage .
 
 row46:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -15692,6 +15112,12 @@ row47:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row47:precipitateAnalysisWorkflow .
 
+row47:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row47:investigationPosition ;
+    co:nextProcess row47:precipitateAnalysisWorkflow ;
+    co:output row47:darkfieldTransmissionElectronMicroscopeImage .
+
 row47:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15751,6 +15177,12 @@ row48:clearBorder a owl:NamedIndividual,
 row48:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row48:precipitateAnalysisWorkflow .
+
+row48:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row48:investigationPosition ;
+    co:nextProcess row48:precipitateAnalysisWorkflow ;
+    co:output row48:darkfieldTransmissionElectronMicroscopeImage .
 
 row48:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -15812,6 +15244,12 @@ row49:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row49:precipitateAnalysisWorkflow .
 
+row49:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row49:investigationPosition ;
+    co:nextProcess row49:precipitateAnalysisWorkflow ;
+    co:output row49:darkfieldTransmissionElectronMicroscopeImage .
+
 row49:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15871,6 +15309,12 @@ row5:clearBorder a owl:NamedIndividual,
 row5:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row5:precipitateAnalysisWorkflow .
+
+row5:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row5:investigationPosition ;
+    co:nextProcess row5:precipitateAnalysisWorkflow ;
+    co:output row5:darkfieldTransmissionElectronMicroscopeImage .
 
 row5:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -15932,6 +15376,12 @@ row50:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row50:precipitateAnalysisWorkflow .
 
+row50:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row50:investigationPosition ;
+    co:nextProcess row50:precipitateAnalysisWorkflow ;
+    co:output row50:darkfieldTransmissionElectronMicroscopeImage .
+
 row50:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -15991,6 +15441,12 @@ row51:clearBorder a owl:NamedIndividual,
 row51:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row51:precipitateAnalysisWorkflow .
+
+row51:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row51:investigationPosition ;
+    co:nextProcess row51:precipitateAnalysisWorkflow ;
+    co:output row51:darkfieldTransmissionElectronMicroscopeImage .
 
 row51:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -16052,6 +15508,12 @@ row52:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row52:precipitateAnalysisWorkflow .
 
+row52:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row52:investigationPosition ;
+    co:nextProcess row52:precipitateAnalysisWorkflow ;
+    co:output row52:darkfieldTransmissionElectronMicroscopeImage .
+
 row52:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -16111,6 +15573,12 @@ row53:clearBorder a owl:NamedIndividual,
 row53:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row53:precipitateAnalysisWorkflow .
+
+row53:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row53:investigationPosition ;
+    co:nextProcess row53:precipitateAnalysisWorkflow ;
+    co:output row53:darkfieldTransmissionElectronMicroscopeImage .
 
 row53:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -16172,6 +15640,12 @@ row54:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row54:precipitateAnalysisWorkflow .
 
+row54:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row54:investigationPosition ;
+    co:nextProcess row54:precipitateAnalysisWorkflow ;
+    co:output row54:darkfieldTransmissionElectronMicroscopeImage .
+
 row54:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -16231,6 +15705,12 @@ row55:clearBorder a owl:NamedIndividual,
 row55:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row55:precipitateAnalysisWorkflow .
+
+row55:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row55:investigationPosition ;
+    co:nextProcess row55:precipitateAnalysisWorkflow ;
+    co:output row55:darkfieldTransmissionElectronMicroscopeImage .
 
 row55:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -16292,6 +15772,12 @@ row56:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row56:precipitateAnalysisWorkflow .
 
+row56:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row56:investigationPosition ;
+    co:nextProcess row56:precipitateAnalysisWorkflow ;
+    co:output row56:darkfieldTransmissionElectronMicroscopeImage .
+
 row56:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -16351,6 +15837,12 @@ row57:clearBorder a owl:NamedIndividual,
 row57:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row57:precipitateAnalysisWorkflow .
+
+row57:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row57:investigationPosition ;
+    co:nextProcess row57:precipitateAnalysisWorkflow ;
+    co:output row57:darkfieldTransmissionElectronMicroscopeImage .
 
 row57:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -16412,6 +15904,12 @@ row58:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row58:precipitateAnalysisWorkflow .
 
+row58:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row58:investigationPosition ;
+    co:nextProcess row58:precipitateAnalysisWorkflow ;
+    co:output row58:darkfieldTransmissionElectronMicroscopeImage .
+
 row58:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -16471,6 +15969,12 @@ row59:clearBorder a owl:NamedIndividual,
 row59:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row59:precipitateAnalysisWorkflow .
+
+row59:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row59:investigationPosition ;
+    co:nextProcess row59:precipitateAnalysisWorkflow ;
+    co:output row59:darkfieldTransmissionElectronMicroscopeImage .
 
 row59:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -16532,6 +16036,12 @@ row6:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row6:precipitateAnalysisWorkflow .
 
+row6:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row6:investigationPosition ;
+    co:nextProcess row6:precipitateAnalysisWorkflow ;
+    co:output row6:darkfieldTransmissionElectronMicroscopeImage .
+
 row6:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -16591,6 +16101,12 @@ row60:clearBorder a owl:NamedIndividual,
 row60:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row60:precipitateAnalysisWorkflow .
+
+row60:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row60:investigationPosition ;
+    co:nextProcess row60:precipitateAnalysisWorkflow ;
+    co:output row60:darkfieldTransmissionElectronMicroscopeImage .
 
 row60:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -16652,6 +16168,12 @@ row61:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row61:precipitateAnalysisWorkflow .
 
+row61:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row61:investigationPosition ;
+    co:nextProcess row61:precipitateAnalysisWorkflow ;
+    co:output row61:darkfieldTransmissionElectronMicroscopeImage .
+
 row61:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -16711,6 +16233,12 @@ row62:clearBorder a owl:NamedIndividual,
 row62:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row62:precipitateAnalysisWorkflow .
+
+row62:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row62:investigationPosition ;
+    co:nextProcess row62:precipitateAnalysisWorkflow ;
+    co:output row62:darkfieldTransmissionElectronMicroscopeImage .
 
 row62:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -16772,6 +16300,12 @@ row63:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row63:precipitateAnalysisWorkflow .
 
+row63:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row63:investigationPosition ;
+    co:nextProcess row63:precipitateAnalysisWorkflow ;
+    co:output row63:darkfieldTransmissionElectronMicroscopeImage .
+
 row63:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -16831,6 +16365,12 @@ row64:clearBorder a owl:NamedIndividual,
 row64:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row64:precipitateAnalysisWorkflow .
+
+row64:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row64:investigationPosition ;
+    co:nextProcess row64:precipitateAnalysisWorkflow ;
+    co:output row64:darkfieldTransmissionElectronMicroscopeImage .
 
 row64:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -16892,6 +16432,12 @@ row65:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row65:precipitateAnalysisWorkflow .
 
+row65:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row65:investigationPosition ;
+    co:nextProcess row65:precipitateAnalysisWorkflow ;
+    co:output row65:darkfieldTransmissionElectronMicroscopeImage .
+
 row65:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -16951,6 +16497,12 @@ row66:clearBorder a owl:NamedIndividual,
 row66:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row66:precipitateAnalysisWorkflow .
+
+row66:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row66:investigationPosition ;
+    co:nextProcess row66:precipitateAnalysisWorkflow ;
+    co:output row66:darkfieldTransmissionElectronMicroscopeImage .
 
 row66:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17012,6 +16564,12 @@ row67:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row67:precipitateAnalysisWorkflow .
 
+row67:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row67:investigationPosition ;
+    co:nextProcess row67:precipitateAnalysisWorkflow ;
+    co:output row67:darkfieldTransmissionElectronMicroscopeImage .
+
 row67:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -17071,6 +16629,12 @@ row68:clearBorder a owl:NamedIndividual,
 row68:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row68:precipitateAnalysisWorkflow .
+
+row68:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row68:investigationPosition ;
+    co:nextProcess row68:precipitateAnalysisWorkflow ;
+    co:output row68:darkfieldTransmissionElectronMicroscopeImage .
 
 row68:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17132,6 +16696,12 @@ row69:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row69:precipitateAnalysisWorkflow .
 
+row69:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row69:investigationPosition ;
+    co:nextProcess row69:precipitateAnalysisWorkflow ;
+    co:output row69:darkfieldTransmissionElectronMicroscopeImage .
+
 row69:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -17191,6 +16761,12 @@ row7:clearBorder a owl:NamedIndividual,
 row7:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row7:precipitateAnalysisWorkflow .
+
+row7:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row7:investigationPosition ;
+    co:nextProcess row7:precipitateAnalysisWorkflow ;
+    co:output row7:darkfieldTransmissionElectronMicroscopeImage .
 
 row7:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17252,6 +16828,12 @@ row70:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row70:precipitateAnalysisWorkflow .
 
+row70:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row70:investigationPosition ;
+    co:nextProcess row70:precipitateAnalysisWorkflow ;
+    co:output row70:darkfieldTransmissionElectronMicroscopeImage .
+
 row70:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -17311,6 +16893,12 @@ row71:clearBorder a owl:NamedIndividual,
 row71:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row71:precipitateAnalysisWorkflow .
+
+row71:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row71:investigationPosition ;
+    co:nextProcess row71:precipitateAnalysisWorkflow ;
+    co:output row71:darkfieldTransmissionElectronMicroscopeImage .
 
 row71:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17372,6 +16960,12 @@ row72:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row72:precipitateAnalysisWorkflow .
 
+row72:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row72:investigationPosition ;
+    co:nextProcess row72:precipitateAnalysisWorkflow ;
+    co:output row72:darkfieldTransmissionElectronMicroscopeImage .
+
 row72:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -17431,6 +17025,12 @@ row73:clearBorder a owl:NamedIndividual,
 row73:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row73:precipitateAnalysisWorkflow .
+
+row73:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row73:investigationPosition ;
+    co:nextProcess row73:precipitateAnalysisWorkflow ;
+    co:output row73:darkfieldTransmissionElectronMicroscopeImage .
 
 row73:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17492,6 +17092,12 @@ row74:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row74:precipitateAnalysisWorkflow .
 
+row74:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row74:investigationPosition ;
+    co:nextProcess row74:precipitateAnalysisWorkflow ;
+    co:output row74:darkfieldTransmissionElectronMicroscopeImage .
+
 row74:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -17551,6 +17157,12 @@ row75:clearBorder a owl:NamedIndividual,
 row75:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row75:precipitateAnalysisWorkflow .
+
+row75:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row75:investigationPosition ;
+    co:nextProcess row75:precipitateAnalysisWorkflow ;
+    co:output row75:darkfieldTransmissionElectronMicroscopeImage .
 
 row75:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17612,6 +17224,12 @@ row76:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row76:precipitateAnalysisWorkflow .
 
+row76:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row76:investigationPosition ;
+    co:nextProcess row76:precipitateAnalysisWorkflow ;
+    co:output row76:darkfieldTransmissionElectronMicroscopeImage .
+
 row76:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -17671,6 +17289,12 @@ row77:clearBorder a owl:NamedIndividual,
 row77:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row77:precipitateAnalysisWorkflow .
+
+row77:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row77:investigationPosition ;
+    co:nextProcess row77:precipitateAnalysisWorkflow ;
+    co:output row77:darkfieldTransmissionElectronMicroscopeImage .
 
 row77:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17732,6 +17356,12 @@ row78:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row78:precipitateAnalysisWorkflow .
 
+row78:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row78:investigationPosition ;
+    co:nextProcess row78:precipitateAnalysisWorkflow ;
+    co:output row78:darkfieldTransmissionElectronMicroscopeImage .
+
 row78:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -17791,6 +17421,12 @@ row79:clearBorder a owl:NamedIndividual,
 row79:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row79:precipitateAnalysisWorkflow .
+
+row79:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row79:investigationPosition ;
+    co:nextProcess row79:precipitateAnalysisWorkflow ;
+    co:output row79:darkfieldTransmissionElectronMicroscopeImage .
 
 row79:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17852,6 +17488,12 @@ row8:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row8:precipitateAnalysisWorkflow .
 
+row8:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row8:investigationPosition ;
+    co:nextProcess row8:precipitateAnalysisWorkflow ;
+    co:output row8:darkfieldTransmissionElectronMicroscopeImage .
+
 row8:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -17911,6 +17553,12 @@ row80:clearBorder a owl:NamedIndividual,
 row80:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row80:precipitateAnalysisWorkflow .
+
+row80:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row80:investigationPosition ;
+    co:nextProcess row80:precipitateAnalysisWorkflow ;
+    co:output row80:darkfieldTransmissionElectronMicroscopeImage .
 
 row80:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -17972,6 +17620,12 @@ row81:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row81:precipitateAnalysisWorkflow .
 
+row81:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row81:investigationPosition ;
+    co:nextProcess row81:precipitateAnalysisWorkflow ;
+    co:output row81:darkfieldTransmissionElectronMicroscopeImage .
+
 row81:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18031,6 +17685,12 @@ row82:clearBorder a owl:NamedIndividual,
 row82:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row82:precipitateAnalysisWorkflow .
+
+row82:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row82:investigationPosition ;
+    co:nextProcess row82:precipitateAnalysisWorkflow ;
+    co:output row82:darkfieldTransmissionElectronMicroscopeImage .
 
 row82:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -18092,6 +17752,12 @@ row83:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row83:precipitateAnalysisWorkflow .
 
+row83:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row83:investigationPosition ;
+    co:nextProcess row83:precipitateAnalysisWorkflow ;
+    co:output row83:darkfieldTransmissionElectronMicroscopeImage .
+
 row83:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18151,6 +17817,12 @@ row84:clearBorder a owl:NamedIndividual,
 row84:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row84:precipitateAnalysisWorkflow .
+
+row84:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row84:investigationPosition ;
+    co:nextProcess row84:precipitateAnalysisWorkflow ;
+    co:output row84:darkfieldTransmissionElectronMicroscopeImage .
 
 row84:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -18212,6 +17884,12 @@ row85:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row85:precipitateAnalysisWorkflow .
 
+row85:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row85:investigationPosition ;
+    co:nextProcess row85:precipitateAnalysisWorkflow ;
+    co:output row85:darkfieldTransmissionElectronMicroscopeImage .
+
 row85:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18271,6 +17949,12 @@ row86:clearBorder a owl:NamedIndividual,
 row86:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row86:precipitateAnalysisWorkflow .
+
+row86:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row86:investigationPosition ;
+    co:nextProcess row86:precipitateAnalysisWorkflow ;
+    co:output row86:darkfieldTransmissionElectronMicroscopeImage .
 
 row86:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -18332,6 +18016,12 @@ row87:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row87:precipitateAnalysisWorkflow .
 
+row87:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row87:investigationPosition ;
+    co:nextProcess row87:precipitateAnalysisWorkflow ;
+    co:output row87:darkfieldTransmissionElectronMicroscopeImage .
+
 row87:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18391,6 +18081,12 @@ row88:clearBorder a owl:NamedIndividual,
 row88:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row88:precipitateAnalysisWorkflow .
+
+row88:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row88:investigationPosition ;
+    co:nextProcess row88:precipitateAnalysisWorkflow ;
+    co:output row88:darkfieldTransmissionElectronMicroscopeImage .
 
 row88:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -18452,6 +18148,12 @@ row89:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row89:precipitateAnalysisWorkflow .
 
+row89:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row89:investigationPosition ;
+    co:nextProcess row89:precipitateAnalysisWorkflow ;
+    co:output row89:darkfieldTransmissionElectronMicroscopeImage .
+
 row89:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18511,6 +18213,12 @@ row9:clearBorder a owl:NamedIndividual,
 row9:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row9:precipitateAnalysisWorkflow .
+
+row9:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row9:investigationPosition ;
+    co:nextProcess row9:precipitateAnalysisWorkflow ;
+    co:output row9:darkfieldTransmissionElectronMicroscopeImage .
 
 row9:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -18572,6 +18280,12 @@ row90:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row90:precipitateAnalysisWorkflow .
 
+row90:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row90:investigationPosition ;
+    co:nextProcess row90:precipitateAnalysisWorkflow ;
+    co:output row90:darkfieldTransmissionElectronMicroscopeImage .
+
 row90:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18631,6 +18345,12 @@ row91:clearBorder a owl:NamedIndividual,
 row91:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row91:precipitateAnalysisWorkflow .
+
+row91:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row91:investigationPosition ;
+    co:nextProcess row91:precipitateAnalysisWorkflow ;
+    co:output row91:darkfieldTransmissionElectronMicroscopeImage .
 
 row91:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -18692,6 +18412,12 @@ row92:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row92:precipitateAnalysisWorkflow .
 
+row92:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row92:investigationPosition ;
+    co:nextProcess row92:precipitateAnalysisWorkflow ;
+    co:output row92:darkfieldTransmissionElectronMicroscopeImage .
+
 row92:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18751,6 +18477,12 @@ row93:clearBorder a owl:NamedIndividual,
 row93:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row93:precipitateAnalysisWorkflow .
+
+row93:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row93:investigationPosition ;
+    co:nextProcess row93:precipitateAnalysisWorkflow ;
+    co:output row93:darkfieldTransmissionElectronMicroscopeImage .
 
 row93:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -18812,6 +18544,12 @@ row94:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row94:precipitateAnalysisWorkflow .
 
+row94:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row94:investigationPosition ;
+    co:nextProcess row94:precipitateAnalysisWorkflow ;
+    co:output row94:darkfieldTransmissionElectronMicroscopeImage .
+
 row94:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18871,6 +18609,12 @@ row95:clearBorder a owl:NamedIndividual,
 row95:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row95:precipitateAnalysisWorkflow .
+
+row95:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row95:investigationPosition ;
+    co:nextProcess row95:precipitateAnalysisWorkflow ;
+    co:output row95:darkfieldTransmissionElectronMicroscopeImage .
 
 row95:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -18932,6 +18676,12 @@ row96:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row96:precipitateAnalysisWorkflow .
 
+row96:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row96:investigationPosition ;
+    co:nextProcess row96:precipitateAnalysisWorkflow ;
+    co:output row96:darkfieldTransmissionElectronMicroscopeImage .
+
 row96:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -18991,6 +18741,12 @@ row97:clearBorder a owl:NamedIndividual,
 row97:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row97:precipitateAnalysisWorkflow .
+
+row97:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row97:investigationPosition ;
+    co:nextProcess row97:precipitateAnalysisWorkflow ;
+    co:output row97:darkfieldTransmissionElectronMicroscopeImage .
 
 row97:executionDate a owl:NamedIndividual,
         co:CreepStress .
@@ -19052,6 +18808,12 @@ row98:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row98:precipitateAnalysisWorkflow .
 
+row98:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row98:investigationPosition ;
+    co:nextProcess row98:precipitateAnalysisWorkflow ;
+    co:output row98:darkfieldTransmissionElectronMicroscopeImage .
+
 row98:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
@@ -19111,6 +18873,12 @@ row99:clearBorder a owl:NamedIndividual,
 row99:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
         co:Image ;
     co:input row99:precipitateAnalysisWorkflow .
+
+row99:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    ns1:hasCharacteristic row99:investigationPosition ;
+    co:nextProcess row99:precipitateAnalysisWorkflow ;
+    co:output row99:darkfieldTransmissionElectronMicroscopeImage .
 
 row99:executionDate a owl:NamedIndividual,
         co:CreepStress .

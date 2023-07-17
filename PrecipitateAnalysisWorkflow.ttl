@@ -1,7 +1,6 @@
 @prefix base: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/PrecipitateAnalysisWorkflow.ttl/> .
 @prefix co: <https://w3id.org/pmd/co/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <https://material-digital.de/pmdco/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 base: a owl:Ontology ;
@@ -16,55 +15,17 @@ base:diskRadius a owl:NamedIndividual,
         co:SetPoint ;
     co:characteristic base:medianFilter .
 
-base:kernelSize a owl:NamedIndividual,
-        co:Metadata,
-        co:SetPoint,
-        co:ValueObject ;
-    co:characteristic base:dilation .
-
-base:thresholdMethod a owl:NamedIndividual,
-        co:Metadata,
-        co:Method,
-        co:SetPoint ;
-    co:characteristic base:thresholdImage .
-
-ns1:hasCharacteristic a owl:ObjectProperty .
-
-co:characteristic a owl:ObjectProperty .
-
-co:input a owl:ObjectProperty .
-
-co:nextProcess a owl:ObjectProperty .
-
-co:output a owl:ObjectProperty .
-
-co:subordinateProcess a owl:ObjectProperty .
-
-base:AcceleratedCreep a owl:NamedIndividual,
-        co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic base:specimenAgingTemperature,
-        base:specimenAgingTime,
-        base:specimenCreepStess ;
-    co:nextProcess base:darkfieldTransmissionElectronMicroscopyImaging ;
-    co:output base:transmissionElectronMicroscopeSpecimen .
-
-base:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
-        co:Image ;
-    co:input base:precipitateAnalysisWorkflow .
-
 base:executionDate a owl:NamedIndividual,
         co:CreepStress .
 
 base:investigationPosition a owl:NamedIndividual,
         co:CreepStress .
 
-base:precipitateRegion a owl:NamedIndividual,
-        co:Dataset,
-        co:Measurement .
-
-base:renderImage a owl:NamedIndividual,
-        co:AnalysingProcess ;
-    co:nextProcess base:grayscaleConversion .
+base:kernelSize a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:characteristic base:dilation .
 
 base:specimenAgingTemperature a owl:NamedIndividual,
         co:AgingTemperature,
@@ -82,9 +43,41 @@ base:specimenName a owl:NamedIndividual,
         co:Metadata,
         co:SpecimenName .
 
+base:thresholdMethod a owl:NamedIndividual,
+        co:Metadata,
+        co:Method,
+        co:SetPoint ;
+    co:characteristic base:thresholdImage .
+
+co:characteristic a owl:ObjectProperty .
+
+co:input a owl:ObjectProperty .
+
+co:nextProcess a owl:ObjectProperty .
+
+co:output a owl:ObjectProperty .
+
+co:subordinateProcess a owl:ObjectProperty .
+
+base:AcceleratedCreep a owl:NamedIndividual,
+        co:TransmissionElectronMicroscopy ;
+    co:nextProcess base:darkfieldTransmissionElectronMicroscopyImaging ;
+    co:output base:transmissionElectronMicroscopeSpecimen .
+
+base:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
+        co:Image ;
+    co:input base:precipitateAnalysisWorkflow .
+
+base:precipitateRegion a owl:NamedIndividual,
+        co:Dataset,
+        co:Measurement .
+
+base:renderImage a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:grayscaleConversion .
+
 base:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
         co:Specimen ;
-    ns1:hasCharacteristic base:specimenName ;
     co:input base:AcceleratedCreep,
         base:darkfieldTransmissionElectronMicroscopyImaging .
 
@@ -118,7 +111,6 @@ base:clearBorder a owl:NamedIndividual,
 
 base:darkfieldTransmissionElectronMicroscopyImaging a owl:NamedIndividual,
         co:TransmissionElectronMicroscopy ;
-    ns1:hasCharacteristic base:investigationPosition ;
     co:nextProcess base:precipitateAnalysisWorkflow ;
     co:output base:darkfieldTransmissionElectronMicroscopeImage .
 
@@ -139,7 +131,6 @@ base:morphologicalOpening a owl:NamedIndividual,
 
 base:precipitateAnalysisWorkflow a owl:NamedIndividual,
         co:AnalysingProcess ;
-    ns1:hasCharacteristic base:executionDate ;
     co:output base:precipitateRegion ;
     co:subordinateProcess base:clearBorder,
         base:dilation,
