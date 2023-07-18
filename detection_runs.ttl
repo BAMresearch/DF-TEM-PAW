@@ -20,7 +20,7 @@
 <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv> a csvw:TableGroup,
         prov:Usage ;
     csvw:table <table-1> ;
-    prov:generatedAtTime "2023-07-13T05:09:37.698243"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-07-18T07:23:05.703543"^^xsd:dateTime ;
     prov:hadRole csvw:csvEncodedTabularData ;
     prov:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/annotate> .
 
@@ -30,358 +30,358 @@
             csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
             csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
     csvw:row [ a csvw:Row ;
-            csvw:describes <table-1-gid-93> ;
-            csvw:url <row=94> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-9> ;
-            csvw:url <row=10> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-72> ;
-            csvw:url <row=73> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-33> ;
-            csvw:url <row=34> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-108> ;
-            csvw:url <row=109> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-96> ;
-            csvw:url <row=97> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-57> ;
-            csvw:url <row=58> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-59> ;
-            csvw:url <row=60> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-43> ;
-            csvw:url <row=44> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-26> ;
-            csvw:url <row=27> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-95> ;
-            csvw:url <row=96> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-50> ;
-            csvw:url <row=51> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-5> ;
-            csvw:url <row=6> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-23> ;
-            csvw:url <row=24> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-105> ;
-            csvw:url <row=106> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-49> ;
-            csvw:url <row=50> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-14> ;
-            csvw:url <row=15> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-53> ;
-            csvw:url <row=54> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-104> ;
-            csvw:url <row=105> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-34> ;
-            csvw:url <row=35> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-45> ;
-            csvw:url <row=46> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-56> ;
-            csvw:url <row=57> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-109> ;
-            csvw:url <row=110> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-114> ;
-            csvw:url <row=115> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-61> ;
-            csvw:url <row=62> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-94> ;
-            csvw:url <row=95> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-12> ;
-            csvw:url <row=13> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-80> ;
-            csvw:url <row=81> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-48> ;
-            csvw:url <row=49> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-37> ;
-            csvw:url <row=38> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-10> ;
-            csvw:url <row=11> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-62> ;
-            csvw:url <row=63> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-44> ;
-            csvw:url <row=45> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-98> ;
-            csvw:url <row=99> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-92> ;
-            csvw:url <row=93> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-68> ;
-            csvw:url <row=69> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-27> ;
-            csvw:url <row=28> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-77> ;
-            csvw:url <row=78> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-52> ;
-            csvw:url <row=53> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-2> ;
-            csvw:url <row=3> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-55> ;
-            csvw:url <row=56> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-13> ;
-            csvw:url <row=14> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-66> ;
-            csvw:url <row=67> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-87> ;
-            csvw:url <row=88> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-6> ;
-            csvw:url <row=7> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-17> ;
-            csvw:url <row=18> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-113> ;
-            csvw:url <row=114> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-31> ;
-            csvw:url <row=32> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-86> ;
-            csvw:url <row=87> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-7> ;
-            csvw:url <row=8> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-73> ;
-            csvw:url <row=74> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-99> ;
-            csvw:url <row=100> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-106> ;
-            csvw:url <row=107> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-42> ;
-            csvw:url <row=43> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-97> ;
-            csvw:url <row=98> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-24> ;
-            csvw:url <row=25> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-39> ;
-            csvw:url <row=40> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-107> ;
-            csvw:url <row=108> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-22> ;
-            csvw:url <row=23> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-112> ;
-            csvw:url <row=113> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-40> ;
-            csvw:url <row=41> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-46> ;
-            csvw:url <row=47> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-91> ;
-            csvw:url <row=92> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-71> ;
-            csvw:url <row=72> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-78> ;
-            csvw:url <row=79> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-74> ;
-            csvw:url <row=75> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-84> ;
-            csvw:url <row=85> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-101> ;
-            csvw:url <row=102> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-30> ;
-            csvw:url <row=31> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-100> ;
-            csvw:url <row=101> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-102> ;
-            csvw:url <row=103> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-1> ;
-            csvw:url <row=2> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-110> ;
-            csvw:url <row=111> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-69> ;
-            csvw:url <row=70> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-3> ;
-            csvw:url <row=4> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-38> ;
-            csvw:url <row=39> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-36> ;
-            csvw:url <row=37> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-103> ;
-            csvw:url <row=104> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-115> ;
-            csvw:url <row=116> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-79> ;
-            csvw:url <row=80> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-64> ;
-            csvw:url <row=65> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-82> ;
-            csvw:url <row=83> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-60> ;
-            csvw:url <row=61> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-21> ;
-            csvw:url <row=22> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-35> ;
-            csvw:url <row=36> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-81> ;
-            csvw:url <row=82> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-18> ;
-            csvw:url <row=19> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-29> ;
-            csvw:url <row=30> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-67> ;
-            csvw:url <row=68> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-4> ;
-            csvw:url <row=5> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-58> ;
-            csvw:url <row=59> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-89> ;
-            csvw:url <row=90> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-70> ;
-            csvw:url <row=71> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-28> ;
-            csvw:url <row=29> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-51> ;
-            csvw:url <row=52> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-83> ;
-            csvw:url <row=84> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-63> ;
-            csvw:url <row=64> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-47> ;
-            csvw:url <row=48> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-11> ;
-            csvw:url <row=12> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-41> ;
-            csvw:url <row=42> ],
+            csvw:describes <table-1-gid-20> ;
+            csvw:url <row=21> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-15> ;
             csvw:url <row=16> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-19> ;
-            csvw:url <row=20> ],
+            csvw:describes <table-1-gid-50> ;
+            csvw:url <row=51> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-65> ;
-            csvw:url <row=66> ],
+            csvw:describes <table-1-gid-56> ;
+            csvw:url <row=57> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-20> ;
-            csvw:url <row=21> ],
+            csvw:describes <table-1-gid-36> ;
+            csvw:url <row=37> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-25> ;
-            csvw:url <row=26> ],
+            csvw:describes <table-1-gid-14> ;
+            csvw:url <row=15> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-58> ;
+            csvw:url <row=59> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-8> ;
+            csvw:url <row=9> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-1> ;
+            csvw:url <row=2> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-61> ;
+            csvw:url <row=62> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-32> ;
             csvw:url <row=33> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-75> ;
-            csvw:url <row=76> ],
+            csvw:describes <table-1-gid-82> ;
+            csvw:url <row=83> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-85> ;
-            csvw:url <row=86> ],
+            csvw:describes <table-1-gid-38> ;
+            csvw:url <row=39> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-16> ;
-            csvw:url <row=17> ],
+            csvw:describes <table-1-gid-106> ;
+            csvw:url <row=107> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-88> ;
-            csvw:url <row=89> ],
+            csvw:describes <table-1-gid-102> ;
+            csvw:url <row=103> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-54> ;
-            csvw:url <row=55> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-90> ;
-            csvw:url <row=91> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-0> ;
-            csvw:url <row=1> ],
+            csvw:describes <table-1-gid-17> ;
+            csvw:url <row=18> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-76> ;
             csvw:url <row=77> ],
         [ a csvw:Row ;
+            csvw:describes <table-1-gid-19> ;
+            csvw:url <row=20> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-13> ;
+            csvw:url <row=14> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-29> ;
+            csvw:url <row=30> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-21> ;
+            csvw:url <row=22> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-71> ;
+            csvw:url <row=72> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-92> ;
+            csvw:url <row=93> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-45> ;
+            csvw:url <row=46> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-24> ;
+            csvw:url <row=25> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-114> ;
+            csvw:url <row=115> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-11> ;
+            csvw:url <row=12> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-57> ;
+            csvw:url <row=58> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-89> ;
+            csvw:url <row=90> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-91> ;
+            csvw:url <row=92> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-25> ;
+            csvw:url <row=26> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-33> ;
+            csvw:url <row=34> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-6> ;
+            csvw:url <row=7> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-79> ;
+            csvw:url <row=80> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-3> ;
+            csvw:url <row=4> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-60> ;
+            csvw:url <row=61> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-109> ;
+            csvw:url <row=110> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-23> ;
+            csvw:url <row=24> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-72> ;
+            csvw:url <row=73> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-30> ;
+            csvw:url <row=31> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-27> ;
+            csvw:url <row=28> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-81> ;
+            csvw:url <row=82> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-97> ;
+            csvw:url <row=98> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-85> ;
+            csvw:url <row=86> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-53> ;
+            csvw:url <row=54> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-62> ;
+            csvw:url <row=63> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-103> ;
+            csvw:url <row=104> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-43> ;
+            csvw:url <row=44> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-10> ;
+            csvw:url <row=11> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-112> ;
+            csvw:url <row=113> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-96> ;
+            csvw:url <row=97> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-37> ;
+            csvw:url <row=38> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-31> ;
+            csvw:url <row=32> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-113> ;
+            csvw:url <row=114> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-16> ;
+            csvw:url <row=17> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-0> ;
+            csvw:url <row=1> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-94> ;
+            csvw:url <row=95> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-42> ;
+            csvw:url <row=43> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-54> ;
+            csvw:url <row=55> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-87> ;
+            csvw:url <row=88> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-84> ;
+            csvw:url <row=85> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-69> ;
+            csvw:url <row=70> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-86> ;
+            csvw:url <row=87> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-26> ;
+            csvw:url <row=27> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-98> ;
+            csvw:url <row=99> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-64> ;
+            csvw:url <row=65> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-67> ;
+            csvw:url <row=68> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-100> ;
+            csvw:url <row=101> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-48> ;
+            csvw:url <row=49> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-9> ;
+            csvw:url <row=10> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-115> ;
+            csvw:url <row=116> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-104> ;
+            csvw:url <row=105> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-40> ;
+            csvw:url <row=41> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-70> ;
+            csvw:url <row=71> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-22> ;
+            csvw:url <row=23> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-93> ;
+            csvw:url <row=94> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-7> ;
+            csvw:url <row=8> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-65> ;
+            csvw:url <row=66> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-110> ;
+            csvw:url <row=111> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-99> ;
+            csvw:url <row=100> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-78> ;
+            csvw:url <row=79> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-41> ;
+            csvw:url <row=42> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-73> ;
+            csvw:url <row=74> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-28> ;
+            csvw:url <row=29> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-35> ;
+            csvw:url <row=36> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-46> ;
+            csvw:url <row=47> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-12> ;
+            csvw:url <row=13> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-105> ;
+            csvw:url <row=106> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-59> ;
+            csvw:url <row=60> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-80> ;
+            csvw:url <row=81> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-18> ;
+            csvw:url <row=19> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-63> ;
+            csvw:url <row=64> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-51> ;
+            csvw:url <row=52> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-55> ;
+            csvw:url <row=56> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-77> ;
+            csvw:url <row=78> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-75> ;
+            csvw:url <row=76> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-83> ;
+            csvw:url <row=84> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-2> ;
+            csvw:url <row=3> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-34> ;
+            csvw:url <row=35> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-88> ;
+            csvw:url <row=89> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-74> ;
+            csvw:url <row=75> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-52> ;
+            csvw:url <row=53> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-68> ;
+            csvw:url <row=69> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-90> ;
+            csvw:url <row=91> ],
+        [ a csvw:Row ;
             csvw:describes <table-1-gid-111> ;
             csvw:url <row=112> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-8> ;
-            csvw:url <row=9> ] ;
+            csvw:describes <table-1-gid-66> ;
+            csvw:url <row=67> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-39> ;
+            csvw:url <row=40> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-44> ;
+            csvw:url <row=45> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-101> ;
+            csvw:url <row=102> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-5> ;
+            csvw:url <row=6> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-4> ;
+            csvw:url <row=5> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-47> ;
+            csvw:url <row=48> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-108> ;
+            csvw:url <row=109> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-107> ;
+            csvw:url <row=108> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-95> ;
+            csvw:url <row=96> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-49> ;
+            csvw:url <row=50> ] ;
     csvw:tableSchema [ csvw:aboutUrl "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-gid-{GID}"^^csvw:uriTemplate ;
             csvw:column ( <table-1-GID> <table-1-Unnamed0> <table-1-Specimenname> <table-1-AgingTempC> <table-1-AgingTimeH> <table-1-CreepStressMpa> <table-1-Dataset> <table-1-PositionId> <table-1-Image> <table-1-Rois> <table-1-DiskradiusvaluePx> <table-1-ThresholdMethod> <table-1-DilationKernelSizePx> <table-1-Date> ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv"^^xsd:anyURI ;
-    prov:generatedAtTime "2023-07-18T07:23:08.348852"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-07-18T07:29:28.867381"^^xsd:dateTime ;
     prov:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs-metadata.json>,
         <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv> ;
     prov:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/rdf> .
@@ -485,7 +485,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.659536"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:13:50.840764"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -520,7 +520,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:13:55.369956"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -555,7 +555,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.661531"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:37.147766"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -590,7 +590,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:44.154852"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -625,7 +625,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.354217"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:48.901565"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -660,7 +660,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.354217"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:53.747945"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -684,7 +684,7 @@
 
 <table-1-gid-103> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -695,7 +695,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.959764"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:59.514807"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -719,7 +719,7 @@
 
 <table-1-gid-104> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -730,7 +730,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.959764"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:04.438111"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -754,7 +754,7 @@
 
 <table-1-gid-105> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -765,7 +765,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.959764"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:09.435947"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -789,7 +789,7 @@
 
 <table-1-gid-106> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -800,7 +800,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:14.786651"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -824,7 +824,7 @@
 
 <table-1-gid-107> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -835,7 +835,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:19.660952"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -859,7 +859,7 @@
 
 <table-1-gid-108> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -870,7 +870,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:24.379922"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -894,7 +894,7 @@
 
 <table-1-gid-109> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -905,7 +905,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:29.541224"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -940,7 +940,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.661531"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:41.998466"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -964,7 +964,7 @@
 
 <table-1-gid-110> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -975,7 +975,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:34.728699"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -999,7 +999,7 @@
 
 <table-1-gid-111> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -1010,7 +1010,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:39.653132"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1034,7 +1034,7 @@
 
 <table-1-gid-112> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -1045,7 +1045,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:44.410945"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1069,7 +1069,7 @@
 
 <table-1-gid-113> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -1080,7 +1080,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:49.183011"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1104,7 +1104,7 @@
 
 <table-1-gid-114> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -1115,7 +1115,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:54.261036"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1139,7 +1139,7 @@
 
 <table-1-gid-115> <AgingTempC> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/DEG_C> ;
-            qudt:value 0e+00 ] ;
+            qudt:value 2.3e+01 ] ;
     <AgingTimeH> [ a qudt:QuantityValue ;
             qudt:unit <http://qudt.org/vocab/unit/HR> ;
             qudt:value 0e+00 ] ;
@@ -1150,7 +1150,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:22:59.292225"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1185,7 +1185,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:47.700992"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1220,7 +1220,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:52.225371"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1255,7 +1255,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:56.626722"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1290,7 +1290,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:01.109043"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1325,7 +1325,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:05.603235"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1360,7 +1360,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:09.830158"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1395,7 +1395,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:14.225105"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1430,7 +1430,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:19.239703"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1465,7 +1465,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:00.232254"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1500,7 +1500,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:23.963449"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1535,7 +1535,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:28.362860"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1570,7 +1570,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:33.107938"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1605,7 +1605,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:38.381842"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1640,7 +1640,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:42.835599"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1675,7 +1675,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:47.313880"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1710,7 +1710,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:52.164990"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1745,7 +1745,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:15:56.779559"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1780,7 +1780,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:01.187608"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1815,7 +1815,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:05.732452"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1850,7 +1850,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:05.138042"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1885,7 +1885,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:10.493988"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1920,7 +1920,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:15.034696"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1955,7 +1955,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:19.619042"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -1990,7 +1990,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:25.175924"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2025,7 +2025,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:29.863324"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2060,7 +2060,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:34.471308"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2095,7 +2095,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:39.163992"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2130,7 +2130,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:43.765134"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2165,7 +2165,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:49.121751"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2200,7 +2200,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:53.903503"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2235,7 +2235,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:09.809773"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2270,7 +2270,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:16:58.904652"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2305,7 +2305,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:03.326181"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2340,7 +2340,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:07.843351"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2375,7 +2375,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:11.510034"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2410,7 +2410,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:16.034208"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2445,7 +2445,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:20.697046"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2480,7 +2480,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:25.454934"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2515,7 +2515,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:30.173338"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2550,7 +2550,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:34.761445"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2585,7 +2585,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:39.534345"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2620,7 +2620,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:14.305355"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2655,7 +2655,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.836039"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:45.463912"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2690,7 +2690,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.836039"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:50.302269"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2725,7 +2725,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:17:55.300416"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2760,7 +2760,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:00.252775"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2795,7 +2795,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:04.913210"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2830,7 +2830,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:09.620323"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2865,7 +2865,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:14.493599"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2900,7 +2900,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.838036"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:19.513812"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2935,7 +2935,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.838036"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:24.642732"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -2970,7 +2970,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.838036"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:29.398254"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3005,7 +3005,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:19.284800"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3040,7 +3040,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.838036"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:33.947724"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3075,7 +3075,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.477325"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:39.549407"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3110,7 +3110,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:43.919578"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3145,7 +3145,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:48.481593"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3180,7 +3180,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:53.202473"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3215,7 +3215,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:18:57.477642"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3250,7 +3250,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:01.862157"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3285,7 +3285,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:06.355828"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3320,7 +3320,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:10.802501"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3355,7 +3355,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:15.292311"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3390,7 +3390,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:23.653704"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3425,7 +3425,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:19.800772"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3460,7 +3460,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.479320"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:24.199196"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3495,7 +3495,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:29.480289"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3530,7 +3530,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:34.359205"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3565,7 +3565,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:39.277578"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3600,7 +3600,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:43.628381"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3635,7 +3635,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:48.682964"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3670,7 +3670,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:53.204664"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3705,7 +3705,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:19:58.009792"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3740,7 +3740,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:02.996492"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3775,7 +3775,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.661531"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:28.280601"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3810,7 +3810,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:07.773452"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3845,7 +3845,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:12.674920"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3880,7 +3880,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:17.334633"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3915,7 +3915,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:22.013045"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3950,7 +3950,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:28.285794"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -3985,7 +3985,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:32.786231"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4020,7 +4020,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:37.247734"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4055,7 +4055,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:41.970131"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4090,7 +4090,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:46.503742"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4125,7 +4125,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:51.798977"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4160,7 +4160,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.661531"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:14:32.631473"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4195,7 +4195,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:20:56.435732"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4230,7 +4230,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:01.036727"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4265,7 +4265,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:05.631722"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4300,7 +4300,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:10.348700"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4335,7 +4335,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:14.884618"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4370,7 +4370,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:20.457369"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4405,7 +4405,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:25.099859"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4440,7 +4440,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:30.025744"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4475,7 +4475,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:34.598092"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
@@ -4510,7 +4510,7 @@
     <Date> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ] ;
+                    oa:value "2023-07-18T09:21:39.288798"^^xsd:dateTime ] ] ;
     <DilationKernelSizePx> [ a qudt:QuantityValue ;
             qudt:value 3 ] ;
     <DiskradiusvaluePx> [ a qudt:QuantityValue ;
