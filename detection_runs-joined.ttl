@@ -2121,7 +2121,7 @@ co:subordinateProcess a owl:ObjectProperty .
 <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv> a csvw:TableGroup,
         ns2:Usage ;
     csvw:table ns1:table-1 ;
-    ns2:generatedAtTime "2023-07-12T14:53:38.878566"^^xsd:dateTime ;
+    ns2:generatedAtTime "2023-07-18T07:23:05.703543"^^xsd:dateTime ;
     ns2:hadRole csvw:csvEncodedTabularData ;
     ns2:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/annotate> .
 
@@ -2131,358 +2131,358 @@ ns1:table-1 a csvw:Table ;
             csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
             csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
     csvw:row [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-1 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=2> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-34 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=35> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-88 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=89> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-74 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=75> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-52 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=53> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-68 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=69> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-90 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=91> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-111 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=112> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-66 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=67> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-39 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=40> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-44 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=45> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-61 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=62> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-101 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=102> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-5 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=6> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-4 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=5> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-47 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=48> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-108 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=109> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-107 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=108> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-95 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=96> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-49 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=50> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-32 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=33> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-82 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=83> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-38 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=39> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-106 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=107> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-102 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=103> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-17 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=18> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-76 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=77> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-19 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=20> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-20 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=21> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-13 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=14> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-29 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=30> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-21 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=22> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-71 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=72> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-92 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=93> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-45 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=46> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-24 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=25> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-114 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=115> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-11 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=12> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-57 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=58> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-15 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=16> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-89 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=90> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-91 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=92> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-25 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=26> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-33 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=34> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-6 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=7> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-79 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=80> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-3 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=4> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-60 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=61> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-109 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=110> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-23 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=24> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-50 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=51> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-72 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=73> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-30 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=31> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-27 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=28> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-81 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=82> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-97 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=98> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-85 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=86> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-53 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=54> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-62 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=63> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-103 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=104> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-43 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=44> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-56 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=57> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-10 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=11> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-112 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=113> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-96 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=97> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-37 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=38> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-31 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=32> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-113 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=114> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-16 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=17> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-0 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=1> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-94 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=95> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-42 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=43> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-36 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=37> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-54 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=55> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-87 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=88> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-84 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=85> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-69 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=70> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-86 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=87> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-26 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=27> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-98 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=99> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-64 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=65> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-67 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=68> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-100 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=101> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-14 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=15> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-48 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=49> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-9 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=10> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-115 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=116> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-104 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=105> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-40 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=41> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-70 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=71> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-22 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=23> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-93 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=94> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-7 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=8> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-65 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=66> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-58 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=59> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-110 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=111> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-99 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=100> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-78 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=79> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-41 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=42> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-73 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=74> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-28 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=29> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-35 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=36> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-46 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=47> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-12 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=13> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-105 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=106> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-8 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=9> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-59 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=60> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-80 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=81> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-18 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=19> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-63 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=64> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-51 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=52> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-55 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=56> ],
+        [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-77 ;
             csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=78> ],
         [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-75 ;
             csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=76> ],
         [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-93 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=94> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-105 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=106> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-87 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=88> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-0 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=1> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-15 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=16> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-30 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=31> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-4 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=5> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-61 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=62> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-82 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=83> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-100 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=101> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-79 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=80> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-6 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=7> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-3 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=4> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-113 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=114> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-109 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=110> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-27 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=28> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-59 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=60> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-110 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=111> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-26 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=27> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-18 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=19> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-99 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=100> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-54 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=55> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-35 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=36> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-98 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=99> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-44 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=45> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-12 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=13> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-101 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=102> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-21 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=22> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-14 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=15> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-53 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=54> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-63 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=64> ],
-        [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-83 ;
             csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=84> ],
         [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-43 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=44> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-74 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=75> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-78 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=79> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-112 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=113> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-11 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=12> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-90 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=91> ],
-        [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-2 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=3> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-16 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=17> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-22 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=23> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-64 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=65> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-7 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=8> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-23 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=24> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-19 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=20> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-13 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=14> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-46 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=47> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-51 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=52> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-40 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=41> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-57 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=58> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-81 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=82> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-96 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=97> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-80 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=81> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-32 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=33> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-84 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=85> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-88 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=89> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-68 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=69> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-62 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=63> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-58 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=59> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-70 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=71> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-29 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=30> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-24 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=25> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-73 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=74> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-92 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=93> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-17 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=18> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-60 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=61> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-66 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=67> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-86 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=87> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-69 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=70> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-76 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=77> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-91 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=92> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-107 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=108> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-72 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=73> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-39 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=40> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-103 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=104> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-106 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=107> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-37 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=38> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-95 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=96> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-25 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=26> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-108 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=109> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-114 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=115> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-10 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=11> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-36 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=37> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-65 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=66> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-67 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=68> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-41 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=42> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-42 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=43> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-31 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=32> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-49 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=50> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-102 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=103> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-48 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=49> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-34 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=35> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-50 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=51> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-47 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=48> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-71 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=72> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-5 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=6> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-115 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=116> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-20 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=21> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-104 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=105> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-52 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=53> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-38 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=39> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-89 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=90> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-85 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=86> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-55 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=56> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-33 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=34> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-94 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=95> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-56 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=57> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-1 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=2> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-111 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=112> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-9 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=10> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-97 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=98> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-45 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=46> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-8 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=9> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-28 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=29> ] ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/row=3> ] ;
     csvw:tableSchema [ csvw:aboutUrl "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-gid-{GID}"^^csvw:uriTemplate ;
             csvw:column ( ns1:table-1-GID ns1:table-1-Unnamed0 ns1:table-1-Specimenname ns1:table-1-AgingTempC ns1:table-1-AgingTimeH ns1:table-1-CreepStressMpa ns1:table-1-Dataset ns1:table-1-PositionId ns1:table-1-Image ns1:table-1-Rois ns1:table-1-DiskradiusvaluePx ns1:table-1-ThresholdMethod ns1:table-1-DilationKernelSizePx ns1:table-1-Date ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv"^^xsd:anyURI ;
-    ns2:generatedAtTime "2023-07-13T05:09:43.642743"^^xsd:dateTime ;
+    ns2:generatedAtTime "2023-07-18T07:29:28.867381"^^xsd:dateTime ;
     ns2:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs-metadata.json>,
         <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv> ;
     ns2:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/rdf> .
@@ -2589,7 +2589,7 @@ ns1:table-1-gid-0 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.659536"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:13:50.840764"^^xsd:dateTime ] ;
             co:isResourceOf row0:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -2659,7 +2659,7 @@ ns1:table-1-gid-1 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:13:55.369956"^^xsd:dateTime ] ;
             co:isResourceOf row1:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -2729,7 +2729,7 @@ ns1:table-1-gid-10 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.661531"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:37.147766"^^xsd:dateTime ] ;
             co:isResourceOf row10:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -2799,7 +2799,7 @@ ns1:table-1-gid-100 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:44.154852"^^xsd:dateTime ] ;
             co:isResourceOf row100:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -2869,7 +2869,7 @@ ns1:table-1-gid-101 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.354217"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:48.901565"^^xsd:dateTime ] ;
             co:isResourceOf row101:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -2939,7 +2939,7 @@ ns1:table-1-gid-102 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.354217"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:53.747945"^^xsd:dateTime ] ;
             co:isResourceOf row102:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -2995,7 +2995,7 @@ row102:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-103 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row103:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3009,7 +3009,7 @@ ns1:table-1-gid-103 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.959764"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:59.514807"^^xsd:dateTime ] ;
             co:isResourceOf row103:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3065,7 +3065,7 @@ row103:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-104 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row104:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3079,7 +3079,7 @@ ns1:table-1-gid-104 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.959764"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:04.438111"^^xsd:dateTime ] ;
             co:isResourceOf row104:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3135,7 +3135,7 @@ row104:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-105 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row105:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3149,7 +3149,7 @@ ns1:table-1-gid-105 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.959764"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:09.435947"^^xsd:dateTime ] ;
             co:isResourceOf row105:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3205,7 +3205,7 @@ row105:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-106 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row106:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3219,7 +3219,7 @@ ns1:table-1-gid-106 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:14.786651"^^xsd:dateTime ] ;
             co:isResourceOf row106:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3275,7 +3275,7 @@ row106:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-107 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row107:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3289,7 +3289,7 @@ ns1:table-1-gid-107 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:19.660952"^^xsd:dateTime ] ;
             co:isResourceOf row107:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3345,7 +3345,7 @@ row107:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-108 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row108:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3359,7 +3359,7 @@ ns1:table-1-gid-108 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:24.379922"^^xsd:dateTime ] ;
             co:isResourceOf row108:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3415,7 +3415,7 @@ row108:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-109 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row109:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3429,7 +3429,7 @@ ns1:table-1-gid-109 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:29.541224"^^xsd:dateTime ] ;
             co:isResourceOf row109:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3499,7 +3499,7 @@ ns1:table-1-gid-11 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.661531"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:41.998466"^^xsd:dateTime ] ;
             co:isResourceOf row11:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3555,7 +3555,7 @@ row11:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-110 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row110:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3569,7 +3569,7 @@ ns1:table-1-gid-110 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:34.728699"^^xsd:dateTime ] ;
             co:isResourceOf row110:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3625,7 +3625,7 @@ row110:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-111 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row111:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3639,7 +3639,7 @@ ns1:table-1-gid-111 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:39.653132"^^xsd:dateTime ] ;
             co:isResourceOf row111:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3695,7 +3695,7 @@ row111:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-112 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row112:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3709,7 +3709,7 @@ ns1:table-1-gid-112 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:44.410945"^^xsd:dateTime ] ;
             co:isResourceOf row112:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3765,7 +3765,7 @@ row112:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-113 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row113:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3779,7 +3779,7 @@ ns1:table-1-gid-113 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:49.183011"^^xsd:dateTime ] ;
             co:isResourceOf row113:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3835,7 +3835,7 @@ row113:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-114 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row114:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3849,7 +3849,7 @@ ns1:table-1-gid-114 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:54.261036"^^xsd:dateTime ] ;
             co:isResourceOf row114:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3905,7 +3905,7 @@ row114:precipitateAnalysisWorkflow a owl:NamedIndividual,
 
 ns1:table-1-gid-115 ns1:AgingTempC [ a qudt:QuantityValue ;
             qudt:unit qunit:DEG_C ;
-            qudt:value 0e+00 ;
+            qudt:value 2.3e+01 ;
             co:isResourceOf row115:specimenAgingTemperature ] ;
     ns1:AgingTimeH [ a qudt:QuantityValue ;
             qudt:unit qunit:HR ;
@@ -3919,7 +3919,7 @@ ns1:table-1-gid-115 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.960751"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:22:59.292225"^^xsd:dateTime ] ;
             co:isResourceOf row115:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -3989,7 +3989,7 @@ ns1:table-1-gid-12 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:47.700992"^^xsd:dateTime ] ;
             co:isResourceOf row12:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4059,7 +4059,7 @@ ns1:table-1-gid-13 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:52.225371"^^xsd:dateTime ] ;
             co:isResourceOf row13:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4129,7 +4129,7 @@ ns1:table-1-gid-14 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:56.626722"^^xsd:dateTime ] ;
             co:isResourceOf row14:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4199,7 +4199,7 @@ ns1:table-1-gid-15 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:01.109043"^^xsd:dateTime ] ;
             co:isResourceOf row15:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4269,7 +4269,7 @@ ns1:table-1-gid-16 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.300820"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:05.603235"^^xsd:dateTime ] ;
             co:isResourceOf row16:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4339,7 +4339,7 @@ ns1:table-1-gid-17 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:09.830158"^^xsd:dateTime ] ;
             co:isResourceOf row17:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4409,7 +4409,7 @@ ns1:table-1-gid-18 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:14.225105"^^xsd:dateTime ] ;
             co:isResourceOf row18:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4479,7 +4479,7 @@ ns1:table-1-gid-19 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:19.239703"^^xsd:dateTime ] ;
             co:isResourceOf row19:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4549,7 +4549,7 @@ ns1:table-1-gid-2 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:00.232254"^^xsd:dateTime ] ;
             co:isResourceOf row2:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4619,7 +4619,7 @@ ns1:table-1-gid-20 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:23.963449"^^xsd:dateTime ] ;
             co:isResourceOf row20:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4689,7 +4689,7 @@ ns1:table-1-gid-21 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:28.362860"^^xsd:dateTime ] ;
             co:isResourceOf row21:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4759,7 +4759,7 @@ ns1:table-1-gid-22 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.301818"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:33.107938"^^xsd:dateTime ] ;
             co:isResourceOf row22:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4829,7 +4829,7 @@ ns1:table-1-gid-23 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:38.381842"^^xsd:dateTime ] ;
             co:isResourceOf row23:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4899,7 +4899,7 @@ ns1:table-1-gid-24 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:42.835599"^^xsd:dateTime ] ;
             co:isResourceOf row24:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -4969,7 +4969,7 @@ ns1:table-1-gid-25 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:47.313880"^^xsd:dateTime ] ;
             co:isResourceOf row25:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5039,7 +5039,7 @@ ns1:table-1-gid-26 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:52.164990"^^xsd:dateTime ] ;
             co:isResourceOf row26:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5109,7 +5109,7 @@ ns1:table-1-gid-27 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.944100"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:15:56.779559"^^xsd:dateTime ] ;
             co:isResourceOf row27:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5179,7 +5179,7 @@ ns1:table-1-gid-28 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:01.187608"^^xsd:dateTime ] ;
             co:isResourceOf row28:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5249,7 +5249,7 @@ ns1:table-1-gid-29 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:05.732452"^^xsd:dateTime ] ;
             co:isResourceOf row29:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5319,7 +5319,7 @@ ns1:table-1-gid-3 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:05.138042"^^xsd:dateTime ] ;
             co:isResourceOf row3:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5389,7 +5389,7 @@ ns1:table-1-gid-30 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:10.493988"^^xsd:dateTime ] ;
             co:isResourceOf row30:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5459,7 +5459,7 @@ ns1:table-1-gid-31 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:15.034696"^^xsd:dateTime ] ;
             co:isResourceOf row31:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5529,7 +5529,7 @@ ns1:table-1-gid-32 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:33.945098"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:19.619042"^^xsd:dateTime ] ;
             co:isResourceOf row32:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5599,7 +5599,7 @@ ns1:table-1-gid-33 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:25.175924"^^xsd:dateTime ] ;
             co:isResourceOf row33:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5669,7 +5669,7 @@ ns1:table-1-gid-34 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:29.863324"^^xsd:dateTime ] ;
             co:isResourceOf row34:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5739,7 +5739,7 @@ ns1:table-1-gid-35 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:34.471308"^^xsd:dateTime ] ;
             co:isResourceOf row35:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5809,7 +5809,7 @@ ns1:table-1-gid-36 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:39.163992"^^xsd:dateTime ] ;
             co:isResourceOf row36:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5879,7 +5879,7 @@ ns1:table-1-gid-37 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:34.575412"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:43.765134"^^xsd:dateTime ] ;
             co:isResourceOf row37:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -5949,7 +5949,7 @@ ns1:table-1-gid-38 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:49.121751"^^xsd:dateTime ] ;
             co:isResourceOf row38:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6019,7 +6019,7 @@ ns1:table-1-gid-39 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:53.903503"^^xsd:dateTime ] ;
             co:isResourceOf row39:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6089,7 +6089,7 @@ ns1:table-1-gid-4 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:09.809773"^^xsd:dateTime ] ;
             co:isResourceOf row4:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6159,7 +6159,7 @@ ns1:table-1-gid-40 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:16:58.904652"^^xsd:dateTime ] ;
             co:isResourceOf row40:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6229,7 +6229,7 @@ ns1:table-1-gid-41 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:03.326181"^^xsd:dateTime ] ;
             co:isResourceOf row41:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6299,7 +6299,7 @@ ns1:table-1-gid-42 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:07.843351"^^xsd:dateTime ] ;
             co:isResourceOf row42:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6369,7 +6369,7 @@ ns1:table-1-gid-43 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:11.510034"^^xsd:dateTime ] ;
             co:isResourceOf row43:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6439,7 +6439,7 @@ ns1:table-1-gid-44 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.204729"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:16.034208"^^xsd:dateTime ] ;
             co:isResourceOf row44:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6509,7 +6509,7 @@ ns1:table-1-gid-45 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:20.697046"^^xsd:dateTime ] ;
             co:isResourceOf row45:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6579,7 +6579,7 @@ ns1:table-1-gid-46 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:25.454934"^^xsd:dateTime ] ;
             co:isResourceOf row46:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6649,7 +6649,7 @@ ns1:table-1-gid-47 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:30.173338"^^xsd:dateTime ] ;
             co:isResourceOf row47:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6719,7 +6719,7 @@ ns1:table-1-gid-48 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:34.761445"^^xsd:dateTime ] ;
             co:isResourceOf row48:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6789,7 +6789,7 @@ ns1:table-1-gid-49 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.205726"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:39.534345"^^xsd:dateTime ] ;
             co:isResourceOf row49:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6859,7 +6859,7 @@ ns1:table-1-gid-5 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:14.305355"^^xsd:dateTime ] ;
             co:isResourceOf row5:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6929,7 +6929,7 @@ ns1:table-1-gid-50 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.836039"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:45.463912"^^xsd:dateTime ] ;
             co:isResourceOf row50:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -6999,7 +6999,7 @@ ns1:table-1-gid-51 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.836039"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:50.302269"^^xsd:dateTime ] ;
             co:isResourceOf row51:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7069,7 +7069,7 @@ ns1:table-1-gid-52 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:17:55.300416"^^xsd:dateTime ] ;
             co:isResourceOf row52:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7139,7 +7139,7 @@ ns1:table-1-gid-53 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:00.252775"^^xsd:dateTime ] ;
             co:isResourceOf row53:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7209,7 +7209,7 @@ ns1:table-1-gid-54 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:04.913210"^^xsd:dateTime ] ;
             co:isResourceOf row54:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7279,7 +7279,7 @@ ns1:table-1-gid-55 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:09.620323"^^xsd:dateTime ] ;
             co:isResourceOf row55:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7349,7 +7349,7 @@ ns1:table-1-gid-56 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.837037"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:14.493599"^^xsd:dateTime ] ;
             co:isResourceOf row56:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7419,7 +7419,7 @@ ns1:table-1-gid-57 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.838036"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:19.513812"^^xsd:dateTime ] ;
             co:isResourceOf row57:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7489,7 +7489,7 @@ ns1:table-1-gid-58 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.838036"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:24.642732"^^xsd:dateTime ] ;
             co:isResourceOf row58:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7559,7 +7559,7 @@ ns1:table-1-gid-59 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.838036"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:29.398254"^^xsd:dateTime ] ;
             co:isResourceOf row59:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7629,7 +7629,7 @@ ns1:table-1-gid-6 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:19.284800"^^xsd:dateTime ] ;
             co:isResourceOf row6:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7699,7 +7699,7 @@ ns1:table-1-gid-60 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:35.838036"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:33.947724"^^xsd:dateTime ] ;
             co:isResourceOf row60:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7769,7 +7769,7 @@ ns1:table-1-gid-61 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.477325"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:39.549407"^^xsd:dateTime ] ;
             co:isResourceOf row61:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7839,7 +7839,7 @@ ns1:table-1-gid-62 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:43.919578"^^xsd:dateTime ] ;
             co:isResourceOf row62:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7909,7 +7909,7 @@ ns1:table-1-gid-63 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:48.481593"^^xsd:dateTime ] ;
             co:isResourceOf row63:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -7979,7 +7979,7 @@ ns1:table-1-gid-64 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:53.202473"^^xsd:dateTime ] ;
             co:isResourceOf row64:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8049,7 +8049,7 @@ ns1:table-1-gid-65 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:18:57.477642"^^xsd:dateTime ] ;
             co:isResourceOf row65:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8119,7 +8119,7 @@ ns1:table-1-gid-66 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:01.862157"^^xsd:dateTime ] ;
             co:isResourceOf row66:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8189,7 +8189,7 @@ ns1:table-1-gid-67 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:06.355828"^^xsd:dateTime ] ;
             co:isResourceOf row67:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8259,7 +8259,7 @@ ns1:table-1-gid-68 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:10.802501"^^xsd:dateTime ] ;
             co:isResourceOf row68:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8329,7 +8329,7 @@ ns1:table-1-gid-69 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:15.292311"^^xsd:dateTime ] ;
             co:isResourceOf row69:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8399,7 +8399,7 @@ ns1:table-1-gid-7 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.660533"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:23.653704"^^xsd:dateTime ] ;
             co:isResourceOf row7:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8469,7 +8469,7 @@ ns1:table-1-gid-70 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.478322"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:19.800772"^^xsd:dateTime ] ;
             co:isResourceOf row70:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8539,7 +8539,7 @@ ns1:table-1-gid-71 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:36.479320"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:24.199196"^^xsd:dateTime ] ;
             co:isResourceOf row71:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8609,7 +8609,7 @@ ns1:table-1-gid-72 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:29.480289"^^xsd:dateTime ] ;
             co:isResourceOf row72:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8679,7 +8679,7 @@ ns1:table-1-gid-73 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:34.359205"^^xsd:dateTime ] ;
             co:isResourceOf row73:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8749,7 +8749,7 @@ ns1:table-1-gid-74 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:39.277578"^^xsd:dateTime ] ;
             co:isResourceOf row74:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8819,7 +8819,7 @@ ns1:table-1-gid-75 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:43.628381"^^xsd:dateTime ] ;
             co:isResourceOf row75:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8889,7 +8889,7 @@ ns1:table-1-gid-76 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:48.682964"^^xsd:dateTime ] ;
             co:isResourceOf row76:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -8959,7 +8959,7 @@ ns1:table-1-gid-77 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:53.204664"^^xsd:dateTime ] ;
             co:isResourceOf row77:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9029,7 +9029,7 @@ ns1:table-1-gid-78 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:19:58.009792"^^xsd:dateTime ] ;
             co:isResourceOf row78:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9099,7 +9099,7 @@ ns1:table-1-gid-79 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:02.996492"^^xsd:dateTime ] ;
             co:isResourceOf row79:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9169,7 +9169,7 @@ ns1:table-1-gid-8 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.661531"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:28.280601"^^xsd:dateTime ] ;
             co:isResourceOf row8:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9239,7 +9239,7 @@ ns1:table-1-gid-80 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:07.773452"^^xsd:dateTime ] ;
             co:isResourceOf row80:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9309,7 +9309,7 @@ ns1:table-1-gid-81 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:12.674920"^^xsd:dateTime ] ;
             co:isResourceOf row81:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9379,7 +9379,7 @@ ns1:table-1-gid-82 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:17.334633"^^xsd:dateTime ] ;
             co:isResourceOf row82:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9449,7 +9449,7 @@ ns1:table-1-gid-83 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.118610"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:22.013045"^^xsd:dateTime ] ;
             co:isResourceOf row83:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9519,7 +9519,7 @@ ns1:table-1-gid-84 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:28.285794"^^xsd:dateTime ] ;
             co:isResourceOf row84:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9589,7 +9589,7 @@ ns1:table-1-gid-85 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:32.786231"^^xsd:dateTime ] ;
             co:isResourceOf row85:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9659,7 +9659,7 @@ ns1:table-1-gid-86 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:37.247734"^^xsd:dateTime ] ;
             co:isResourceOf row86:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9729,7 +9729,7 @@ ns1:table-1-gid-87 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:41.970131"^^xsd:dateTime ] ;
             co:isResourceOf row87:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9799,7 +9799,7 @@ ns1:table-1-gid-88 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.710026"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:46.503742"^^xsd:dateTime ] ;
             co:isResourceOf row88:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9869,7 +9869,7 @@ ns1:table-1-gid-89 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:51.798977"^^xsd:dateTime ] ;
             co:isResourceOf row89:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -9939,7 +9939,7 @@ ns1:table-1-gid-9 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:32.661531"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:14:32.631473"^^xsd:dateTime ] ;
             co:isResourceOf row9:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10009,7 +10009,7 @@ ns1:table-1-gid-90 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:20:56.435732"^^xsd:dateTime ] ;
             co:isResourceOf row90:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10079,7 +10079,7 @@ ns1:table-1-gid-91 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:01.036727"^^xsd:dateTime ] ;
             co:isResourceOf row91:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10149,7 +10149,7 @@ ns1:table-1-gid-92 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:05.631722"^^xsd:dateTime ] ;
             co:isResourceOf row92:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10219,7 +10219,7 @@ ns1:table-1-gid-93 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:10.348700"^^xsd:dateTime ] ;
             co:isResourceOf row93:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10289,7 +10289,7 @@ ns1:table-1-gid-94 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:37.711024"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:14.884618"^^xsd:dateTime ] ;
             co:isResourceOf row94:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10359,7 +10359,7 @@ ns1:table-1-gid-95 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:20.457369"^^xsd:dateTime ] ;
             co:isResourceOf row95:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10429,7 +10429,7 @@ ns1:table-1-gid-96 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:25.099859"^^xsd:dateTime ] ;
             co:isResourceOf row96:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10499,7 +10499,7 @@ ns1:table-1-gid-97 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:30.025744"^^xsd:dateTime ] ;
             co:isResourceOf row97:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10569,7 +10569,7 @@ ns1:table-1-gid-98 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:34.598092"^^xsd:dateTime ] ;
             co:isResourceOf row98:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
@@ -10639,7 +10639,7 @@ ns1:table-1-gid-99 ns1:AgingTempC [ a qudt:QuantityValue ;
     ns1:Date [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "2023-07-13T07:02:38.353202"^^xsd:dateTime ] ;
+                    oa:value "2023-07-18T09:21:39.288798"^^xsd:dateTime ] ;
             co:isResourceOf row99:executionDate ] ;
     ns1:DilationKernelSizePx [ a qudt:QuantityValue ;
             qudt:value 3 ;
