@@ -15,9 +15,19 @@ mappings:
       function: equal
       parameters:
       - [str1, $(name)]
-      - [str2, Dataset]
+      - [str2, GID]
     po:
     - ['https://w3id.org/pmd/co/isResourceOf', 'method:ImageSet~iri']
+  ImageSetName:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Dataset]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:ImageSetName~iri']
   binWidth:
     sources: [data_entities]
     s: $(@id)
