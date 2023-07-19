@@ -13,205 +13,750 @@
     ],
     "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv",
     "@type": "http://www.w3.org/ns/csvw#TableGroup",
-    "notes": [],
-    "tables": [
+    "notes": [
         {
-            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1",
-            "url": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv",
-            "dialect": {
-                "delimiter": ",",
-                "skipRows": 0,
-                "headerRowCount": 1,
-                "encoding": "utf-8"
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/Dataset0",
+            "label": "dataset",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 0,
+                "@type": "xsd:integer"
             },
-            "tableSchema": {
-                "columns": [
-                    {
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-GID",
-                        "name": "GID",
-                        "titles": [
-                            "GID",
-                            "Generic Identifier"
-                        ],
-                        "datatype": "string",
-                        "required": true,
-                        "suppressOutput": true,
-                        "@type": "Column"
-                    },
-                    {
-                        "titles": [
-                            "dataset",
-                            "Dataset"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Dataset",
-                        "name": "Dataset",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "chi squared",
-                            "ChiSquared"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-ChiSquared",
-                        "name": "ChiSquared",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "rm",
-                            "Rm"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Rm",
-                        "name": "Rm",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "rm stderr",
-                            "RmStderr"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-RmStderr",
-                        "name": "RmStderr",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "sigma",
-                            "Sigma"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Sigma",
-                        "name": "Sigma",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "sigma stderr",
-                            "SigmaStderr"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-SigmaStderr",
-                        "name": "SigmaStderr",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "ra",
-                            "Ra"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Ra",
-                        "name": "Ra",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "ra stderr",
-                            "RaStderr"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-RaStderr",
-                        "name": "RaStderr",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "n_bins",
-                            "NBins"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-NBins",
-                        "name": "NBins",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#integer"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "start",
-                            "Start"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Start",
-                        "name": "Start",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "end",
-                            "End"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-End",
-                        "name": "End",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#double"
-                        }
-                    },
-                    {
-                        "titles": [
-                            "bin_width",
-                            "BinWidth"
-                        ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-BinWidth",
-                        "name": "BinWidth",
-                        "@type": [
-                            "Column"
-                        ],
-                        "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#boolean"
-                        }
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "rois"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "chi squared"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "rm"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "rm stderr"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "sigma"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "sigma stderr"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "ra"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "ra stderr"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "n_bins"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "start"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "end"
+                },
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "bin_width"
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/T1900CD10000HrS0Mpa1",
+            "label": "T190.0\u00b0C_D1000.0hr_S0MPa",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 1,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "[rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/83'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/84'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/81'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/82'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/85'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/74'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/75'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/76'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/77'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/78'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/79'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/80')]"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0033786859546841,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
                     }
-                ],
-                "primaryKey": "GID",
-                "aboutUrl": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-{GID}"
-            }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 1.7442619140033224,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1386735292425782,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.9334795187663883,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0607595417788655,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 2.696685699360984,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.2143937903970456,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": true,
+                        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/T1900CD87600HrS0Mpa2",
+            "label": "T190.0\u00b0C_D8760.0hr_S0MPa",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 2,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "[rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/267'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/268'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/269'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/256'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/257'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/252'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/258'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/253'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/259'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/254'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/260'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/255'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/261'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/251'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/262'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/263'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/264'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/265'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/266')]"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0099055426655642,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 2.897309474252846,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.3782208324503387,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 1.0485101061687552,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1467988890013466,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 5.02019742299295,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.6553470608724268,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": true,
+                        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/T230CD00HrS0Mpa3",
+            "label": "T23.0\u00b0C_D0.0hr_S0MPa",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 3,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "[rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/51'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/52'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/53'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/202'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/203'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/55'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/56'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/57'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/58'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/59'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/60'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/61'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/62')]"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.001305405754912,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 1.5587339530634965,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0301326163098596,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.6178968310192701,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0219373140578001,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 1.8865922703714637,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0364705990425901,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": true,
+                        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/T1900CD250000HrS0Mpa4",
+            "label": "T190.0\u00b0C_D25000.0hr_S0MPa",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 4,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "[rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/142'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/143'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/133'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/134'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/135'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/136'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/137'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/138'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/139'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/140'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/141'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/153'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/144'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/145'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/146'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/147'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/148'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/149'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/150'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/151'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/152')]"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0152771790344158,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.940731065980796,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1998553941474304,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.906165936634574,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.079948551893543,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 1.4183161755393958,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.3013168678474243,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": true,
+                        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/T1900CD25000HrS0Mpa5",
+            "label": "T190.0\u00b0C_D2500.0hr_S0MPa",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 5,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "[rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/86'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/87'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/88'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/89'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/90'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/100'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/101'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/102'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/91'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/92'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/93'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/94'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/95'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/96'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/97'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/98'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/99')]"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0024016550101532,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 2.5457228785146717,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1459547126673852,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.9841052364211882,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0633980730251463,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 4.131523423179826,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.236873902968032,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": true,
+                        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/T1900CD2500HrS0Mpa6",
+            "label": "T190.0\u00b0C_D250.0hr_S0MPa",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 6,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "[rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/72'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/73'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/63'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/64'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/65'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/66'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/67'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/68'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/69'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/70'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/71')]"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0024212967611612,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 1.6045415335718602,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1033763963860393,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.8871878819257015,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0453427740070196,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 2.378307822441528,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1532281259391422,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": true,
+                        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/T1900CD50000HrS0Mpa7",
+            "label": "T190.0\u00b0C_D5000.0hr_S0MPa",
+            "@type": "oa:Annotation",
+            "rownum": {
+                "@value": 7,
+                "@type": "xsd:integer"
+            },
+            "oa:hasBody": [
+                {
+                    "@type": "oa:TextualBody",
+                    "oa:purpose": "oa:tagging",
+                    "oa:format": "text/plain",
+                    "oa:value": "[rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/112'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/113'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/103'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/104'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/105'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/106'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/107'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/108'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/111'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/109'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/110'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/132'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/128'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/129'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/119'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/120'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/121'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/122'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/123'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/124'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/125'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/126'), rdflib.term.URIRef('https://metadata.omero.matolab.org/api/rois/127')]"
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0068454754698267,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 1.0437563599349795,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1074606574138004,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.7511876457572023,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.0370082212445243,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 1.3839857073520228,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.1424892050215786,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12,
+                        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 0.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": 12.5,
+                        "@type": "http://www.w3.org/2001/XMLSchema#double"
+                    }
+                },
+                {
+                    "@type": "qudt:QuantityValue",
+                    "qudt:value": {
+                        "@value": true,
+                        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+                    }
+                }
+            ]
         }
     ],
+    "tables": [],
     "prov:wasGeneratedBy": {
         "@id": "http://docker-dev.iwm.fraunhofer.de:5001/api/annotate",
         "@type": "prov:Activity",
@@ -223,7 +768,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-19T09:31:43.067591",
+        "@value": "2023-07-19T09:37:52.122618",
         "@type": "xsd:dateTime"
     }
 }
