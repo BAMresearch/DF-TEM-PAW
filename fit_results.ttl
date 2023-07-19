@@ -20,7 +20,7 @@
 <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> a csvw:TableGroup,
         prov:Usage ;
     csvw:table <table-1> ;
-    prov:generatedAtTime "2023-07-19T08:09:20.367138"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-07-19T08:31:32.535825"^^xsd:dateTime ;
     prov:hadRole csvw:csvEncodedTabularData ;
     prov:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/annotate> .
 
@@ -30,23 +30,23 @@
             csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
             csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
     csvw:row [ a csvw:Row ;
-            csvw:describes <table-1-gid-5> ;
-            csvw:url <row=6> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-3> ;
-            csvw:url <row=4> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-4> ;
-            csvw:url <row=5> ],
+            csvw:describes <table-1-gid-6> ;
+            csvw:url <row=7> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-0> ;
             csvw:url <row=1> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-6> ;
-            csvw:url <row=7> ],
+            csvw:describes <table-1-gid-4> ;
+            csvw:url <row=5> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-5> ;
+            csvw:url <row=6> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-2> ;
             csvw:url <row=3> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-3> ;
+            csvw:url <row=4> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-1> ;
             csvw:url <row=2> ] ;
@@ -54,7 +54,7 @@
             csvw:column ( <table-1-GID> <table-1-Dataset> <table-1-ChiSquared> <table-1-Rm> <table-1-RmStderr> <table-1-Sigma> <table-1-SigmaStderr> <table-1-Ra> <table-1-RaStderr> <table-1-NBins> <table-1-Start> <table-1-End> <table-1-BinWidth> ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv"^^xsd:anyURI ;
-    prov:generatedAtTime "2023-07-19T08:31:35.401450"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-07-19T08:56:31.037596"^^xsd:dateTime ;
     prov:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json>,
         <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> ;
     prov:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/rdf> .
