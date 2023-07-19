@@ -1,0 +1,1222 @@
+@prefix co: <https://w3id.org/pmd/co/> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/> .
+@prefix ns2: <http://www.w3.org/ns/prov#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix row0: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-0/> .
+@prefix row1: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-1/> .
+@prefix row2: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-2/> .
+@prefix row3: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-3/> .
+@prefix row4: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-4/> .
+@prefix row5: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-5/> .
+@prefix row6: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-6/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+qudt:LatexString a rdfs:Datatype .
+
+qudt:latexDefinition a owl:DatatypeProperty .
+
+qudt:latexSymbol a owl:DatatypeProperty .
+
+row0: a owl:Ontology ;
+    dc:contributer "Thomas Hanke, Fraunhofer IWM\"@de" ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Statistical Analysis Workflow Ontology (SAWO)" ;
+    owl:versionInfo "1.0.1" .
+
+row1: a owl:Ontology ;
+    dc:contributer "Thomas Hanke, Fraunhofer IWM\"@de" ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Statistical Analysis Workflow Ontology (SAWO)" ;
+    owl:versionInfo "1.0.1" .
+
+row2: a owl:Ontology ;
+    dc:contributer "Thomas Hanke, Fraunhofer IWM\"@de" ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Statistical Analysis Workflow Ontology (SAWO)" ;
+    owl:versionInfo "1.0.1" .
+
+row3: a owl:Ontology ;
+    dc:contributer "Thomas Hanke, Fraunhofer IWM\"@de" ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Statistical Analysis Workflow Ontology (SAWO)" ;
+    owl:versionInfo "1.0.1" .
+
+row4: a owl:Ontology ;
+    dc:contributer "Thomas Hanke, Fraunhofer IWM\"@de" ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Statistical Analysis Workflow Ontology (SAWO)" ;
+    owl:versionInfo "1.0.1" .
+
+row5: a owl:Ontology ;
+    dc:contributer "Thomas Hanke, Fraunhofer IWM\"@de" ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Statistical Analysis Workflow Ontology (SAWO)" ;
+    owl:versionInfo "1.0.1" .
+
+row6: a owl:Ontology ;
+    dc:contributer "Thomas Hanke, Fraunhofer IWM\"@de" ;
+    dc:creator "Bernd Bayerlein (BAM)" ;
+    dc:title "Statistical Analysis Workflow Ontology (SAWO)" ;
+    owl:versionInfo "1.0.1" .
+
+co:characteristic a owl:ObjectProperty .
+
+co:input a owl:ObjectProperty .
+
+co:nextProcess a owl:ObjectProperty .
+
+co:output a owl:ObjectProperty .
+
+co:subordinateProcess a owl:ObjectProperty .
+
+<http://docker-dev.iwm.fraunhofer.de:5001/api/annotate> a ns2:Activity ;
+    ns2:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0> .
+
+<http://docker-dev.iwm.fraunhofer.de:5001/api/rdf> a ns2:Activity ;
+    ns2:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0> .
+
+<https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json> a ns2:Usage ;
+    ns2:hadRole csvw:tabularMetadata .
+
+<https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> a csvw:TableGroup,
+        ns2:Usage ;
+    csvw:table ns1:table-1 ;
+    ns2:generatedAtTime "2023-07-19T08:31:32.535825"^^xsd:dateTime ;
+    ns2:hadRole csvw:csvEncodedTabularData ;
+    ns2:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/annotate> .
+
+ns1:table-1 a csvw:Table ;
+    csvw:dialect [ csvw:delimiter "," ;
+            csvw:encoding "utf-8" ;
+            csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
+            csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
+    csvw:row [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-6 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=7> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-0 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=1> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-4 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=5> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-5 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=6> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-2 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=3> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-3 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=4> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-1 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=2> ] ;
+    csvw:tableSchema [ csvw:aboutUrl "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-{GID}"^^csvw:uriTemplate ;
+            csvw:column ( ns1:table-1-GID ns1:table-1-Dataset ns1:table-1-ChiSquared ns1:table-1-Rm ns1:table-1-RmStderr ns1:table-1-Sigma ns1:table-1-SigmaStderr ns1:table-1-Ra ns1:table-1-RaStderr ns1:table-1-NBins ns1:table-1-Start ns1:table-1-End ns1:table-1-BinWidth ) ;
+            csvw:primaryKey "GID" ] ;
+    csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv"^^xsd:anyURI ;
+    ns2:generatedAtTime "2023-07-19T08:56:31.037596"^^xsd:dateTime ;
+    ns2:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json>,
+        <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> ;
+    ns2:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/rdf> .
+
+ns1:table-1-BinWidth a csvw:Column ;
+    csvw:format xsd:boolean ;
+    csvw:name "BinWidth" ;
+    csvw:title "BinWidth",
+        "bin_width" .
+
+ns1:table-1-ChiSquared a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "ChiSquared" ;
+    csvw:title "ChiSquared",
+        "chi squared" .
+
+ns1:table-1-Dataset a csvw:Column ;
+    csvw:format xsd:string ;
+    csvw:name "Dataset" ;
+    csvw:title "Dataset",
+        "dataset" .
+
+ns1:table-1-End a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "End" ;
+    csvw:title "End",
+        "end" .
+
+ns1:table-1-GID a csvw:Column ;
+    csvw:datatype xsd:string ;
+    csvw:name "GID" ;
+    csvw:required true ;
+    csvw:suppressOutput true ;
+    csvw:title "GID",
+        "Generic Identifier" .
+
+ns1:table-1-NBins a csvw:Column ;
+    csvw:format xsd:integer ;
+    csvw:name "NBins" ;
+    csvw:title "NBins",
+        "n_bins" .
+
+ns1:table-1-Ra a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "Ra" ;
+    csvw:title "Ra",
+        "ra" .
+
+ns1:table-1-RaStderr a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "RaStderr" ;
+    csvw:title "RaStderr",
+        "ra stderr" .
+
+ns1:table-1-Rm a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "Rm" ;
+    csvw:title "Rm",
+        "rm" .
+
+ns1:table-1-RmStderr a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "RmStderr" ;
+    csvw:title "RmStderr",
+        "rm stderr" .
+
+ns1:table-1-Sigma a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "Sigma" ;
+    csvw:title "Sigma",
+        "sigma" .
+
+ns1:table-1-SigmaStderr a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "SigmaStderr" ;
+    csvw:title "SigmaStderr",
+        "sigma stderr" .
+
+ns1:table-1-Start a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "Start" ;
+    csvw:title "Start",
+        "start" .
+
+ns1:table-1-gid-0 ns1:BinWidth [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 1.0 ] ;
+            co:isResourceOf row0:binWidth ] ;
+    ns1:ChiSquared [ a qudt:QuantityValue ;
+            qudt:value 3.378686e-03 ;
+            co:isResourceOf row0:chisqrd ] ;
+    ns1:Dataset [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value "T190.0°C_D1000.0hr_S0MPa"^^xsd:string ] ;
+            co:isResourceOf row0:ImageSet ] ;
+    ns1:End [ a qudt:QuantityValue ;
+            qudt:value 1.25e+01 ;
+            co:isResourceOf row0:x-Max ] ;
+    ns1:NBins [ a qudt:QuantityValue ;
+            qudt:value 12 ] ;
+    ns1:Ra [ a qudt:QuantityValue ;
+            qudt:value 2.696686e+00 ;
+            co:isResourceOf row0:r_a ] ;
+    ns1:RaStderr [ a qudt:QuantityValue ;
+            qudt:value 2.143938e-01 ;
+            co:isResourceOf row0:stderr_r_a ] ;
+    ns1:Rm [ a qudt:QuantityValue ;
+            qudt:value 1.744262e+00 ;
+            co:isResourceOf row0:r_m ] ;
+    ns1:RmStderr [ a qudt:QuantityValue ;
+            qudt:value 1.386735e-01 ] ;
+    ns1:Sigma [ a qudt:QuantityValue ;
+            qudt:value 9.334795e-01 ;
+            co:isResourceOf row0:sigma ] ;
+    ns1:SigmaStderr [ a qudt:QuantityValue ;
+            qudt:value 6.075954e-02 ;
+            co:isResourceOf row0:stderr_sigma ] ;
+    ns1:Start [ a qudt:QuantityValue ;
+            qudt:value 5e-01 ;
+            co:isResourceOf row0:x-Min ] .
+
+row0:ImageSet a owl:NamedIndividual,
+        co:Dataset ;
+    co:input row0:statisticalAnalysisWorkflow_ .
+
+row0:ParticleDistribution a owl:NamedIndividual,
+        co:Dataset ;
+    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString ;
+    co:characteristic row0:binWidth,
+        row0:chisqrd,
+        row0:r_a,
+        row0:r_m,
+        row0:sigma,
+        row0:stderr_r_a,
+        row0:stderr_r_m,
+        row0:stderr_sigma,
+        row0:x-Max,
+        row0:x-Min .
+
+row0:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess row0:createHistogram ;
+    co:output row0:centroid,
+        row0:equivalentRadius,
+        row0:polygonArea .
+
+row0:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+row0:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
+
+row0:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output row0:ParticleDistribution ;
+    co:subordinateProcess row0:calculatePolygonProperties,
+        row0:createHistogram,
+        row0:fitLogNormalDistribution .
+
+row0:stderr_r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
+
+ns1:table-1-gid-1 ns1:BinWidth [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 1.0 ] ;
+            co:isResourceOf row1:binWidth ] ;
+    ns1:ChiSquared [ a qudt:QuantityValue ;
+            qudt:value 9.905543e-03 ;
+            co:isResourceOf row1:chisqrd ] ;
+    ns1:Dataset [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value "T190.0°C_D8760.0hr_S0MPa"^^xsd:string ] ;
+            co:isResourceOf row1:ImageSet ] ;
+    ns1:End [ a qudt:QuantityValue ;
+            qudt:value 1.25e+01 ;
+            co:isResourceOf row1:x-Max ] ;
+    ns1:NBins [ a qudt:QuantityValue ;
+            qudt:value 12 ] ;
+    ns1:Ra [ a qudt:QuantityValue ;
+            qudt:value 5.020197e+00 ;
+            co:isResourceOf row1:r_a ] ;
+    ns1:RaStderr [ a qudt:QuantityValue ;
+            qudt:value 6.553471e-01 ;
+            co:isResourceOf row1:stderr_r_a ] ;
+    ns1:Rm [ a qudt:QuantityValue ;
+            qudt:value 2.897309e+00 ;
+            co:isResourceOf row1:r_m ] ;
+    ns1:RmStderr [ a qudt:QuantityValue ;
+            qudt:value 3.782208e-01 ] ;
+    ns1:Sigma [ a qudt:QuantityValue ;
+            qudt:value 1.04851e+00 ;
+            co:isResourceOf row1:sigma ] ;
+    ns1:SigmaStderr [ a qudt:QuantityValue ;
+            qudt:value 1.467989e-01 ;
+            co:isResourceOf row1:stderr_sigma ] ;
+    ns1:Start [ a qudt:QuantityValue ;
+            qudt:value 5e-01 ;
+            co:isResourceOf row1:x-Min ] .
+
+row1:ImageSet a owl:NamedIndividual,
+        co:Dataset ;
+    co:input row1:statisticalAnalysisWorkflow_ .
+
+row1:ParticleDistribution a owl:NamedIndividual,
+        co:Dataset ;
+    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString ;
+    co:characteristic row1:binWidth,
+        row1:chisqrd,
+        row1:r_a,
+        row1:r_m,
+        row1:sigma,
+        row1:stderr_r_a,
+        row1:stderr_r_m,
+        row1:stderr_sigma,
+        row1:x-Max,
+        row1:x-Min .
+
+row1:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess row1:createHistogram ;
+    co:output row1:centroid,
+        row1:equivalentRadius,
+        row1:polygonArea .
+
+row1:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+row1:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
+
+row1:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output row1:ParticleDistribution ;
+    co:subordinateProcess row1:calculatePolygonProperties,
+        row1:createHistogram,
+        row1:fitLogNormalDistribution .
+
+row1:stderr_r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
+
+ns1:table-1-gid-2 ns1:BinWidth [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 1.0 ] ;
+            co:isResourceOf row2:binWidth ] ;
+    ns1:ChiSquared [ a qudt:QuantityValue ;
+            qudt:value 1.305406e-03 ;
+            co:isResourceOf row2:chisqrd ] ;
+    ns1:Dataset [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value "T23.0°C_D0.0hr_S0MPa"^^xsd:string ] ;
+            co:isResourceOf row2:ImageSet ] ;
+    ns1:End [ a qudt:QuantityValue ;
+            qudt:value 1.25e+01 ;
+            co:isResourceOf row2:x-Max ] ;
+    ns1:NBins [ a qudt:QuantityValue ;
+            qudt:value 12 ] ;
+    ns1:Ra [ a qudt:QuantityValue ;
+            qudt:value 1.886592e+00 ;
+            co:isResourceOf row2:r_a ] ;
+    ns1:RaStderr [ a qudt:QuantityValue ;
+            qudt:value 3.64706e-02 ;
+            co:isResourceOf row2:stderr_r_a ] ;
+    ns1:Rm [ a qudt:QuantityValue ;
+            qudt:value 1.558734e+00 ;
+            co:isResourceOf row2:r_m ] ;
+    ns1:RmStderr [ a qudt:QuantityValue ;
+            qudt:value 3.013262e-02 ] ;
+    ns1:Sigma [ a qudt:QuantityValue ;
+            qudt:value 6.178968e-01 ;
+            co:isResourceOf row2:sigma ] ;
+    ns1:SigmaStderr [ a qudt:QuantityValue ;
+            qudt:value 2.193731e-02 ;
+            co:isResourceOf row2:stderr_sigma ] ;
+    ns1:Start [ a qudt:QuantityValue ;
+            qudt:value 5e-01 ;
+            co:isResourceOf row2:x-Min ] .
+
+row2:ImageSet a owl:NamedIndividual,
+        co:Dataset ;
+    co:input row2:statisticalAnalysisWorkflow_ .
+
+row2:ParticleDistribution a owl:NamedIndividual,
+        co:Dataset ;
+    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString ;
+    co:characteristic row2:binWidth,
+        row2:chisqrd,
+        row2:r_a,
+        row2:r_m,
+        row2:sigma,
+        row2:stderr_r_a,
+        row2:stderr_r_m,
+        row2:stderr_sigma,
+        row2:x-Max,
+        row2:x-Min .
+
+row2:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess row2:createHistogram ;
+    co:output row2:centroid,
+        row2:equivalentRadius,
+        row2:polygonArea .
+
+row2:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+row2:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
+
+row2:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output row2:ParticleDistribution ;
+    co:subordinateProcess row2:calculatePolygonProperties,
+        row2:createHistogram,
+        row2:fitLogNormalDistribution .
+
+row2:stderr_r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
+
+ns1:table-1-gid-3 ns1:BinWidth [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 1.0 ] ;
+            co:isResourceOf row3:binWidth ] ;
+    ns1:ChiSquared [ a qudt:QuantityValue ;
+            qudt:value 1.527718e-02 ;
+            co:isResourceOf row3:chisqrd ] ;
+    ns1:Dataset [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value "T190.0°C_D25000.0hr_S0MPa"^^xsd:string ] ;
+            co:isResourceOf row3:ImageSet ] ;
+    ns1:End [ a qudt:QuantityValue ;
+            qudt:value 1.25e+01 ;
+            co:isResourceOf row3:x-Max ] ;
+    ns1:NBins [ a qudt:QuantityValue ;
+            qudt:value 12 ] ;
+    ns1:Ra [ a qudt:QuantityValue ;
+            qudt:value 1.418316e+00 ;
+            co:isResourceOf row3:r_a ] ;
+    ns1:RaStderr [ a qudt:QuantityValue ;
+            qudt:value 3.013169e-01 ;
+            co:isResourceOf row3:stderr_r_a ] ;
+    ns1:Rm [ a qudt:QuantityValue ;
+            qudt:value 9.407311e-01 ;
+            co:isResourceOf row3:r_m ] ;
+    ns1:RmStderr [ a qudt:QuantityValue ;
+            qudt:value 1.998554e-01 ] ;
+    ns1:Sigma [ a qudt:QuantityValue ;
+            qudt:value 9.061659e-01 ;
+            co:isResourceOf row3:sigma ] ;
+    ns1:SigmaStderr [ a qudt:QuantityValue ;
+            qudt:value 7.994855e-02 ;
+            co:isResourceOf row3:stderr_sigma ] ;
+    ns1:Start [ a qudt:QuantityValue ;
+            qudt:value 5e-01 ;
+            co:isResourceOf row3:x-Min ] .
+
+row3:ImageSet a owl:NamedIndividual,
+        co:Dataset ;
+    co:input row3:statisticalAnalysisWorkflow_ .
+
+row3:ParticleDistribution a owl:NamedIndividual,
+        co:Dataset ;
+    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString ;
+    co:characteristic row3:binWidth,
+        row3:chisqrd,
+        row3:r_a,
+        row3:r_m,
+        row3:sigma,
+        row3:stderr_r_a,
+        row3:stderr_r_m,
+        row3:stderr_sigma,
+        row3:x-Max,
+        row3:x-Min .
+
+row3:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess row3:createHistogram ;
+    co:output row3:centroid,
+        row3:equivalentRadius,
+        row3:polygonArea .
+
+row3:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+row3:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
+
+row3:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output row3:ParticleDistribution ;
+    co:subordinateProcess row3:calculatePolygonProperties,
+        row3:createHistogram,
+        row3:fitLogNormalDistribution .
+
+row3:stderr_r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
+
+ns1:table-1-gid-4 ns1:BinWidth [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 1.0 ] ;
+            co:isResourceOf row4:binWidth ] ;
+    ns1:ChiSquared [ a qudt:QuantityValue ;
+            qudt:value 2.401655e-03 ;
+            co:isResourceOf row4:chisqrd ] ;
+    ns1:Dataset [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value "T190.0°C_D2500.0hr_S0MPa"^^xsd:string ] ;
+            co:isResourceOf row4:ImageSet ] ;
+    ns1:End [ a qudt:QuantityValue ;
+            qudt:value 1.25e+01 ;
+            co:isResourceOf row4:x-Max ] ;
+    ns1:NBins [ a qudt:QuantityValue ;
+            qudt:value 12 ] ;
+    ns1:Ra [ a qudt:QuantityValue ;
+            qudt:value 4.131523e+00 ;
+            co:isResourceOf row4:r_a ] ;
+    ns1:RaStderr [ a qudt:QuantityValue ;
+            qudt:value 2.368739e-01 ;
+            co:isResourceOf row4:stderr_r_a ] ;
+    ns1:Rm [ a qudt:QuantityValue ;
+            qudt:value 2.545723e+00 ;
+            co:isResourceOf row4:r_m ] ;
+    ns1:RmStderr [ a qudt:QuantityValue ;
+            qudt:value 1.459547e-01 ] ;
+    ns1:Sigma [ a qudt:QuantityValue ;
+            qudt:value 9.841052e-01 ;
+            co:isResourceOf row4:sigma ] ;
+    ns1:SigmaStderr [ a qudt:QuantityValue ;
+            qudt:value 6.339807e-02 ;
+            co:isResourceOf row4:stderr_sigma ] ;
+    ns1:Start [ a qudt:QuantityValue ;
+            qudt:value 5e-01 ;
+            co:isResourceOf row4:x-Min ] .
+
+row4:ImageSet a owl:NamedIndividual,
+        co:Dataset ;
+    co:input row4:statisticalAnalysisWorkflow_ .
+
+row4:ParticleDistribution a owl:NamedIndividual,
+        co:Dataset ;
+    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString ;
+    co:characteristic row4:binWidth,
+        row4:chisqrd,
+        row4:r_a,
+        row4:r_m,
+        row4:sigma,
+        row4:stderr_r_a,
+        row4:stderr_r_m,
+        row4:stderr_sigma,
+        row4:x-Max,
+        row4:x-Min .
+
+row4:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess row4:createHistogram ;
+    co:output row4:centroid,
+        row4:equivalentRadius,
+        row4:polygonArea .
+
+row4:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+row4:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
+
+row4:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output row4:ParticleDistribution ;
+    co:subordinateProcess row4:calculatePolygonProperties,
+        row4:createHistogram,
+        row4:fitLogNormalDistribution .
+
+row4:stderr_r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
+
+ns1:table-1-gid-5 ns1:BinWidth [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 1.0 ] ;
+            co:isResourceOf row5:binWidth ] ;
+    ns1:ChiSquared [ a qudt:QuantityValue ;
+            qudt:value 2.421297e-03 ;
+            co:isResourceOf row5:chisqrd ] ;
+    ns1:Dataset [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value "T190.0°C_D250.0hr_S0MPa"^^xsd:string ] ;
+            co:isResourceOf row5:ImageSet ] ;
+    ns1:End [ a qudt:QuantityValue ;
+            qudt:value 1.25e+01 ;
+            co:isResourceOf row5:x-Max ] ;
+    ns1:NBins [ a qudt:QuantityValue ;
+            qudt:value 12 ] ;
+    ns1:Ra [ a qudt:QuantityValue ;
+            qudt:value 2.378308e+00 ;
+            co:isResourceOf row5:r_a ] ;
+    ns1:RaStderr [ a qudt:QuantityValue ;
+            qudt:value 1.532281e-01 ;
+            co:isResourceOf row5:stderr_r_a ] ;
+    ns1:Rm [ a qudt:QuantityValue ;
+            qudt:value 1.604542e+00 ;
+            co:isResourceOf row5:r_m ] ;
+    ns1:RmStderr [ a qudt:QuantityValue ;
+            qudt:value 1.033764e-01 ] ;
+    ns1:Sigma [ a qudt:QuantityValue ;
+            qudt:value 8.871879e-01 ;
+            co:isResourceOf row5:sigma ] ;
+    ns1:SigmaStderr [ a qudt:QuantityValue ;
+            qudt:value 4.534277e-02 ;
+            co:isResourceOf row5:stderr_sigma ] ;
+    ns1:Start [ a qudt:QuantityValue ;
+            qudt:value 5e-01 ;
+            co:isResourceOf row5:x-Min ] .
+
+row5:ImageSet a owl:NamedIndividual,
+        co:Dataset ;
+    co:input row5:statisticalAnalysisWorkflow_ .
+
+row5:ParticleDistribution a owl:NamedIndividual,
+        co:Dataset ;
+    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString ;
+    co:characteristic row5:binWidth,
+        row5:chisqrd,
+        row5:r_a,
+        row5:r_m,
+        row5:sigma,
+        row5:stderr_r_a,
+        row5:stderr_r_m,
+        row5:stderr_sigma,
+        row5:x-Max,
+        row5:x-Min .
+
+row5:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess row5:createHistogram ;
+    co:output row5:centroid,
+        row5:equivalentRadius,
+        row5:polygonArea .
+
+row5:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+row5:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
+
+row5:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output row5:ParticleDistribution ;
+    co:subordinateProcess row5:calculatePolygonProperties,
+        row5:createHistogram,
+        row5:fitLogNormalDistribution .
+
+row5:stderr_r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
+
+ns1:table-1-gid-6 ns1:BinWidth [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 1.0 ] ;
+            co:isResourceOf row6:binWidth ] ;
+    ns1:ChiSquared [ a qudt:QuantityValue ;
+            qudt:value 6.845475e-03 ;
+            co:isResourceOf row6:chisqrd ] ;
+    ns1:Dataset [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value "T190.0°C_D5000.0hr_S0MPa"^^xsd:string ] ;
+            co:isResourceOf row6:ImageSet ] ;
+    ns1:End [ a qudt:QuantityValue ;
+            qudt:value 1.25e+01 ;
+            co:isResourceOf row6:x-Max ] ;
+    ns1:NBins [ a qudt:QuantityValue ;
+            qudt:value 12 ] ;
+    ns1:Ra [ a qudt:QuantityValue ;
+            qudt:value 1.383986e+00 ;
+            co:isResourceOf row6:r_a ] ;
+    ns1:RaStderr [ a qudt:QuantityValue ;
+            qudt:value 1.424892e-01 ;
+            co:isResourceOf row6:stderr_r_a ] ;
+    ns1:Rm [ a qudt:QuantityValue ;
+            qudt:value 1.043756e+00 ;
+            co:isResourceOf row6:r_m ] ;
+    ns1:RmStderr [ a qudt:QuantityValue ;
+            qudt:value 1.074607e-01 ] ;
+    ns1:Sigma [ a qudt:QuantityValue ;
+            qudt:value 7.511876e-01 ;
+            co:isResourceOf row6:sigma ] ;
+    ns1:SigmaStderr [ a qudt:QuantityValue ;
+            qudt:value 3.700822e-02 ;
+            co:isResourceOf row6:stderr_sigma ] ;
+    ns1:Start [ a qudt:QuantityValue ;
+            qudt:value 5e-01 ;
+            co:isResourceOf row6:x-Min ] .
+
+row6:ImageSet a owl:NamedIndividual,
+        co:Dataset ;
+    co:input row6:statisticalAnalysisWorkflow_ .
+
+row6:ParticleDistribution a owl:NamedIndividual,
+        co:Dataset ;
+    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString ;
+    co:characteristic row6:binWidth,
+        row6:chisqrd,
+        row6:r_a,
+        row6:r_m,
+        row6:sigma,
+        row6:stderr_r_a,
+        row6:stderr_r_m,
+        row6:stderr_sigma,
+        row6:x-Max,
+        row6:x-Min .
+
+row6:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess row6:createHistogram ;
+    co:output row6:centroid,
+        row6:equivalentRadius,
+        row6:polygonArea .
+
+row6:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+row6:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
+
+row6:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output row6:ParticleDistribution ;
+    co:subordinateProcess row6:calculatePolygonProperties,
+        row6:createHistogram,
+        row6:fitLogNormalDistribution .
+
+row6:stderr_r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
+
+row0:binWidth a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row0:createHistogram .
+
+row0:chisqrd a owl:NamedIndividual ;
+    qudt:latexSymbol "\\chi^2"^^qudt:LatexString .
+
+row0:equivalentRadius a owl:NamedIndividual,
+        co:Measurement,
+        co:Radius,
+        co:SecondaryData .
+
+row0:fitLogNormalDistribution a owl:NamedIndividual,
+        co:AnalysingProcess .
+
+row0:r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "r_a = r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "r_a"^^qudt:LatexString .
+
+row0:r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "r_m"^^qudt:LatexString .
+
+row0:sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\sigma"^^qudt:LatexString .
+
+row0:stderr_r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
+
+row0:stderr_sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
+
+row0:x-Max a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row0:createHistogram .
+
+row0:x-Min a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row0:createHistogram .
+
+row1:binWidth a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row1:createHistogram .
+
+row1:chisqrd a owl:NamedIndividual ;
+    qudt:latexSymbol "\\chi^2"^^qudt:LatexString .
+
+row1:equivalentRadius a owl:NamedIndividual,
+        co:Measurement,
+        co:Radius,
+        co:SecondaryData .
+
+row1:fitLogNormalDistribution a owl:NamedIndividual,
+        co:AnalysingProcess .
+
+row1:r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "r_a = r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "r_a"^^qudt:LatexString .
+
+row1:r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "r_m"^^qudt:LatexString .
+
+row1:sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\sigma"^^qudt:LatexString .
+
+row1:stderr_r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
+
+row1:stderr_sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
+
+row1:x-Max a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row1:createHistogram .
+
+row1:x-Min a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row1:createHistogram .
+
+row2:binWidth a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row2:createHistogram .
+
+row2:chisqrd a owl:NamedIndividual ;
+    qudt:latexSymbol "\\chi^2"^^qudt:LatexString .
+
+row2:equivalentRadius a owl:NamedIndividual,
+        co:Measurement,
+        co:Radius,
+        co:SecondaryData .
+
+row2:fitLogNormalDistribution a owl:NamedIndividual,
+        co:AnalysingProcess .
+
+row2:r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "r_a = r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "r_a"^^qudt:LatexString .
+
+row2:r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "r_m"^^qudt:LatexString .
+
+row2:sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\sigma"^^qudt:LatexString .
+
+row2:stderr_r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
+
+row2:stderr_sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
+
+row2:x-Max a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row2:createHistogram .
+
+row2:x-Min a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row2:createHistogram .
+
+row3:binWidth a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row3:createHistogram .
+
+row3:chisqrd a owl:NamedIndividual ;
+    qudt:latexSymbol "\\chi^2"^^qudt:LatexString .
+
+row3:equivalentRadius a owl:NamedIndividual,
+        co:Measurement,
+        co:Radius,
+        co:SecondaryData .
+
+row3:fitLogNormalDistribution a owl:NamedIndividual,
+        co:AnalysingProcess .
+
+row3:r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "r_a = r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "r_a"^^qudt:LatexString .
+
+row3:r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "r_m"^^qudt:LatexString .
+
+row3:sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\sigma"^^qudt:LatexString .
+
+row3:stderr_r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
+
+row3:stderr_sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
+
+row3:x-Max a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row3:createHistogram .
+
+row3:x-Min a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row3:createHistogram .
+
+row4:binWidth a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row4:createHistogram .
+
+row4:chisqrd a owl:NamedIndividual ;
+    qudt:latexSymbol "\\chi^2"^^qudt:LatexString .
+
+row4:equivalentRadius a owl:NamedIndividual,
+        co:Measurement,
+        co:Radius,
+        co:SecondaryData .
+
+row4:fitLogNormalDistribution a owl:NamedIndividual,
+        co:AnalysingProcess .
+
+row4:r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "r_a = r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "r_a"^^qudt:LatexString .
+
+row4:r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "r_m"^^qudt:LatexString .
+
+row4:sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\sigma"^^qudt:LatexString .
+
+row4:stderr_r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
+
+row4:stderr_sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
+
+row4:x-Max a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row4:createHistogram .
+
+row4:x-Min a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row4:createHistogram .
+
+row5:binWidth a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row5:createHistogram .
+
+row5:chisqrd a owl:NamedIndividual ;
+    qudt:latexSymbol "\\chi^2"^^qudt:LatexString .
+
+row5:equivalentRadius a owl:NamedIndividual,
+        co:Measurement,
+        co:Radius,
+        co:SecondaryData .
+
+row5:fitLogNormalDistribution a owl:NamedIndividual,
+        co:AnalysingProcess .
+
+row5:r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "r_a = r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "r_a"^^qudt:LatexString .
+
+row5:r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "r_m"^^qudt:LatexString .
+
+row5:sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\sigma"^^qudt:LatexString .
+
+row5:stderr_r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
+
+row5:stderr_sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
+
+row5:x-Max a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row5:createHistogram .
+
+row5:x-Min a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row5:createHistogram .
+
+row6:binWidth a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row6:createHistogram .
+
+row6:chisqrd a owl:NamedIndividual ;
+    qudt:latexSymbol "\\chi^2"^^qudt:LatexString .
+
+row6:equivalentRadius a owl:NamedIndividual,
+        co:Measurement,
+        co:Radius,
+        co:SecondaryData .
+
+row6:fitLogNormalDistribution a owl:NamedIndividual,
+        co:AnalysingProcess .
+
+row6:r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "r_a = r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "r_a"^^qudt:LatexString .
+
+row6:r_m a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "r_m"^^qudt:LatexString .
+
+row6:sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\sigma"^^qudt:LatexString .
+
+row6:stderr_r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
+
+row6:stderr_sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
+
+row6:x-Max a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row6:createHistogram .
+
+row6:x-Min a owl:NamedIndividual,
+        co:Metadata,
+        co:SetPoint,
+        co:ValueObject ;
+    co:input row6:createHistogram .
+
+<https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0> a ns2:SoftwareAgent ;
+    rdfs:label "CSVtoCSVWv1.2.0" ;
+    ns2:hadPrimarySource <https://github.com/Mat-O-Lab/CSVToCSVW>,
+        "https://github.com/Mat-O-Lab/CSVToCSVW" .
+
+row0:createHistogram a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input row0:equivalentRadius ;
+    co:nextProcess row0:fitLogNormalDistribution .
+
+row1:createHistogram a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input row1:equivalentRadius ;
+    co:nextProcess row1:fitLogNormalDistribution .
+
+row2:createHistogram a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input row2:equivalentRadius ;
+    co:nextProcess row2:fitLogNormalDistribution .
+
+row3:createHistogram a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input row3:equivalentRadius ;
+    co:nextProcess row3:fitLogNormalDistribution .
+
+row4:createHistogram a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input row4:equivalentRadius ;
+    co:nextProcess row4:fitLogNormalDistribution .
+
+row5:createHistogram a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input row5:equivalentRadius ;
+    co:nextProcess row5:fitLogNormalDistribution .
+
+row6:createHistogram a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:input row6:equivalentRadius ;
+    co:nextProcess row6:fitLogNormalDistribution .
+
+co:Area a owl:Class .
+
+co:Radius a owl:Class .
+
+co:SecondaryData a owl:Class .
+
+co:Dataset a owl:Class .
+
+co:PrimaryData a owl:Class .
+
+co:Measurement a owl:Class .
+
+co:Metadata a owl:Class .
+
+co:SetPoint a owl:Class .
+
+co:AnalysingProcess a owl:Class .
+
+co:ValueObject a owl:Class .
+
+co:CreepStress a owl:Class .
+
