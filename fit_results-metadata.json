@@ -1,0 +1,229 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "oa": "http://www.w3.org/ns/oa#",
+            "label": "http://www.w3.org/2000/01/rdf-schema#label",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "qudt": "http://qudt.org/schema/qudt/",
+            "dc": "http://purl.org/dc/elements/1.1/",
+            "prov": "http://www.w3.org/ns/prov#",
+            "csv": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/"
+        }
+    ],
+    "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv",
+    "@type": "http://www.w3.org/ns/csvw#TableGroup",
+    "notes": [],
+    "tables": [
+        {
+            "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1",
+            "url": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv",
+            "dialect": {
+                "delimiter": ",",
+                "skipRows": 0,
+                "headerRowCount": 1,
+                "encoding": "utf-8"
+            },
+            "tableSchema": {
+                "columns": [
+                    {
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-GID",
+                        "name": "GID",
+                        "titles": [
+                            "GID",
+                            "Generic Identifier"
+                        ],
+                        "datatype": "string",
+                        "required": true,
+                        "suppressOutput": true,
+                        "@type": "Column"
+                    },
+                    {
+                        "titles": [
+                            "dataset",
+                            "Dataset"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Dataset",
+                        "name": "Dataset",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "chi squared",
+                            "ChiSquared"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-ChiSquared",
+                        "name": "ChiSquared",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "rm",
+                            "Rm"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Rm",
+                        "name": "Rm",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "rm stderr",
+                            "RmStderr"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-RmStderr",
+                        "name": "RmStderr",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "sigma",
+                            "Sigma"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Sigma",
+                        "name": "Sigma",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "sigma stderr",
+                            "SigmaStderr"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-SigmaStderr",
+                        "name": "SigmaStderr",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "ra",
+                            "Ra"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Ra",
+                        "name": "Ra",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "ra stderr",
+                            "RaStderr"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-RaStderr",
+                        "name": "RaStderr",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "n_bins",
+                            "NBins"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-NBins",
+                        "name": "NBins",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "start",
+                            "Start"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Start",
+                        "name": "Start",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "end",
+                            "End"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-End",
+                        "name": "End",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "bin_width",
+                            "BinWidth"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-BinWidth",
+                        "name": "BinWidth",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#boolean"
+                        }
+                    }
+                ],
+                "primaryKey": "GID",
+                "aboutUrl": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-{GID}"
+            }
+        }
+    ],
+    "prov:wasGeneratedBy": {
+        "@id": "http://docker-dev.iwm.fraunhofer.de:5001/api/annotate",
+        "@type": "prov:Activity",
+        "prov:wasAssociatedWith": {
+            "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0",
+            "rdfs:label": "CSVtoCSVWv1.2.0",
+            "prov:hadPrimarySource": "https://github.com/Mat-O-Lab/CSVToCSVW",
+            "@type": "prov:SoftwareAgent"
+        }
+    },
+    "prov:generatedAtTime": {
+        "@value": "2023-07-19T08:09:20.367138",
+        "@type": "xsd:dateTime"
+    }
+}
