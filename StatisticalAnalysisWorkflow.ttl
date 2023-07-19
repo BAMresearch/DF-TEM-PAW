@@ -19,6 +19,7 @@ base: a owl:Ontology ;
 
 base:ImageSet a owl:NamedIndividual,
         co:Dataset ;
+    co:characteristic base:ImageSetName ;
     co:input base:statisticalAnalysisWorkflow_ .
 
 co:characteristic a owl:ObjectProperty .
@@ -30,6 +31,9 @@ co:nextProcess a owl:ObjectProperty .
 co:output a owl:ObjectProperty .
 
 co:subordinateProcess a owl:ObjectProperty .
+
+base:ImageSetName a owl:NamedIndividual,
+        co:Identifier .
 
 base:ParticleDistribution a owl:NamedIndividual,
         co:Dataset ;
@@ -117,6 +121,8 @@ base:x-Min a owl:NamedIndividual,
     co:input base:createHistogram .
 
 co:Area a owl:Class .
+
+co:Identifier a owl:Class .
 
 co:Radius a owl:Class .
 
