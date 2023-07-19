@@ -1262,3 +1262,4 @@ co:AnalysingProcess a owl:Class .
 co:ValueObject a owl:Class .
 
 co:CreepStress a owl:Class .
+
