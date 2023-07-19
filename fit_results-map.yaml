@@ -1,0 +1,110 @@
+prefixes: {bfo: 'http://purl.obolibrary.org/obo/', csvw: 'http://www.w3.org/ns/csvw#',
+  method: 'https://github.com/BAMresearch/DF-TEM-PAW/blob/main/StatisticalAnalysisWorkflow.ttl/',
+  owl: 'http://www.w3.org/2002/07/owl#', rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+  rdfs: 'http://www.w3.org/2000/01/rdf-schema#', xml: 'http://www.w3.org/XML/1998/namespace',
+  xsd: 'http://www.w3.org/2001/XMLSchema#'}
+base: http://purl.matolab.org/mseo/mappings/
+sources:
+  data_entities: {access: 'https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json',
+    iterator: '$..[*]', referenceFormulation: jsonpath}
+mappings:
+  ImageSet:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Dataset]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:ImageSet~iri']
+  binWidth:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, BinWidth]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:binWidth~iri']
+  x-Max:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, End]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:x-Max~iri']
+  x-Min:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Start]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:x-Min~iri']
+  chisqrd:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, ChiSquared]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:chisqrd~iri']
+  r_a:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Ra]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:r_a~iri']
+  r_m:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Rm]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:r_m~iri']
+  sigma:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, Sigma]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:sigma~iri']
+  stderr_r_a:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, RaStderr]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:stderr_r_a~iri']
+  stderr_sigma:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, SigmaStderr]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:stderr_sigma~iri']
