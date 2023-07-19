@@ -19,7 +19,8 @@ base: a owl:Ontology ;
 
 base:ImageSet a owl:NamedIndividual,
         co:Dataset ;
-    co:characteristic base:ImageSetName ;
+    co:characteristic base:ImageSetName,
+        base:precipitateRegions ;
     co:input base:statisticalAnalysisWorkflow_ .
 
 co:characteristic a owl:ObjectProperty .
@@ -74,6 +75,9 @@ base:polygonArea a owl:NamedIndividual,
         co:Area,
         co:Measurement,
         co:PrimaryData .
+
+base:precipitateRegions a owl:NamedIndividual,
+        co:ValueObject .
 
 base:r_a a owl:NamedIndividual,
         co:CreepStress ;
@@ -148,12 +152,11 @@ co:SetPoint a owl:Class .
 
 co:AnalysingProcess a owl:Class .
 
-co:ValueObject a owl:Class .
-
 base:createHistogram a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:input base:equivalentRadius ;
     co:nextProcess base:fitLogNormalDistribution .
 
-co:CreepStress a owl:Class .
+co:ValueObject a owl:Class .
 
+co:CreepStress a owl:Class .

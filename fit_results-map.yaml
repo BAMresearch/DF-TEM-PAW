@@ -8,16 +8,16 @@ sources:
   data_entities: {access: 'https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json',
     iterator: '$..[*]', referenceFormulation: jsonpath}
 mappings:
-  ImageSet:
+  precipitateRegions:
     sources: [data_entities]
     s: $(@id)
     condition:
       function: equal
       parameters:
       - [str1, $(name)]
-      - [str2, GID]
+      - [str2, Rois]
     po:
-    - ['https://w3id.org/pmd/co/isResourceOf', 'method:ImageSet~iri']
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:precipitateRegions~iri']
   ImageSetName:
     sources: [data_entities]
     s: $(@id)
