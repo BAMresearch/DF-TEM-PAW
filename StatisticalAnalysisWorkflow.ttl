@@ -21,15 +21,55 @@ base:ImageSet a owl:NamedIndividual,
         co:Dataset ;
     co:input base:statisticalAnalysisWorkflow_ .
 
+co:characteristic a owl:ObjectProperty .
+
+co:input a owl:ObjectProperty .
+
+co:nextProcess a owl:ObjectProperty .
+
+co:output a owl:ObjectProperty .
+
+co:subordinateProcess a owl:ObjectProperty .
+
+base:ParticleDistribution a owl:NamedIndividual,
+        co:Dataset ;
+    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString ;
+    co:characteristic base:binWidth,
+        base:chisqrd,
+        base:r_a,
+        base:r_m,
+        base:sigma,
+        base:stderr_r_a,
+        base:stderr_sigma,
+        base:stderrr_m,
+        base:x-Max,
+        base:x-Min .
+
 base:binWidth a owl:NamedIndividual,
         co:Metadata,
         co:SetPoint,
         co:ValueObject ;
     co:input base:createHistogram .
 
-base:chisqrd a owl:NamedIndividual,
-        co:CreepStress ;
+base:calculatePolygonProperties a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:nextProcess base:createHistogram ;
+    co:output base:centroid,
+        base:equivalentRadius,
+        base:polygonArea .
+
+base:centroid a owl:NamedIndividual,
+        co:Measurement,
+        co:PrimaryData,
+        co:ValueObject .
+
+base:chisqrd a owl:NamedIndividual ;
     qudt:latexSymbol "\\chi^2"^^qudt:LatexString .
+
+base:polygonArea a owl:NamedIndividual,
+        co:Area,
+        co:Measurement,
+        co:PrimaryData .
 
 base:r_a a owl:NamedIndividual,
         co:CreepStress ;
@@ -43,6 +83,22 @@ base:r_m a owl:NamedIndividual,
 base:sigma a owl:NamedIndividual,
         co:CreepStress ;
     qudt:latexSymbol "\\sigma"^^qudt:LatexString .
+
+base:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
+        co:AnalysingProcess ;
+    co:output base:ParticleDistribution ;
+    co:subordinateProcess base:calculatePolygonProperties,
+        base:createHistogram,
+        base:fitLogNormalDistribution .
+
+base:stderr_r_a a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
+    qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
+
+base:stderr_sigma a owl:NamedIndividual,
+        co:CreepStress ;
+    qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
 
 base:stderrr_m a owl:NamedIndividual,
         co:CreepStress ;
@@ -59,42 +115,6 @@ base:x-Min a owl:NamedIndividual,
         co:SetPoint,
         co:ValueObject ;
     co:input base:createHistogram .
-
-co:input a owl:ObjectProperty .
-
-co:nextProcess a owl:ObjectProperty .
-
-co:output a owl:ObjectProperty .
-
-co:subordinateProcess a owl:ObjectProperty .
-
-base:ParticleDistribution a owl:NamedIndividual,
-        co:Dataset ;
-    qudt:latexDefinition "X = \\frac{1}{\\sqrt{2 \\pi} x \\sigma} \\exp{\\left(-\\frac{(\\ln{x}-\\ln{r_m})^2}{2 \\sigma^2}\\right)}"^^qudt:LatexString .
-
-base:calculatePolygonProperties a owl:NamedIndividual,
-        co:AnalysingProcess ;
-    co:nextProcess base:createHistogram ;
-    co:output base:centroid,
-        base:equivalentRadius,
-        base:polygonArea .
-
-base:centroid a owl:NamedIndividual,
-        co:Measurement,
-        co:PrimaryData,
-        co:ValueObject .
-
-base:polygonArea a owl:NamedIndividual,
-        co:Area,
-        co:Measurement,
-        co:PrimaryData .
-
-base:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
-        co:AnalysingProcess ;
-    co:output base:ParticleDistribution ;
-    co:subordinateProcess base:calculatePolygonProperties,
-        base:createHistogram,
-        base:fitLogNormalDistribution .
 
 co:Area a owl:Class .
 
