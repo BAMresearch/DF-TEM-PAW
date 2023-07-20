@@ -30,31 +30,31 @@
             csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
             csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
     csvw:row [ a csvw:Row ;
-            csvw:describes <table-1-gid-3> ;
-            csvw:url <row=4> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-6> ;
-            csvw:url <row=7> ],
-        [ a csvw:Row ;
             csvw:describes <table-1-gid-1> ;
             csvw:url <row=2> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-2> ;
             csvw:url <row=3> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-0> ;
-            csvw:url <row=1> ],
+            csvw:describes <table-1-gid-6> ;
+            csvw:url <row=7> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-5> ;
+            csvw:url <row=6> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-4> ;
             csvw:url <row=5> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-5> ;
-            csvw:url <row=6> ] ;
+            csvw:describes <table-1-gid-3> ;
+            csvw:url <row=4> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-0> ;
+            csvw:url <row=1> ] ;
     csvw:tableSchema [ csvw:aboutUrl "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-{GID}"^^csvw:uriTemplate ;
             csvw:column ( <table-1-GID> <table-1-Dataset> <table-1-Rois> <table-1-ChiSquared> <table-1-Rm> <table-1-RmStderr> <table-1-Sigma> <table-1-SigmaStderr> <table-1-Ra> <table-1-RaStderr> <table-1-NBins> <table-1-Start> <table-1-End> <table-1-BinWidth> ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv"^^xsd:anyURI ;
-    prov:generatedAtTime "2023-07-19T10:14:39.430151"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-07-20T08:27:53.963713"^^xsd:dateTime ;
     prov:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json>,
         <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> ;
     prov:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/rdf> .
@@ -150,210 +150,210 @@
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 3.378686e-03 ] ;
+            qudt:value 7.866525e-04 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D1000.0hr_S0MPa"^^xsd:string ] ] ;
     <End> [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ] ;
+            qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 13 ] ;
     <Ra> [ a qudt:QuantityValue ;
-            qudt:value 2.696686e+00 ] ;
+            qudt:value 3.950146e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
-            qudt:value 2.143938e-01 ] ;
+            qudt:value 1.025401e-01 ] ;
     <Rm> [ a qudt:QuantityValue ;
-            qudt:value 1.744262e+00 ] ;
+            qudt:value 1.90269e+00 ] ;
     <RmStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.386735e-01 ] ;
+            qudt:value 4.939108e-02 ] ;
     <Rois> ( <https://metadata.omero.matolab.org/api/rois/83> <https://metadata.omero.matolab.org/api/rois/84> <https://metadata.omero.matolab.org/api/rois/81> <https://metadata.omero.matolab.org/api/rois/82> <https://metadata.omero.matolab.org/api/rois/85> <https://metadata.omero.matolab.org/api/rois/74> <https://metadata.omero.matolab.org/api/rois/75> <https://metadata.omero.matolab.org/api/rois/76> <https://metadata.omero.matolab.org/api/rois/77> <https://metadata.omero.matolab.org/api/rois/78> <https://metadata.omero.matolab.org/api/rois/79> <https://metadata.omero.matolab.org/api/rois/80> ) ;
     <Sigma> [ a qudt:QuantityValue ;
-            qudt:value 9.334795e-01 ] ;
+            qudt:value 1.208705e+00 ] ;
     <SigmaStderr> [ a qudt:QuantityValue ;
-            qudt:value 6.075954e-02 ] ;
+            qudt:value 4.023286e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ] .
+            qudt:value 0e+00 ] .
 
 <table-1-gid-1> <BinWidth> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 9.905543e-03 ] ;
+            qudt:value 8.352384e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D8760.0hr_S0MPa"^^xsd:string ] ] ;
     <End> [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ] ;
+            qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 13 ] ;
     <Ra> [ a qudt:QuantityValue ;
-            qudt:value 5.020197e+00 ] ;
+            qudt:value 7.585118e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
-            qudt:value 6.553471e-01 ] ;
+            qudt:value 9.631326e-01 ] ;
     <Rm> [ a qudt:QuantityValue ;
-            qudt:value 2.897309e+00 ] ;
+            qudt:value 2.850312e+00 ] ;
     <RmStderr> [ a qudt:QuantityValue ;
-            qudt:value 3.782208e-01 ] ;
+            qudt:value 3.61923e-01 ] ;
     <Rois> ( <https://metadata.omero.matolab.org/api/rois/267> <https://metadata.omero.matolab.org/api/rois/268> <https://metadata.omero.matolab.org/api/rois/269> <https://metadata.omero.matolab.org/api/rois/256> <https://metadata.omero.matolab.org/api/rois/257> <https://metadata.omero.matolab.org/api/rois/252> <https://metadata.omero.matolab.org/api/rois/258> <https://metadata.omero.matolab.org/api/rois/253> <https://metadata.omero.matolab.org/api/rois/259> <https://metadata.omero.matolab.org/api/rois/254> <https://metadata.omero.matolab.org/api/rois/260> <https://metadata.omero.matolab.org/api/rois/255> <https://metadata.omero.matolab.org/api/rois/261> <https://metadata.omero.matolab.org/api/rois/251> <https://metadata.omero.matolab.org/api/rois/262> <https://metadata.omero.matolab.org/api/rois/263> <https://metadata.omero.matolab.org/api/rois/264> <https://metadata.omero.matolab.org/api/rois/265> <https://metadata.omero.matolab.org/api/rois/266> ) ;
     <Sigma> [ a qudt:QuantityValue ;
-            qudt:value 1.04851e+00 ] ;
+            qudt:value 1.399114e+00 ] ;
     <SigmaStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.467989e-01 ] ;
+            qudt:value 1.727467e-01 ] ;
     <Start> [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ] .
+            qudt:value 0e+00 ] .
 
 <table-1-gid-2> <BinWidth> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 1.305406e-03 ] ;
+            qudt:value 1.678171e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T23.0°C_D0.0hr_S0MPa"^^xsd:string ] ] ;
     <End> [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ] ;
+            qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 13 ] ;
     <Ra> [ a qudt:QuantityValue ;
-            qudt:value 1.886592e+00 ] ;
+            qudt:value 1.621646e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
-            qudt:value 3.64706e-02 ] ;
+            qudt:value 3.326564e-02 ] ;
     <Rm> [ a qudt:QuantityValue ;
-            qudt:value 1.558734e+00 ] ;
+            qudt:value 1.38266e+00 ] ;
     <RmStderr> [ a qudt:QuantityValue ;
-            qudt:value 3.013262e-02 ] ;
+            qudt:value 2.83632e-02 ] ;
     <Rois> ( <https://metadata.omero.matolab.org/api/rois/51> <https://metadata.omero.matolab.org/api/rois/52> <https://metadata.omero.matolab.org/api/rois/53> <https://metadata.omero.matolab.org/api/rois/202> <https://metadata.omero.matolab.org/api/rois/203> <https://metadata.omero.matolab.org/api/rois/55> <https://metadata.omero.matolab.org/api/rois/56> <https://metadata.omero.matolab.org/api/rois/57> <https://metadata.omero.matolab.org/api/rois/58> <https://metadata.omero.matolab.org/api/rois/59> <https://metadata.omero.matolab.org/api/rois/60> <https://metadata.omero.matolab.org/api/rois/61> <https://metadata.omero.matolab.org/api/rois/62> ) ;
     <Sigma> [ a qudt:QuantityValue ;
-            qudt:value 6.178968e-01 ] ;
+            qudt:value 5.646816e-01 ] ;
     <SigmaStderr> [ a qudt:QuantityValue ;
-            qudt:value 2.193731e-02 ] ;
+            qudt:value 1.42316e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ] .
+            qudt:value 0e+00 ] .
 
 <table-1-gid-3> <BinWidth> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 1.527718e-02 ] ;
+            qudt:value 4.005395e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D25000.0hr_S0MPa"^^xsd:string ] ] ;
     <End> [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ] ;
+            qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 13 ] ;
     <Ra> [ a qudt:QuantityValue ;
-            qudt:value 1.418316e+00 ] ;
+            qudt:value 3.837149e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
-            qudt:value 3.013169e-01 ] ;
+            qudt:value 7.125418e-01 ] ;
     <Rm> [ a qudt:QuantityValue ;
-            qudt:value 9.407311e-01 ] ;
+            qudt:value 1.088668e+00 ] ;
     <RmStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.998554e-01 ] ;
+            qudt:value 2.021609e-01 ] ;
     <Rois> ( <https://metadata.omero.matolab.org/api/rois/142> <https://metadata.omero.matolab.org/api/rois/143> <https://metadata.omero.matolab.org/api/rois/133> <https://metadata.omero.matolab.org/api/rois/134> <https://metadata.omero.matolab.org/api/rois/135> <https://metadata.omero.matolab.org/api/rois/136> <https://metadata.omero.matolab.org/api/rois/137> <https://metadata.omero.matolab.org/api/rois/138> <https://metadata.omero.matolab.org/api/rois/139> <https://metadata.omero.matolab.org/api/rois/140> <https://metadata.omero.matolab.org/api/rois/141> <https://metadata.omero.matolab.org/api/rois/153> <https://metadata.omero.matolab.org/api/rois/144> <https://metadata.omero.matolab.org/api/rois/145> <https://metadata.omero.matolab.org/api/rois/146> <https://metadata.omero.matolab.org/api/rois/147> <https://metadata.omero.matolab.org/api/rois/148> <https://metadata.omero.matolab.org/api/rois/149> <https://metadata.omero.matolab.org/api/rois/150> <https://metadata.omero.matolab.org/api/rois/151> <https://metadata.omero.matolab.org/api/rois/152> ) ;
     <Sigma> [ a qudt:QuantityValue ;
-            qudt:value 9.061659e-01 ] ;
+            qudt:value 1.587309e+00 ] ;
     <SigmaStderr> [ a qudt:QuantityValue ;
-            qudt:value 7.994855e-02 ] ;
+            qudt:value 1.157556e-01 ] ;
     <Start> [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ] .
+            qudt:value 0e+00 ] .
 
 <table-1-gid-4> <BinWidth> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 2.401655e-03 ] ;
+            qudt:value 2.439696e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D2500.0hr_S0MPa"^^xsd:string ] ] ;
     <End> [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ] ;
+            qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 13 ] ;
     <Ra> [ a qudt:QuantityValue ;
-            qudt:value 4.131523e+00 ] ;
+            qudt:value 5.812117e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
-            qudt:value 2.368739e-01 ] ;
+            qudt:value 3.544736e-01 ] ;
     <Rm> [ a qudt:QuantityValue ;
-            qudt:value 2.545723e+00 ] ;
+            qudt:value 2.651321e+00 ] ;
     <RmStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.459547e-01 ] ;
+            qudt:value 1.617007e-01 ] ;
     <Rois> ( <https://metadata.omero.matolab.org/api/rois/86> <https://metadata.omero.matolab.org/api/rois/87> <https://metadata.omero.matolab.org/api/rois/88> <https://metadata.omero.matolab.org/api/rois/89> <https://metadata.omero.matolab.org/api/rois/90> <https://metadata.omero.matolab.org/api/rois/100> <https://metadata.omero.matolab.org/api/rois/101> <https://metadata.omero.matolab.org/api/rois/102> <https://metadata.omero.matolab.org/api/rois/91> <https://metadata.omero.matolab.org/api/rois/92> <https://metadata.omero.matolab.org/api/rois/93> <https://metadata.omero.matolab.org/api/rois/94> <https://metadata.omero.matolab.org/api/rois/95> <https://metadata.omero.matolab.org/api/rois/96> <https://metadata.omero.matolab.org/api/rois/97> <https://metadata.omero.matolab.org/api/rois/98> <https://metadata.omero.matolab.org/api/rois/99> ) ;
     <Sigma> [ a qudt:QuantityValue ;
-            qudt:value 9.841052e-01 ] ;
+            qudt:value 1.252906e+00 ] ;
     <SigmaStderr> [ a qudt:QuantityValue ;
-            qudt:value 6.339807e-02 ] ;
+            qudt:value 7.389139e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ] .
+            qudt:value 0e+00 ] .
 
 <table-1-gid-5> <BinWidth> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 2.421297e-03 ] ;
+            qudt:value 9.645634e-04 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D250.0hr_S0MPa"^^xsd:string ] ] ;
     <End> [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ] ;
+            qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 13 ] ;
     <Ra> [ a qudt:QuantityValue ;
-            qudt:value 2.378308e+00 ] ;
+            qudt:value 3.416466e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.532281e-01 ] ;
+            qudt:value 8.950438e-02 ] ;
     <Rm> [ a qudt:QuantityValue ;
-            qudt:value 1.604542e+00 ] ;
+            qudt:value 1.717147e+00 ] ;
     <RmStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.033764e-01 ] ;
+            qudt:value 4.498573e-02 ] ;
     <Rois> ( <https://metadata.omero.matolab.org/api/rois/72> <https://metadata.omero.matolab.org/api/rois/73> <https://metadata.omero.matolab.org/api/rois/63> <https://metadata.omero.matolab.org/api/rois/64> <https://metadata.omero.matolab.org/api/rois/65> <https://metadata.omero.matolab.org/api/rois/66> <https://metadata.omero.matolab.org/api/rois/67> <https://metadata.omero.matolab.org/api/rois/68> <https://metadata.omero.matolab.org/api/rois/69> <https://metadata.omero.matolab.org/api/rois/70> <https://metadata.omero.matolab.org/api/rois/71> ) ;
     <Sigma> [ a qudt:QuantityValue ;
-            qudt:value 8.871879e-01 ] ;
+            qudt:value 1.172981e+00 ] ;
     <SigmaStderr> [ a qudt:QuantityValue ;
-            qudt:value 4.534277e-02 ] ;
+            qudt:value 4.249906e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ] .
+            qudt:value 0e+00 ] .
 
 <table-1-gid-6> <BinWidth> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 6.845475e-03 ] ;
+            qudt:value 8.23738e-04 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D5000.0hr_S0MPa"^^xsd:string ] ] ;
     <End> [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ] ;
+            qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 13 ] ;
     <Ra> [ a qudt:QuantityValue ;
-            qudt:value 1.383986e+00 ] ;
+            qudt:value 2.370185e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.424892e-01 ] ;
+            qudt:value 1.41328e-01 ] ;
     <Rm> [ a qudt:QuantityValue ;
-            qudt:value 1.043756e+00 ] ;
+            qudt:value 9.676639e-01 ] ;
     <RmStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.074607e-01 ] ;
+            qudt:value 5.76993e-02 ] ;
     <Rois> ( <https://metadata.omero.matolab.org/api/rois/112> <https://metadata.omero.matolab.org/api/rois/113> <https://metadata.omero.matolab.org/api/rois/103> <https://metadata.omero.matolab.org/api/rois/104> <https://metadata.omero.matolab.org/api/rois/105> <https://metadata.omero.matolab.org/api/rois/106> <https://metadata.omero.matolab.org/api/rois/107> <https://metadata.omero.matolab.org/api/rois/108> <https://metadata.omero.matolab.org/api/rois/111> <https://metadata.omero.matolab.org/api/rois/109> <https://metadata.omero.matolab.org/api/rois/110> <https://metadata.omero.matolab.org/api/rois/132> <https://metadata.omero.matolab.org/api/rois/128> <https://metadata.omero.matolab.org/api/rois/129> <https://metadata.omero.matolab.org/api/rois/119> <https://metadata.omero.matolab.org/api/rois/120> <https://metadata.omero.matolab.org/api/rois/121> <https://metadata.omero.matolab.org/api/rois/122> <https://metadata.omero.matolab.org/api/rois/123> <https://metadata.omero.matolab.org/api/rois/124> <https://metadata.omero.matolab.org/api/rois/125> <https://metadata.omero.matolab.org/api/rois/126> <https://metadata.omero.matolab.org/api/rois/127> ) ;
     <Sigma> [ a qudt:QuantityValue ;
-            qudt:value 7.511876e-01 ] ;
+            qudt:value 1.338536e+00 ] ;
     <SigmaStderr> [ a qudt:QuantityValue ;
-            qudt:value 3.700822e-02 ] ;
+            qudt:value 3.914154e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ] .
+            qudt:value 0e+00 ] .
 
 <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0> a prov:SoftwareAgent ;
     rdfs:label "CSVtoCSVWv1.2.0" ;
