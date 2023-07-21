@@ -189,7 +189,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#boolean"
+                            "@id": "http://www.w3.org/2001/XMLSchema#integer"
                         }
                     },
                     {
@@ -237,7 +237,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-20T08:27:51.589418",
+        "@value": "2023-07-21T06:07:26.986449",
         "@type": "xsd:dateTime"
     }
 }
