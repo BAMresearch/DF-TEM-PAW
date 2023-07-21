@@ -54,6 +54,48 @@
                     },
                     {
                         "titles": [
+                            "temp",
+                            "Temp"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Temp",
+                        "name": "Temp",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "aging_time",
+                            "AgingTime"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-AgingTime",
+                        "name": "AgingTime",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "stress",
+                            "Stress"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Stress",
+                        "name": "Stress",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#boolean"
+                        }
+                    },
+                    {
+                        "titles": [
                             "rois",
                             "Rois"
                         ],
@@ -237,7 +279,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-21T06:07:26.986449",
+        "@value": "2023-07-21T06:14:04.650929",
         "@type": "xsd:dateTime"
     }
 }
