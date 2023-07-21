@@ -129,7 +129,7 @@ co:subordinateProcess a owl:ObjectProperty .
 <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> a csvw:TableGroup,
         ns2:Usage ;
     csvw:table ns1:table-1 ;
-    ns2:generatedAtTime "2023-07-19T09:41:52.828389"^^xsd:dateTime ;
+    ns2:generatedAtTime "2023-07-21T06:14:04.650929"^^xsd:dateTime ;
     ns2:hadRole csvw:csvEncodedTabularData ;
     ns2:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/annotate> .
 
@@ -139,34 +139,40 @@ ns1:table-1 a csvw:Table ;
             csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
             csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
     csvw:row [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-3 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=4> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-6 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=7> ],
+            csvw:describes ns1:table-1-gid-5 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=6> ],
         [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-1 ;
             csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=2> ],
         [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-2 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=3> ],
+            csvw:describes ns1:table-1-gid-3 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=4> ],
         [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-0 ;
             csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=1> ],
         [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-4 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=5> ],
+            csvw:describes ns1:table-1-gid-6 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=7> ],
         [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-5 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=6> ] ;
+            csvw:describes ns1:table-1-gid-2 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=3> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-4 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=5> ] ;
     csvw:tableSchema [ csvw:aboutUrl "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-{GID}"^^csvw:uriTemplate ;
-            csvw:column ( ns1:table-1-GID ns1:table-1-Dataset ns1:table-1-Rois ns1:table-1-ChiSquared ns1:table-1-Rm ns1:table-1-RmStderr ns1:table-1-Sigma ns1:table-1-SigmaStderr ns1:table-1-Ra ns1:table-1-RaStderr ns1:table-1-NBins ns1:table-1-Start ns1:table-1-End ns1:table-1-BinWidth ) ;
+            csvw:column ( ns1:table-1-GID ns1:table-1-Dataset ns1:table-1-Temp ns1:table-1-AgingTime ns1:table-1-Stress ns1:table-1-Rois ns1:table-1-ChiSquared ns1:table-1-Rm ns1:table-1-RmStderr ns1:table-1-Sigma ns1:table-1-SigmaStderr ns1:table-1-Ra ns1:table-1-RaStderr ns1:table-1-NBins ns1:table-1-Start ns1:table-1-End ns1:table-1-BinWidth ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv"^^xsd:anyURI ;
-    ns2:generatedAtTime "2023-07-19T10:14:39.430151"^^xsd:dateTime ;
+    ns2:generatedAtTime "2023-07-21T06:20:47.734438"^^xsd:dateTime ;
     ns2:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json>,
         <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> ;
     ns2:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/rdf> .
+
+ns1:table-1-AgingTime a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "AgingTime" ;
+    csvw:title "AgingTime",
+        "aging_time" .
 
 ns1:table-1-BinWidth a csvw:Column ;
     csvw:format xsd:boolean ;
@@ -249,52 +255,72 @@ ns1:table-1-SigmaStderr a csvw:Column ;
         "sigma stderr" .
 
 ns1:table-1-Start a csvw:Column ;
-    csvw:format xsd:double ;
+    csvw:format xsd:integer ;
     csvw:name "Start" ;
     csvw:title "Start",
         "start" .
 
-ns1:table-1-gid-0 ns1:BinWidth [ a oa:Annotation ;
+ns1:table-1-Stress a csvw:Column ;
+    csvw:format xsd:boolean ;
+    csvw:name "Stress" ;
+    csvw:title "Stress",
+        "stress" .
+
+ns1:table-1-Temp a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "Temp" ;
+    csvw:title "Temp",
+        "temp" .
+
+ns1:table-1-gid-0 ns1:AgingTime [ a qudt:QuantityValue ;
+            qudt:value 0e+00 ] ;
+    ns1:BinWidth [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ;
             co:isResourceOf row0:binWidth ] ;
     ns1:ChiSquared [ a qudt:QuantityValue ;
-            qudt:value 3.378686e-03 ;
+            qudt:value 1.66782e-03 ;
             co:isResourceOf row0:chisqrd ] ;
     ns1:Dataset [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "T190.0°C_D1000.0hr_S0MPa"^^xsd:string ] ;
+                    oa:value "T23.0°C_D0.0hr_S0MPa"^^xsd:string ] ;
             co:isResourceOf row0:ImageSetName ] ;
     ns1:End [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ;
+            qudt:value 1.4e+01 ;
             co:isResourceOf row0:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
             qudt:value 12 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
-            qudt:value 2.696686e+00 ;
+            qudt:value 1.620915e+00 ;
             co:isResourceOf row0:r_a ] ;
     ns1:RaStderr [ a qudt:QuantityValue ;
-            qudt:value 2.143938e-01 ;
+            qudt:value 3.476078e-02 ;
             co:isResourceOf row0:stderr_r_a ] ;
     ns1:Rm [ a qudt:QuantityValue ;
-            qudt:value 1.744262e+00 ;
+            qudt:value 1.3822e+00 ;
             co:isResourceOf row0:r_m ] ;
     ns1:RmStderr [ a qudt:QuantityValue ;
-            qudt:value 1.386735e-01 ] ;
-    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/83> ;
-            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/84> <https://metadata.omero.matolab.org/api/rois/81> <https://metadata.omero.matolab.org/api/rois/82> <https://metadata.omero.matolab.org/api/rois/85> <https://metadata.omero.matolab.org/api/rois/74> <https://metadata.omero.matolab.org/api/rois/75> <https://metadata.omero.matolab.org/api/rois/76> <https://metadata.omero.matolab.org/api/rois/77> <https://metadata.omero.matolab.org/api/rois/78> <https://metadata.omero.matolab.org/api/rois/79> <https://metadata.omero.matolab.org/api/rois/80> ) ;
+            qudt:value 2.964149e-02 ] ;
+    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/51> ;
+            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/52> <https://metadata.omero.matolab.org/api/rois/53> <https://metadata.omero.matolab.org/api/rois/202> <https://metadata.omero.matolab.org/api/rois/203> <https://metadata.omero.matolab.org/api/rois/55> <https://metadata.omero.matolab.org/api/rois/56> <https://metadata.omero.matolab.org/api/rois/57> <https://metadata.omero.matolab.org/api/rois/58> <https://metadata.omero.matolab.org/api/rois/59> <https://metadata.omero.matolab.org/api/rois/60> <https://metadata.omero.matolab.org/api/rois/61> <https://metadata.omero.matolab.org/api/rois/62> ) ;
             co:isResourceOf row0:precipitateRegions ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
-            qudt:value 9.334795e-01 ;
+            qudt:value 5.644725e-01 ;
             co:isResourceOf row0:sigma ] ;
     ns1:SigmaStderr [ a qudt:QuantityValue ;
-            qudt:value 6.075954e-02 ;
+            qudt:value 1.48785e-02 ;
             co:isResourceOf row0:stderr_sigma ] ;
     ns1:Start [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ;
-            co:isResourceOf row0:x-Min ] .
+            qudt:value 0 ;
+            co:isResourceOf row0:x-Min ] ;
+    ns1:Stress [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 0.0 ] ] ;
+    ns1:Temp [ a qudt:QuantityValue ;
+            qudt:value 2.3e+01 ] .
 
 row0:ParticleDistribution a owl:NamedIndividual,
         co:Dataset ;
@@ -338,47 +364,55 @@ row0:stderr_r_m a owl:NamedIndividual,
         co:CreepStress ;
     qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
 
-ns1:table-1-gid-1 ns1:BinWidth [ a oa:Annotation ;
+ns1:table-1-gid-1 ns1:AgingTime [ a qudt:QuantityValue ;
+            qudt:value 2.5e+02 ] ;
+    ns1:BinWidth [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ;
             co:isResourceOf row1:binWidth ] ;
     ns1:ChiSquared [ a qudt:QuantityValue ;
-            qudt:value 9.905543e-03 ;
+            qudt:value 1.034558e-03 ;
             co:isResourceOf row1:chisqrd ] ;
     ns1:Dataset [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "T190.0°C_D8760.0hr_S0MPa"^^xsd:string ] ;
+                    oa:value "T190.0°C_D250.0hr_S0MPa"^^xsd:string ] ;
             co:isResourceOf row1:ImageSetName ] ;
     ns1:End [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ;
+            qudt:value 1.4e+01 ;
             co:isResourceOf row1:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 22 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
-            qudt:value 5.020197e+00 ;
+            qudt:value 3.542021e+00 ;
             co:isResourceOf row1:r_a ] ;
     ns1:RaStderr [ a qudt:QuantityValue ;
-            qudt:value 6.553471e-01 ;
+            qudt:value 7.31128e-02 ;
             co:isResourceOf row1:stderr_r_a ] ;
     ns1:Rm [ a qudt:QuantityValue ;
-            qudt:value 2.897309e+00 ;
+            qudt:value 1.745314e+00 ;
             co:isResourceOf row1:r_m ] ;
     ns1:RmStderr [ a qudt:QuantityValue ;
-            qudt:value 3.782208e-01 ] ;
-    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/267> ;
-            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/268> <https://metadata.omero.matolab.org/api/rois/269> <https://metadata.omero.matolab.org/api/rois/256> <https://metadata.omero.matolab.org/api/rois/257> <https://metadata.omero.matolab.org/api/rois/252> <https://metadata.omero.matolab.org/api/rois/258> <https://metadata.omero.matolab.org/api/rois/253> <https://metadata.omero.matolab.org/api/rois/259> <https://metadata.omero.matolab.org/api/rois/254> <https://metadata.omero.matolab.org/api/rois/260> <https://metadata.omero.matolab.org/api/rois/255> <https://metadata.omero.matolab.org/api/rois/261> <https://metadata.omero.matolab.org/api/rois/251> <https://metadata.omero.matolab.org/api/rois/262> <https://metadata.omero.matolab.org/api/rois/263> <https://metadata.omero.matolab.org/api/rois/264> <https://metadata.omero.matolab.org/api/rois/265> <https://metadata.omero.matolab.org/api/rois/266> ) ;
+            qudt:value 3.602598e-02 ] ;
+    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/72> ;
+            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/73> <https://metadata.omero.matolab.org/api/rois/63> <https://metadata.omero.matolab.org/api/rois/64> <https://metadata.omero.matolab.org/api/rois/65> <https://metadata.omero.matolab.org/api/rois/66> <https://metadata.omero.matolab.org/api/rois/67> <https://metadata.omero.matolab.org/api/rois/68> <https://metadata.omero.matolab.org/api/rois/69> <https://metadata.omero.matolab.org/api/rois/70> <https://metadata.omero.matolab.org/api/rois/71> ) ;
             co:isResourceOf row1:precipitateRegions ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
-            qudt:value 1.04851e+00 ;
+            qudt:value 1.189759e+00 ;
             co:isResourceOf row1:sigma ] ;
     ns1:SigmaStderr [ a qudt:QuantityValue ;
-            qudt:value 1.467989e-01 ;
+            qudt:value 3.328852e-02 ;
             co:isResourceOf row1:stderr_sigma ] ;
     ns1:Start [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ;
-            co:isResourceOf row1:x-Min ] .
+            qudt:value 0 ;
+            co:isResourceOf row1:x-Min ] ;
+    ns1:Stress [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 0.0 ] ] ;
+    ns1:Temp [ a qudt:QuantityValue ;
+            qudt:value 1.9e+02 ] .
 
 row1:ParticleDistribution a owl:NamedIndividual,
         co:Dataset ;
@@ -422,47 +456,55 @@ row1:stderr_r_m a owl:NamedIndividual,
         co:CreepStress ;
     qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
 
-ns1:table-1-gid-2 ns1:BinWidth [ a oa:Annotation ;
+ns1:table-1-gid-2 ns1:AgingTime [ a qudt:QuantityValue ;
+            qudt:value 1e+03 ] ;
+    ns1:BinWidth [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ;
             co:isResourceOf row2:binWidth ] ;
     ns1:ChiSquared [ a qudt:QuantityValue ;
-            qudt:value 1.305406e-03 ;
+            qudt:value 7.866525e-04 ;
             co:isResourceOf row2:chisqrd ] ;
     ns1:Dataset [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "T23.0°C_D0.0hr_S0MPa"^^xsd:string ] ;
+                    oa:value "T190.0°C_D1000.0hr_S0MPa"^^xsd:string ] ;
             co:isResourceOf row2:ImageSetName ] ;
     ns1:End [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ;
+            qudt:value 1.4e+01 ;
             co:isResourceOf row2:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 13 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
-            qudt:value 1.886592e+00 ;
+            qudt:value 3.950146e+00 ;
             co:isResourceOf row2:r_a ] ;
     ns1:RaStderr [ a qudt:QuantityValue ;
-            qudt:value 3.64706e-02 ;
+            qudt:value 1.025401e-01 ;
             co:isResourceOf row2:stderr_r_a ] ;
     ns1:Rm [ a qudt:QuantityValue ;
-            qudt:value 1.558734e+00 ;
+            qudt:value 1.90269e+00 ;
             co:isResourceOf row2:r_m ] ;
     ns1:RmStderr [ a qudt:QuantityValue ;
-            qudt:value 3.013262e-02 ] ;
-    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/51> ;
-            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/52> <https://metadata.omero.matolab.org/api/rois/53> <https://metadata.omero.matolab.org/api/rois/202> <https://metadata.omero.matolab.org/api/rois/203> <https://metadata.omero.matolab.org/api/rois/55> <https://metadata.omero.matolab.org/api/rois/56> <https://metadata.omero.matolab.org/api/rois/57> <https://metadata.omero.matolab.org/api/rois/58> <https://metadata.omero.matolab.org/api/rois/59> <https://metadata.omero.matolab.org/api/rois/60> <https://metadata.omero.matolab.org/api/rois/61> <https://metadata.omero.matolab.org/api/rois/62> ) ;
+            qudt:value 4.939108e-02 ] ;
+    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/83> ;
+            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/84> <https://metadata.omero.matolab.org/api/rois/81> <https://metadata.omero.matolab.org/api/rois/82> <https://metadata.omero.matolab.org/api/rois/85> <https://metadata.omero.matolab.org/api/rois/74> <https://metadata.omero.matolab.org/api/rois/75> <https://metadata.omero.matolab.org/api/rois/76> <https://metadata.omero.matolab.org/api/rois/77> <https://metadata.omero.matolab.org/api/rois/78> <https://metadata.omero.matolab.org/api/rois/79> <https://metadata.omero.matolab.org/api/rois/80> ) ;
             co:isResourceOf row2:precipitateRegions ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
-            qudt:value 6.178968e-01 ;
+            qudt:value 1.208705e+00 ;
             co:isResourceOf row2:sigma ] ;
     ns1:SigmaStderr [ a qudt:QuantityValue ;
-            qudt:value 2.193731e-02 ;
+            qudt:value 4.023286e-02 ;
             co:isResourceOf row2:stderr_sigma ] ;
     ns1:Start [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ;
-            co:isResourceOf row2:x-Min ] .
+            qudt:value 0 ;
+            co:isResourceOf row2:x-Min ] ;
+    ns1:Stress [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 0.0 ] ] ;
+    ns1:Temp [ a qudt:QuantityValue ;
+            qudt:value 1.9e+02 ] .
 
 row2:ParticleDistribution a owl:NamedIndividual,
         co:Dataset ;
@@ -506,47 +548,55 @@ row2:stderr_r_m a owl:NamedIndividual,
         co:CreepStress ;
     qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
 
-ns1:table-1-gid-3 ns1:BinWidth [ a oa:Annotation ;
+ns1:table-1-gid-3 ns1:AgingTime [ a qudt:QuantityValue ;
+            qudt:value 2.5e+03 ] ;
+    ns1:BinWidth [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ;
             co:isResourceOf row3:binWidth ] ;
     ns1:ChiSquared [ a qudt:QuantityValue ;
-            qudt:value 1.527718e-02 ;
+            qudt:value 2.592082e-03 ;
             co:isResourceOf row3:chisqrd ] ;
     ns1:Dataset [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "T190.0°C_D25000.0hr_S0MPa"^^xsd:string ] ;
+                    oa:value "T190.0°C_D2500.0hr_S0MPa"^^xsd:string ] ;
             co:isResourceOf row3:ImageSetName ] ;
     ns1:End [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ;
+            qudt:value 1.4e+01 ;
             co:isResourceOf row3:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 21 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
-            qudt:value 1.418316e+00 ;
+            qudt:value 5.814751e+00 ;
             co:isResourceOf row3:r_a ] ;
     ns1:RaStderr [ a qudt:QuantityValue ;
-            qudt:value 3.013169e-01 ;
+            qudt:value 2.760614e-01 ;
             co:isResourceOf row3:stderr_r_a ] ;
     ns1:Rm [ a qudt:QuantityValue ;
-            qudt:value 9.407311e-01 ;
+            qudt:value 2.659033e+00 ;
             co:isResourceOf row3:r_m ] ;
     ns1:RmStderr [ a qudt:QuantityValue ;
-            qudt:value 1.998554e-01 ] ;
-    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/142> ;
-            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/143> <https://metadata.omero.matolab.org/api/rois/133> <https://metadata.omero.matolab.org/api/rois/134> <https://metadata.omero.matolab.org/api/rois/135> <https://metadata.omero.matolab.org/api/rois/136> <https://metadata.omero.matolab.org/api/rois/137> <https://metadata.omero.matolab.org/api/rois/138> <https://metadata.omero.matolab.org/api/rois/139> <https://metadata.omero.matolab.org/api/rois/140> <https://metadata.omero.matolab.org/api/rois/141> <https://metadata.omero.matolab.org/api/rois/153> <https://metadata.omero.matolab.org/api/rois/144> <https://metadata.omero.matolab.org/api/rois/145> <https://metadata.omero.matolab.org/api/rois/146> <https://metadata.omero.matolab.org/api/rois/147> <https://metadata.omero.matolab.org/api/rois/148> <https://metadata.omero.matolab.org/api/rois/149> <https://metadata.omero.matolab.org/api/rois/150> <https://metadata.omero.matolab.org/api/rois/151> <https://metadata.omero.matolab.org/api/rois/152> ) ;
+            qudt:value 1.262404e-01 ] ;
+    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/86> ;
+            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/87> <https://metadata.omero.matolab.org/api/rois/88> <https://metadata.omero.matolab.org/api/rois/89> <https://metadata.omero.matolab.org/api/rois/90> <https://metadata.omero.matolab.org/api/rois/100> <https://metadata.omero.matolab.org/api/rois/101> <https://metadata.omero.matolab.org/api/rois/102> <https://metadata.omero.matolab.org/api/rois/91> <https://metadata.omero.matolab.org/api/rois/92> <https://metadata.omero.matolab.org/api/rois/93> <https://metadata.omero.matolab.org/api/rois/94> <https://metadata.omero.matolab.org/api/rois/95> <https://metadata.omero.matolab.org/api/rois/96> <https://metadata.omero.matolab.org/api/rois/97> <https://metadata.omero.matolab.org/api/rois/98> <https://metadata.omero.matolab.org/api/rois/99> ) ;
             co:isResourceOf row3:precipitateRegions ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
-            qudt:value 9.061659e-01 ;
+            qudt:value 1.250948e+00 ;
             co:isResourceOf row3:sigma ] ;
     ns1:SigmaStderr [ a qudt:QuantityValue ;
-            qudt:value 7.994855e-02 ;
+            qudt:value 5.725504e-02 ;
             co:isResourceOf row3:stderr_sigma ] ;
     ns1:Start [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ;
-            co:isResourceOf row3:x-Min ] .
+            qudt:value 0 ;
+            co:isResourceOf row3:x-Min ] ;
+    ns1:Stress [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 0.0 ] ] ;
+    ns1:Temp [ a qudt:QuantityValue ;
+            qudt:value 1.9e+02 ] .
 
 row3:ParticleDistribution a owl:NamedIndividual,
         co:Dataset ;
@@ -590,47 +640,55 @@ row3:stderr_r_m a owl:NamedIndividual,
         co:CreepStress ;
     qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
 
-ns1:table-1-gid-4 ns1:BinWidth [ a oa:Annotation ;
+ns1:table-1-gid-4 ns1:AgingTime [ a qudt:QuantityValue ;
+            qudt:value 5e+03 ] ;
+    ns1:BinWidth [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ;
             co:isResourceOf row4:binWidth ] ;
     ns1:ChiSquared [ a qudt:QuantityValue ;
-            qudt:value 2.401655e-03 ;
+            qudt:value 7.734372e-04 ;
             co:isResourceOf row4:chisqrd ] ;
     ns1:Dataset [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "T190.0°C_D2500.0hr_S0MPa"^^xsd:string ] ;
+                    oa:value "T190.0°C_D5000.0hr_S0MPa"^^xsd:string ] ;
             co:isResourceOf row4:ImageSetName ] ;
     ns1:End [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ;
+            qudt:value 1.4e+01 ;
             co:isResourceOf row4:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 59 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
-            qudt:value 4.131523e+00 ;
+            qudt:value 2.581083e+00 ;
             co:isResourceOf row4:r_a ] ;
     ns1:RaStderr [ a qudt:QuantityValue ;
-            qudt:value 2.368739e-01 ;
+            qudt:value 7.418209e-02 ;
             co:isResourceOf row4:stderr_r_a ] ;
     ns1:Rm [ a qudt:QuantityValue ;
-            qudt:value 2.545723e+00 ;
+            qudt:value 9.629126e-01 ;
             co:isResourceOf row4:r_m ] ;
     ns1:RmStderr [ a qudt:QuantityValue ;
-            qudt:value 1.459547e-01 ] ;
-    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/86> ;
-            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/87> <https://metadata.omero.matolab.org/api/rois/88> <https://metadata.omero.matolab.org/api/rois/89> <https://metadata.omero.matolab.org/api/rois/90> <https://metadata.omero.matolab.org/api/rois/100> <https://metadata.omero.matolab.org/api/rois/101> <https://metadata.omero.matolab.org/api/rois/102> <https://metadata.omero.matolab.org/api/rois/91> <https://metadata.omero.matolab.org/api/rois/92> <https://metadata.omero.matolab.org/api/rois/93> <https://metadata.omero.matolab.org/api/rois/94> <https://metadata.omero.matolab.org/api/rois/95> <https://metadata.omero.matolab.org/api/rois/96> <https://metadata.omero.matolab.org/api/rois/97> <https://metadata.omero.matolab.org/api/rois/98> <https://metadata.omero.matolab.org/api/rois/99> ) ;
+            qudt:value 2.767477e-02 ] ;
+    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/112> ;
+            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/113> <https://metadata.omero.matolab.org/api/rois/103> <https://metadata.omero.matolab.org/api/rois/104> <https://metadata.omero.matolab.org/api/rois/105> <https://metadata.omero.matolab.org/api/rois/106> <https://metadata.omero.matolab.org/api/rois/107> <https://metadata.omero.matolab.org/api/rois/108> <https://metadata.omero.matolab.org/api/rois/111> <https://metadata.omero.matolab.org/api/rois/109> <https://metadata.omero.matolab.org/api/rois/110> <https://metadata.omero.matolab.org/api/rois/132> <https://metadata.omero.matolab.org/api/rois/128> <https://metadata.omero.matolab.org/api/rois/129> <https://metadata.omero.matolab.org/api/rois/119> <https://metadata.omero.matolab.org/api/rois/120> <https://metadata.omero.matolab.org/api/rois/121> <https://metadata.omero.matolab.org/api/rois/122> <https://metadata.omero.matolab.org/api/rois/123> <https://metadata.omero.matolab.org/api/rois/124> <https://metadata.omero.matolab.org/api/rois/125> <https://metadata.omero.matolab.org/api/rois/126> <https://metadata.omero.matolab.org/api/rois/127> ) ;
             co:isResourceOf row4:precipitateRegions ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
-            qudt:value 9.841052e-01 ;
+            qudt:value 1.40428e+00 ;
             co:isResourceOf row4:sigma ] ;
     ns1:SigmaStderr [ a qudt:QuantityValue ;
-            qudt:value 6.339807e-02 ;
+            qudt:value 1.747437e-02 ;
             co:isResourceOf row4:stderr_sigma ] ;
     ns1:Start [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ;
-            co:isResourceOf row4:x-Min ] .
+            qudt:value 0 ;
+            co:isResourceOf row4:x-Min ] ;
+    ns1:Stress [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 0.0 ] ] ;
+    ns1:Temp [ a qudt:QuantityValue ;
+            qudt:value 1.9e+02 ] .
 
 row4:ParticleDistribution a owl:NamedIndividual,
         co:Dataset ;
@@ -674,47 +732,55 @@ row4:stderr_r_m a owl:NamedIndividual,
         co:CreepStress ;
     qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
 
-ns1:table-1-gid-5 ns1:BinWidth [ a oa:Annotation ;
+ns1:table-1-gid-5 ns1:AgingTime [ a qudt:QuantityValue ;
+            qudt:value 8.76e+03 ] ;
+    ns1:BinWidth [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ;
             co:isResourceOf row5:binWidth ] ;
     ns1:ChiSquared [ a qudt:QuantityValue ;
-            qudt:value 2.421297e-03 ;
+            qudt:value 8.566325e-03 ;
             co:isResourceOf row5:chisqrd ] ;
     ns1:Dataset [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "T190.0°C_D250.0hr_S0MPa"^^xsd:string ] ;
+                    oa:value "T190.0°C_D8760.0hr_S0MPa"^^xsd:string ] ;
             co:isResourceOf row5:ImageSetName ] ;
     ns1:End [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ;
+            qudt:value 1.4e+01 ;
             co:isResourceOf row5:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 26 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
-            qudt:value 2.378308e+00 ;
+            qudt:value 7.562754e+00 ;
             co:isResourceOf row5:r_a ] ;
     ns1:RaStderr [ a qudt:QuantityValue ;
-            qudt:value 1.532281e-01 ;
+            qudt:value 6.524333e-01 ;
             co:isResourceOf row5:stderr_r_a ] ;
     ns1:Rm [ a qudt:QuantityValue ;
-            qudt:value 1.604542e+00 ;
+            qudt:value 2.855511e+00 ;
             co:isResourceOf row5:r_m ] ;
     ns1:RmStderr [ a qudt:QuantityValue ;
-            qudt:value 1.033764e-01 ] ;
-    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/72> ;
-            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/73> <https://metadata.omero.matolab.org/api/rois/63> <https://metadata.omero.matolab.org/api/rois/64> <https://metadata.omero.matolab.org/api/rois/65> <https://metadata.omero.matolab.org/api/rois/66> <https://metadata.omero.matolab.org/api/rois/67> <https://metadata.omero.matolab.org/api/rois/68> <https://metadata.omero.matolab.org/api/rois/69> <https://metadata.omero.matolab.org/api/rois/70> <https://metadata.omero.matolab.org/api/rois/71> ) ;
+            qudt:value 2.463428e-01 ] ;
+    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/267> ;
+            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/268> <https://metadata.omero.matolab.org/api/rois/269> <https://metadata.omero.matolab.org/api/rois/256> <https://metadata.omero.matolab.org/api/rois/257> <https://metadata.omero.matolab.org/api/rois/252> <https://metadata.omero.matolab.org/api/rois/258> <https://metadata.omero.matolab.org/api/rois/253> <https://metadata.omero.matolab.org/api/rois/259> <https://metadata.omero.matolab.org/api/rois/254> <https://metadata.omero.matolab.org/api/rois/260> <https://metadata.omero.matolab.org/api/rois/255> <https://metadata.omero.matolab.org/api/rois/261> <https://metadata.omero.matolab.org/api/rois/251> <https://metadata.omero.matolab.org/api/rois/262> <https://metadata.omero.matolab.org/api/rois/263> <https://metadata.omero.matolab.org/api/rois/264> <https://metadata.omero.matolab.org/api/rois/265> <https://metadata.omero.matolab.org/api/rois/266> ) ;
             co:isResourceOf row5:precipitateRegions ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
-            qudt:value 8.871879e-01 ;
+            qudt:value 1.395697e+00 ;
             co:isResourceOf row5:sigma ] ;
     ns1:SigmaStderr [ a qudt:QuantityValue ;
-            qudt:value 4.534277e-02 ;
+            qudt:value 1.169871e-01 ;
             co:isResourceOf row5:stderr_sigma ] ;
     ns1:Start [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ;
-            co:isResourceOf row5:x-Min ] .
+            qudt:value 0 ;
+            co:isResourceOf row5:x-Min ] ;
+    ns1:Stress [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 0.0 ] ] ;
+    ns1:Temp [ a qudt:QuantityValue ;
+            qudt:value 1.9e+02 ] .
 
 row5:ParticleDistribution a owl:NamedIndividual,
         co:Dataset ;
@@ -758,47 +824,55 @@ row5:stderr_r_m a owl:NamedIndividual,
         co:CreepStress ;
     qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
 
-ns1:table-1-gid-6 ns1:BinWidth [ a oa:Annotation ;
+ns1:table-1-gid-6 ns1:AgingTime [ a qudt:QuantityValue ;
+            qudt:value 2.5e+04 ] ;
+    ns1:BinWidth [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value 1.0 ] ;
             co:isResourceOf row6:binWidth ] ;
     ns1:ChiSquared [ a qudt:QuantityValue ;
-            qudt:value 6.845475e-03 ;
+            qudt:value 3.514499e-03 ;
             co:isResourceOf row6:chisqrd ] ;
     ns1:Dataset [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
-                    oa:value "T190.0°C_D5000.0hr_S0MPa"^^xsd:string ] ;
+                    oa:value "T190.0°C_D25000.0hr_S0MPa"^^xsd:string ] ;
             co:isResourceOf row6:ImageSetName ] ;
     ns1:End [ a qudt:QuantityValue ;
-            qudt:value 1.25e+01 ;
+            qudt:value 1.4e+01 ;
             co:isResourceOf row6:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
-            qudt:value 12 ] ;
+            qudt:value 30 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
-            qudt:value 1.383986e+00 ;
+            qudt:value 4.442478e+00 ;
             co:isResourceOf row6:r_a ] ;
     ns1:RaStderr [ a qudt:QuantityValue ;
-            qudt:value 1.424892e-01 ;
+            qudt:value 5.493797e-01 ;
             co:isResourceOf row6:stderr_r_a ] ;
     ns1:Rm [ a qudt:QuantityValue ;
-            qudt:value 1.043756e+00 ;
+            qudt:value 1.100704e+00 ;
             co:isResourceOf row6:r_m ] ;
     ns1:RmStderr [ a qudt:QuantityValue ;
-            qudt:value 1.074607e-01 ] ;
-    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/112> ;
-            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/113> <https://metadata.omero.matolab.org/api/rois/103> <https://metadata.omero.matolab.org/api/rois/104> <https://metadata.omero.matolab.org/api/rois/105> <https://metadata.omero.matolab.org/api/rois/106> <https://metadata.omero.matolab.org/api/rois/107> <https://metadata.omero.matolab.org/api/rois/108> <https://metadata.omero.matolab.org/api/rois/111> <https://metadata.omero.matolab.org/api/rois/109> <https://metadata.omero.matolab.org/api/rois/110> <https://metadata.omero.matolab.org/api/rois/132> <https://metadata.omero.matolab.org/api/rois/128> <https://metadata.omero.matolab.org/api/rois/129> <https://metadata.omero.matolab.org/api/rois/119> <https://metadata.omero.matolab.org/api/rois/120> <https://metadata.omero.matolab.org/api/rois/121> <https://metadata.omero.matolab.org/api/rois/122> <https://metadata.omero.matolab.org/api/rois/123> <https://metadata.omero.matolab.org/api/rois/124> <https://metadata.omero.matolab.org/api/rois/125> <https://metadata.omero.matolab.org/api/rois/126> <https://metadata.omero.matolab.org/api/rois/127> ) ;
+            qudt:value 1.361187e-01 ] ;
+    ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/142> ;
+            rdf:rest ( <https://metadata.omero.matolab.org/api/rois/143> <https://metadata.omero.matolab.org/api/rois/133> <https://metadata.omero.matolab.org/api/rois/134> <https://metadata.omero.matolab.org/api/rois/135> <https://metadata.omero.matolab.org/api/rois/136> <https://metadata.omero.matolab.org/api/rois/137> <https://metadata.omero.matolab.org/api/rois/138> <https://metadata.omero.matolab.org/api/rois/139> <https://metadata.omero.matolab.org/api/rois/140> <https://metadata.omero.matolab.org/api/rois/141> <https://metadata.omero.matolab.org/api/rois/153> <https://metadata.omero.matolab.org/api/rois/144> <https://metadata.omero.matolab.org/api/rois/145> <https://metadata.omero.matolab.org/api/rois/146> <https://metadata.omero.matolab.org/api/rois/147> <https://metadata.omero.matolab.org/api/rois/148> <https://metadata.omero.matolab.org/api/rois/149> <https://metadata.omero.matolab.org/api/rois/150> <https://metadata.omero.matolab.org/api/rois/151> <https://metadata.omero.matolab.org/api/rois/152> ) ;
             co:isResourceOf row6:precipitateRegions ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
-            qudt:value 7.511876e-01 ;
+            qudt:value 1.670487e+00 ;
             co:isResourceOf row6:sigma ] ;
     ns1:SigmaStderr [ a qudt:QuantityValue ;
-            qudt:value 3.700822e-02 ;
+            qudt:value 7.307274e-02 ;
             co:isResourceOf row6:stderr_sigma ] ;
     ns1:Start [ a qudt:QuantityValue ;
-            qudt:value 5e-01 ;
-            co:isResourceOf row6:x-Min ] .
+            qudt:value 0 ;
+            co:isResourceOf row6:x-Min ] ;
+    ns1:Stress [ a oa:Annotation ;
+            oa:hasBody [ a oa:TextualBody ;
+                    oa:format "text/plain" ;
+                    oa:value 0.0 ] ] ;
+    ns1:Temp [ a qudt:QuantityValue ;
+            qudt:value 1.9e+02 ] .
 
 row6:ParticleDistribution a owl:NamedIndividual,
         co:Dataset ;
