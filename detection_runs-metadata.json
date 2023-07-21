@@ -206,6 +206,20 @@
                     },
                     {
                         "titles": [
+                            "Threshold Size",
+                            "ThresholdSize"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs.csv/table-1-ThresholdSize",
+                        "name": "ThresholdSize",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                        }
+                    },
+                    {
+                        "titles": [
                             "Dilation Kernel Size [px]",
                             "DilationKernelSizePx"
                         ],
@@ -249,7 +263,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-19T08:00:14.268580",
+        "@value": "2023-07-21T08:08:18.244066",
         "@type": "xsd:dateTime"
     }
 }
