@@ -79,6 +79,9 @@ base:specimenCreepStress a owl:NamedIndividual,
 base:specimenName a owl:NamedIndividual,
         co:SpecimenName .
 
+base:thresholdAreaSize a owl:NamedIndividual,
+        co:ValueObject .
+
 base:thresholdMethod a owl:NamedIndividual,
         co:Method .
 
@@ -104,14 +107,13 @@ co:Specimen a owl:Class .
 
 co:SpecimenName a owl:Class .
 
-co:ValueObject a owl:Class .
-
 base:borderClearing a owl:NamedIndividual,
         co:AnalysingProcess ;
     co:nextProcess base:contourFinding .
 
 base:contourFinding a owl:NamedIndividual,
         co:MeasuringProcess ;
+    co:input base:thresholdAreaSize ;
     co:nextProcess base:precipitateLabeling .
 
 base:darkfieldTransmissionElectronMicroscopeImage a owl:NamedIndividual,
@@ -149,7 +151,8 @@ base:transmissionElectronMicroscopeSpecimen a owl:NamedIndividual,
 
 co:TransmissionElectronMicroscopy a owl:Class .
 
+co:ValueObject a owl:Class .
+
 co:CreepStress a owl:Class .
 
 co:AnalysingProcess a owl:Class .
-

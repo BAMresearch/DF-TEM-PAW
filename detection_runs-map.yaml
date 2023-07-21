@@ -38,6 +38,16 @@ mappings:
       - [str2, ThresholdMethod]
     po:
     - ['https://w3id.org/pmd/co/isResourceOf', 'method:thresholdMethod~iri']
+  thresholdAreaSize:
+    sources: [data_entities]
+    s: $(@id)
+    condition:
+      function: equal
+      parameters:
+      - [str1, $(name)]
+      - [str2, ThresholdSize]
+    po:
+    - ['https://w3id.org/pmd/co/isResourceOf', 'method:thresholdAreaSize~iri']
   specimenAgingTemperature:
     sources: [data_entities]
     s: $(@id)
