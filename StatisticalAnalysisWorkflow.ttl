@@ -80,16 +80,16 @@ base:precipitateRegions a owl:NamedIndividual,
         co:ValueObject .
 
 base:r_a a owl:NamedIndividual,
-        co:CreepStress ;
+        co:Radius ;
     qudt:latexDefinition "r_a = r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
     qudt:latexSymbol "r_a"^^qudt:LatexString .
 
 base:r_m a owl:NamedIndividual,
-        co:CreepStress ;
+        co:Radius ;
     qudt:latexSymbol "r_m"^^qudt:LatexString .
 
 base:sigma a owl:NamedIndividual,
-        co:CreepStress ;
+        co:ValueObject ;
     qudt:latexSymbol "\\sigma"^^qudt:LatexString .
 
 base:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
@@ -100,16 +100,16 @@ base:statisticalAnalysisWorkflow_ a owl:NamedIndividual,
         base:fitLogNormalDistribution .
 
 base:stderr_r_a a owl:NamedIndividual,
-        co:CreepStress ;
+        co:ValueObject ;
     qudt:latexDefinition "\\Deta r_a = \\Delta r_m \\exp{\\frac{\\sigma^2}{2}}"^^qudt:LatexString ;
     qudt:latexSymbol "\\Delta r_a"^^qudt:LatexString .
 
 base:stderr_r_m a owl:NamedIndividual,
-        co:CreepStress ;
+        co:ValueObject ;
     qudt:latexSymbol "\\Delta r_m"^^qudt:LatexString .
 
 base:stderr_sigma a owl:NamedIndividual,
-        co:CreepStress ;
+        co:ValueObject ;
     qudt:latexSymbol "\\Delta \\sigma"^^qudt:LatexString .
 
 base:x-Max a owl:NamedIndividual,
@@ -127,8 +127,6 @@ base:x-Min a owl:NamedIndividual,
 co:Area a owl:Class .
 
 co:Identifier a owl:Class .
-
-co:Radius a owl:Class .
 
 co:SecondaryData a owl:Class .
 
@@ -148,6 +146,8 @@ co:Measurement a owl:Class .
 
 co:Metadata a owl:Class .
 
+co:Radius a owl:Class .
+
 co:SetPoint a owl:Class .
 
 co:AnalysingProcess a owl:Class .
@@ -159,4 +159,3 @@ base:createHistogram a owl:NamedIndividual,
 
 co:ValueObject a owl:Class .
 
-co:CreepStress a owl:Class .
