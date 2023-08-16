@@ -269,17 +269,17 @@
         }
     ],
     "prov:wasGeneratedBy": {
-        "@id": "http://docker-dev.iwm.fraunhofer.de:5001/api/annotate",
+        "@id": "https://csvtocsvw.matolab.org/api/annotate",
         "@type": "prov:Activity",
         "prov:wasAssociatedWith": {
-            "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0",
-            "rdfs:label": "CSVtoCSVWv1.2.0",
+            "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1",
+            "rdfs:label": "CSVtoCSVWv1.2.1",
             "prov:hadPrimarySource": "https://github.com/Mat-O-Lab/CSVToCSVW",
             "@type": "prov:SoftwareAgent"
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-07-21T06:14:04.650929",
+        "@value": "2023-08-16T09:31:26.748212",
         "@type": "xsd:dateTime"
     }
 }

@@ -2,13 +2,9 @@ import re
 import json
 import requests
 
-# csvtocsvw_url='https://csvtocsvw.matolab.org'
-# maptomethod_url='https://maptomethod.matolab.org'
-# rdfconverter_url='https://rdfconverter.matolab.org'
-# using private dev apps for now
-csvtocsvw_url = 'http://docker-dev.iwm.fraunhofer.de:5001'
-maptomethod_url = 'http://docker-dev.iwm.fraunhofer.de:5002'
-rdfconverter_url = 'http://docker-dev.iwm.fraunhofer.de:5003'
+csvtocsvw_url='https://csvtocsvw.matolab.org'
+maptomethod_url='https://maptomethod.matolab.org'
+rdfconverter_url='https://rdfconverter.matolab.org'
 meta_extractor_api = "https://metadata.omero.matolab.org/api/"
 
 
