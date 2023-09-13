@@ -5,6 +5,7 @@ import requests
 csvtocsvw_url='https://csvtocsvw.matolab.org'
 csvtocsvw_url='http://docker-dev.iwm.fraunhofer.de:5008'
 maptomethod_url='https://maptomethod.matolab.org'
+maptomethod_url='http://docker-dev.iwm.fraunhofer.de:5002'
 rdfconverter_url='https://rdfconverter.matolab.org'
 rdfconverter_url='https://rdfconverter.matolab.org'
 rdfconverter_url='http://docker-dev.iwm.fraunhofer.de:5003'
