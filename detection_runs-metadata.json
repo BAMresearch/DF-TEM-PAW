@@ -131,7 +131,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+                            "@id": "http://www.w3.org/2001/XMLSchema#string"
                         }
                     },
                     {
@@ -159,7 +159,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+                            "@id": "http://www.w3.org/2001/XMLSchema#string"
                         }
                     },
                     {
@@ -173,7 +173,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+                            "@id": "http://www.w3.org/2001/XMLSchema#string"
                         }
                     },
                     {
@@ -243,7 +243,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+                            "@id": "http://www.w3.org/2001/XMLSchema#string"
                         }
                     }
                 ],
@@ -253,7 +253,7 @@
         }
     ],
     "prov:wasGeneratedBy": {
-        "@id": "https://csvtocsvw.matolab.org/api/annotate",
+        "@id": "http://docker-dev.iwm.fraunhofer.de:5008/api/annotate",
         "@type": "prov:Activity",
         "prov:wasAssociatedWith": {
             "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1",
@@ -263,7 +263,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-09-13T11:30:58.848179",
+        "@value": "2023-09-13T11:54:35.010020",
         "@type": "xsd:dateTime"
     }
 }
