@@ -8,8 +8,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://docker-dev.iwm.fraunhofer.de:5001/api/annotate> a prov:Activity ;
-    prov:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0> .
+<https://csvtocsvw.matolab.org/api/annotate> a prov:Activity ;
+    prov:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1> .
 
 <https://csvtocsvw.matolab.org/api/rdf> a prov:Activity ;
     prov:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1> .
@@ -20,9 +20,9 @@
 <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> a csvw:TableGroup,
         prov:Usage ;
     csvw:table <table-1> ;
-    prov:generatedAtTime "2023-07-21T06:14:04.650929"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-09-13T13:12:29.606201"^^xsd:dateTime ;
     prov:hadRole csvw:csvEncodedTabularData ;
-    prov:wasGeneratedBy <http://docker-dev.iwm.fraunhofer.de:5001/api/annotate> .
+    prov:wasGeneratedBy <https://csvtocsvw.matolab.org/api/annotate> .
 
 <table-1> a csvw:Table ;
     csvw:dialect [ csvw:delimiter "," ;
@@ -30,20 +30,20 @@
             csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
             csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
     csvw:row [ a csvw:Row ;
+            csvw:describes <table-1-gid-4> ;
+            csvw:url <row=5> ],
+        [ a csvw:Row ;
             csvw:describes <table-1-gid-3> ;
             csvw:url <row=4> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-5> ;
-            csvw:url <row=6> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-2> ;
-            csvw:url <row=3> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-1> ;
             csvw:url <row=2> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-4> ;
-            csvw:url <row=5> ],
+            csvw:describes <table-1-gid-2> ;
+            csvw:url <row=3> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-5> ;
+            csvw:url <row=6> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-0> ;
             csvw:url <row=1> ],
@@ -54,7 +54,7 @@
             csvw:column ( <table-1-GID> <table-1-Dataset> <table-1-Temp> <table-1-AgingTime> <table-1-Stress> <table-1-Rois> <table-1-ChiSquared> <table-1-Rm> <table-1-RmStderr> <table-1-Sigma> <table-1-SigmaStderr> <table-1-Ra> <table-1-RaStderr> <table-1-NBins> <table-1-Start> <table-1-End> <table-1-BinWidth> ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv"^^xsd:anyURI ;
-    prov:generatedAtTime "2023-08-16T09:31:30.074254"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-09-13T13:14:09.816348"^^xsd:dateTime ;
     prov:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json>,
         <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> ;
     prov:wasGeneratedBy <https://csvtocsvw.matolab.org/api/rdf> .
@@ -429,11 +429,8 @@
     <Temp> [ a qudt:QuantityValue ;
             qudt:value 1.9e+02 ] .
 
-<https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.0> a prov:SoftwareAgent ;
-    rdfs:label "CSVtoCSVWv1.2.0" ;
-    prov:hadPrimarySource "https://github.com/Mat-O-Lab/CSVToCSVW" .
-
 <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1> a prov:SoftwareAgent ;
     rdfs:label "CSVtoCSVWv1.2.1" ;
-    prov:hadPrimarySource <https://github.com/Mat-O-Lab/CSVToCSVW> .
+    prov:hadPrimarySource <https://github.com/Mat-O-Lab/CSVToCSVW>,
+        "https://github.com/Mat-O-Lab/CSVToCSVW" .
 
