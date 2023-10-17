@@ -112,8 +112,7 @@ def get_joined_rdf(map_url: str, data_url: str, duplicate_for_table=False):
     url = rdfconverter_url+"/api/createrdf"
     data = {
         "mapping_url": map_url,
-        "data_url": data_url,
-        "duplicate_for_table": duplicate_for_table
+        "data_url": data_url
     }
     headers = {'Content-type': 'application/json',
                'Accept': 'application/json'}
