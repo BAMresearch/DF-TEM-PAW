@@ -81,12 +81,13 @@ def csvw_to_rdf(meta_url: str, format: str = 'turtle',):
         return False
 
 
-def create_mapping(meta_url: str, method_url: str, map_dict: dict, data_super_classes: list, predicate: str, method_super_classes: list):
+def create_mapping(meta_url: str, method_url: str, use_template_rowwise: bool, map_dict: dict, data_super_classes: list, predicate: str, method_super_classes: list):
     # curl -X 'POST' \ 'https://csvtocsvw.matolab.org/api/annotation' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d '{ "data_url": "https://github.com/Mat-O-Lab/CSVToCSVW/raw/main/examples/example.csv", "separator": "auto", "header_separator": "auto", "encoding": "auto" }'
     url = maptomethod_url+"/api/mapping"
     data = {
         "data_url": meta_url,
         "method_url": method_url,
+        "use_template_rowwise": use_template_rowwise,
         "data_super_classes": data_super_classes,
         "predicate": predicate,
         "method_super_classes": method_super_classes,

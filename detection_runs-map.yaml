@@ -8,6 +8,7 @@ base: http://purl.matolab.org/mseo/mappings/
 sources:
   data_entities: {access: 'https://github.com/BAMresearch/DF-TEM-PAW/raw/main/detection_runs-metadata.json',
     iterator: '$..[*]', referenceFormulation: jsonpath}
+use_template_rowwise: 'true'
 mappings:
   diskRadius:
     sources: [data_entities]
