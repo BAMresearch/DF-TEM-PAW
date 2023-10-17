@@ -131,7 +131,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -159,7 +159,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -173,7 +173,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
                         }
                     },
                     {
@@ -243,7 +243,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#string"
+                            "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
                         }
                     }
                 ],
@@ -253,17 +253,17 @@
         }
     ],
     "prov:wasGeneratedBy": {
-        "@id": "http://docker-dev.iwm.fraunhofer.de:5008/api/annotate",
+        "@id": "https://csvtocsvw.matolab.org/api/annotate",
         "@type": "prov:Activity",
         "prov:wasAssociatedWith": {
-            "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1",
-            "rdfs:label": "CSVtoCSVWv1.2.1",
+            "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.2",
+            "rdfs:label": "CSVtoCSVWv1.2.2",
             "prov:hadPrimarySource": "https://github.com/Mat-O-Lab/CSVToCSVW",
             "@type": "prov:SoftwareAgent"
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-09-13T12:07:50.368698",
+        "@value": "2023-10-17T10:52:57.917696",
         "@type": "xsd:dateTime"
     }
 }
