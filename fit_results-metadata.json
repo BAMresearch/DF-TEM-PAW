@@ -124,15 +124,11 @@
                     },
                     {
                         "titles": [
-                            "R squared",
-                            "RSquared"
+                            "Rsquared",
+                            "Rsquared"
                         ],
-                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-RSquared",
-                        "name": "RSquared",
-                        "qudt:unit": {
-                            "@id": "http://qudt.org/vocab/unit/R",
-                            "@type": "http://qudt.org/schema/qudt/Unit"
-                        },
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Rsquared",
+                        "name": "Rsquared",
                         "@type": [
                             "Column"
                         ],
@@ -325,7 +321,7 @@
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-10-18T06:12:29.864430",
+        "@value": "2023-10-18T06:19:16.777901",
         "@type": "xsd:dateTime"
     }
 }
