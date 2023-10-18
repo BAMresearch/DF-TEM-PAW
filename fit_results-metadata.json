@@ -91,7 +91,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#boolean"
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
                         }
                     },
                     {
@@ -115,6 +115,24 @@
                         ],
                         "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-ChiSquared",
                         "name": "ChiSquared",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "R squared",
+                            "RSquared"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-RSquared",
+                        "name": "RSquared",
+                        "qudt:unit": {
+                            "@id": "http://qudt.org/vocab/unit/R",
+                            "@type": "http://qudt.org/schema/qudt/Unit"
+                        },
                         "@type": [
                             "Column"
                         ],
@@ -222,6 +240,34 @@
                     },
                     {
                         "titles": [
+                            "dof",
+                            "Dof"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-Dof",
+                        "name": "Dof",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                        }
+                    },
+                    {
+                        "titles": [
+                            "chi squared re",
+                            "ChiSquaredRe"
+                        ],
+                        "@id": "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-ChiSquaredRe",
+                        "name": "ChiSquaredRe",
+                        "@type": [
+                            "Column"
+                        ],
+                        "format": {
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
+                        }
+                    },
+                    {
+                        "titles": [
                             "start",
                             "Start"
                         ],
@@ -259,7 +305,7 @@
                             "Column"
                         ],
                         "format": {
-                            "@id": "http://www.w3.org/2001/XMLSchema#boolean"
+                            "@id": "http://www.w3.org/2001/XMLSchema#double"
                         }
                     }
                 ],
@@ -272,14 +318,14 @@
         "@id": "https://csvtocsvw.matolab.org/api/annotate",
         "@type": "prov:Activity",
         "prov:wasAssociatedWith": {
-            "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1",
-            "rdfs:label": "CSVtoCSVWv1.2.1",
+            "@id": "https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.2",
+            "rdfs:label": "CSVtoCSVWv1.2.2",
             "prov:hadPrimarySource": "https://github.com/Mat-O-Lab/CSVToCSVW",
             "@type": "prov:SoftwareAgent"
         }
     },
     "prov:generatedAtTime": {
-        "@value": "2023-09-13T13:12:29.606201",
+        "@value": "2023-10-18T06:12:29.864430",
         "@type": "xsd:dateTime"
     }
 }
