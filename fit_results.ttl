@@ -9,10 +9,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://csvtocsvw.matolab.org/api/annotate> a prov:Activity ;
-    prov:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1> .
+    prov:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.2> .
 
 <https://csvtocsvw.matolab.org/api/rdf> a prov:Activity ;
-    prov:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1> .
+    prov:wasAssociatedWith <https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.2> .
 
 <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json> a prov:Usage ;
     prov:hadRole csvw:tabularMetadata .
@@ -20,7 +20,7 @@
 <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> a csvw:TableGroup,
         prov:Usage ;
     csvw:table <table-1> ;
-    prov:generatedAtTime "2023-09-13T13:12:29.606201"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-10-18T06:12:29.864430"^^xsd:dateTime ;
     prov:hadRole csvw:csvEncodedTabularData ;
     prov:wasGeneratedBy <https://csvtocsvw.matolab.org/api/annotate> .
 
@@ -30,14 +30,17 @@
             csvw:headerRowCount "1"^^xsd:nonNegativeInteger ;
             csvw:skipRows "0"^^xsd:nonNegativeInteger ] ;
     csvw:row [ a csvw:Row ;
-            csvw:describes <table-1-gid-4> ;
-            csvw:url <row=5> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-3> ;
-            csvw:url <row=4> ],
+            csvw:describes <table-1-gid-6> ;
+            csvw:url <row=7> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-1> ;
             csvw:url <row=2> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-0> ;
+            csvw:url <row=1> ],
+        [ a csvw:Row ;
+            csvw:describes <table-1-gid-4> ;
+            csvw:url <row=5> ],
         [ a csvw:Row ;
             csvw:describes <table-1-gid-2> ;
             csvw:url <row=3> ],
@@ -45,16 +48,13 @@
             csvw:describes <table-1-gid-5> ;
             csvw:url <row=6> ],
         [ a csvw:Row ;
-            csvw:describes <table-1-gid-0> ;
-            csvw:url <row=1> ],
-        [ a csvw:Row ;
-            csvw:describes <table-1-gid-6> ;
-            csvw:url <row=7> ] ;
+            csvw:describes <table-1-gid-3> ;
+            csvw:url <row=4> ] ;
     csvw:tableSchema [ csvw:aboutUrl "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-{GID}"^^csvw:uriTemplate ;
-            csvw:column ( <table-1-GID> <table-1-Dataset> <table-1-Temp> <table-1-AgingTime> <table-1-Stress> <table-1-Rois> <table-1-ChiSquared> <table-1-Rm> <table-1-RmStderr> <table-1-Sigma> <table-1-SigmaStderr> <table-1-Ra> <table-1-RaStderr> <table-1-NBins> <table-1-Start> <table-1-End> <table-1-BinWidth> ) ;
+            csvw:column ( <table-1-GID> <table-1-Dataset> <table-1-Temp> <table-1-AgingTime> <table-1-Stress> <table-1-Rois> <table-1-ChiSquared> <table-1-RSquared> <table-1-Rm> <table-1-RmStderr> <table-1-Sigma> <table-1-SigmaStderr> <table-1-Ra> <table-1-RaStderr> <table-1-NBins> <table-1-Dof> <table-1-ChiSquaredRe> <table-1-Start> <table-1-End> <table-1-BinWidth> ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv"^^xsd:anyURI ;
-    prov:generatedAtTime "2023-09-13T13:14:09.816348"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-10-18T06:13:27.629813"^^xsd:dateTime ;
     prov:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json>,
         <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> ;
     prov:wasGeneratedBy <https://csvtocsvw.matolab.org/api/rdf> .
@@ -66,7 +66,7 @@
         "aging_time" .
 
 <table-1-BinWidth> a csvw:Column ;
-    csvw:format xsd:boolean ;
+    csvw:format xsd:double ;
     csvw:name "BinWidth" ;
     csvw:title "BinWidth",
         "bin_width" .
@@ -77,11 +77,23 @@
     csvw:title "ChiSquared",
         "chi squared" .
 
+<table-1-ChiSquaredRe> a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "ChiSquaredRe" ;
+    csvw:title "ChiSquaredRe",
+        "chi squared re" .
+
 <table-1-Dataset> a csvw:Column ;
     csvw:format xsd:string ;
     csvw:name "Dataset" ;
     csvw:title "Dataset",
         "dataset" .
+
+<table-1-Dof> a csvw:Column ;
+    csvw:format xsd:integer ;
+    csvw:name "Dof" ;
+    csvw:title "Dof",
+        "dof" .
 
 <table-1-End> a csvw:Column ;
     csvw:format xsd:double ;
@@ -102,6 +114,13 @@
     csvw:name "NBins" ;
     csvw:title "NBins",
         "n_bins" .
+
+<table-1-RSquared> a csvw:Column ;
+    qudt:unit <http://qudt.org/vocab/unit/R> ;
+    csvw:format xsd:double ;
+    csvw:name "RSquared" ;
+    csvw:title "R squared",
+        "RSquared" .
 
 <table-1-Ra> a csvw:Column ;
     csvw:format xsd:double ;
@@ -152,7 +171,7 @@
         "start" .
 
 <table-1-Stress> a csvw:Column ;
-    csvw:format xsd:boolean ;
+    csvw:format xsd:double ;
     csvw:name "Stress" ;
     csvw:title "Stress",
         "stress" .
@@ -165,58 +184,66 @@
 
 <table-1-gid-0> <AgingTime> [ a qudt:QuantityValue ;
             qudt:value 0e+00 ] ;
-    <BinWidth> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 1.0 ] ] ;
+    <BinWidth> [ a qudt:QuantityValue ;
+            qudt:value 1e+00 ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 1.782917e-03 ] ;
+            qudt:value 2.985171e-01 ] ;
+    <ChiSquaredRe> [ a qudt:QuantityValue ;
+            qudt:value 2.985171e-02 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T23.0°C_D0.0hr_S0MPa"^^xsd:string ] ] ;
+    <Dof> [ a qudt:QuantityValue ;
+            qudt:value 10 ] ;
     <End> [ a qudt:QuantityValue ;
             qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
-            qudt:value 9 ] ;
+            qudt:value 12 ] ;
+    <RSquared> [ a qudt:QuantityValue ;
+            qudt:unit <http://qudt.org/vocab/unit/R> ;
+            qudt:value 9.922265e-01 ] ;
     <Ra> [ a qudt:QuantityValue ;
-            qudt:value 1.630403e+00 ] ;
+            qudt:value 1.632932e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
-            qudt:value 4.164315e-02 ] ;
+            qudt:value 3.551707e-02 ] ;
     <Rm> [ a qudt:QuantityValue ;
-            qudt:value 1.421942e+00 ] ;
+            qudt:value 1.419845e+00 ] ;
     <RmStderr> [ a qudt:QuantityValue ;
-            qudt:value 3.631873e-02 ] ;
-    <Rois> ( <https://metadata.omero.matolab.org/api/rois/51> <https://metadata.omero.matolab.org/api/rois/52> <https://metadata.omero.matolab.org/api/rois/53> <https://metadata.omero.matolab.org/api/rois/202> <https://metadata.omero.matolab.org/api/rois/55> <https://metadata.omero.matolab.org/api/rois/56> <https://metadata.omero.matolab.org/api/rois/57> <https://metadata.omero.matolab.org/api/rois/58> <https://metadata.omero.matolab.org/api/rois/59> <https://metadata.omero.matolab.org/api/rois/60> <https://metadata.omero.matolab.org/api/rois/61> <https://metadata.omero.matolab.org/api/rois/62> ) ;
+            qudt:value 3.088232e-02 ] ;
+    <Rois> ( <https://metadata.omero.matolab.org/api/rois/51> <https://metadata.omero.matolab.org/api/rois/52> <https://metadata.omero.matolab.org/api/rois/53> <https://metadata.omero.matolab.org/api/rois/301> <https://metadata.omero.matolab.org/api/rois/55> <https://metadata.omero.matolab.org/api/rois/56> <https://metadata.omero.matolab.org/api/rois/57> <https://metadata.omero.matolab.org/api/rois/58> <https://metadata.omero.matolab.org/api/rois/59> <https://metadata.omero.matolab.org/api/rois/60> <https://metadata.omero.matolab.org/api/rois/61> <https://metadata.omero.matolab.org/api/rois/62> ) ;
     <Sigma> [ a qudt:QuantityValue ;
-            qudt:value 5.230741e-01 ] ;
+            qudt:value 5.288281e-01 ] ;
     <SigmaStderr> [ a qudt:QuantityValue ;
-            qudt:value 1.474316e-02 ] ;
+            qudt:value 1.282197e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
             qudt:value 0 ] ;
-    <Stress> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 0.0 ] ] ;
+    <Stress> [ a qudt:QuantityValue ;
+            qudt:value 0e+00 ] ;
     <Temp> [ a qudt:QuantityValue ;
             qudt:value 2.3e+01 ] .
 
 <table-1-gid-1> <AgingTime> [ a qudt:QuantityValue ;
             qudt:value 2.5e+02 ] ;
-    <BinWidth> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 1.0 ] ] ;
+    <BinWidth> [ a qudt:QuantityValue ;
+            qudt:value 1e+00 ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 3.042648e-03 ] ;
+            qudt:value 5.28694e-02 ] ;
+    <ChiSquaredRe> [ a qudt:QuantityValue ;
+            qudt:value 2.64347e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D250.0hr_S0MPa"^^xsd:string ] ] ;
+    <Dof> [ a qudt:QuantityValue ;
+            qudt:value 20 ] ;
     <End> [ a qudt:QuantityValue ;
             qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
             qudt:value 22 ] ;
+    <RSquared> [ a qudt:QuantityValue ;
+            qudt:unit <http://qudt.org/vocab/unit/R> ;
+            qudt:value 9.759796e-01 ] ;
     <Ra> [ a qudt:QuantityValue ;
             qudt:value 3.229004e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
@@ -232,29 +259,32 @@
             qudt:value 2.82275e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
             qudt:value 0 ] ;
-    <Stress> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 0.0 ] ] ;
+    <Stress> [ a qudt:QuantityValue ;
+            qudt:value 0e+00 ] ;
     <Temp> [ a qudt:QuantityValue ;
             qudt:value 1.9e+02 ] .
 
 <table-1-gid-2> <AgingTime> [ a qudt:QuantityValue ;
             qudt:value 1e+03 ] ;
-    <BinWidth> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 1.0 ] ] ;
+    <BinWidth> [ a qudt:QuantityValue ;
+            qudt:value 1e+00 ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 1.454584e-03 ] ;
+            qudt:value 2.911511e-02 ] ;
+    <ChiSquaredRe> [ a qudt:QuantityValue ;
+            qudt:value 2.646828e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D1000.0hr_S0MPa"^^xsd:string ] ] ;
+    <Dof> [ a qudt:QuantityValue ;
+            qudt:value 11 ] ;
     <End> [ a qudt:QuantityValue ;
             qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
             qudt:value 13 ] ;
+    <RSquared> [ a qudt:QuantityValue ;
+            qudt:unit <http://qudt.org/vocab/unit/R> ;
+            qudt:value 9.829639e-01 ] ;
     <Ra> [ a qudt:QuantityValue ;
             qudt:value 3.5822e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
@@ -270,29 +300,32 @@
             qudt:value 2.633532e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
             qudt:value 0 ] ;
-    <Stress> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 0.0 ] ] ;
+    <Stress> [ a qudt:QuantityValue ;
+            qudt:value 0e+00 ] ;
     <Temp> [ a qudt:QuantityValue ;
             qudt:value 1.9e+02 ] .
 
 <table-1-gid-3> <AgingTime> [ a qudt:QuantityValue ;
             qudt:value 2.5e+03 ] ;
-    <BinWidth> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 1.0 ] ] ;
+    <BinWidth> [ a qudt:QuantityValue ;
+            qudt:value 1e+00 ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 1.641625e-03 ] ;
+            qudt:value 6.327272e-02 ] ;
+    <ChiSquaredRe> [ a qudt:QuantityValue ;
+            qudt:value 3.330143e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D2500.0hr_S0MPa"^^xsd:string ] ] ;
+    <Dof> [ a qudt:QuantityValue ;
+            qudt:value 19 ] ;
     <End> [ a qudt:QuantityValue ;
             qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
             qudt:value 21 ] ;
+    <RSquared> [ a qudt:QuantityValue ;
+            qudt:unit <http://qudt.org/vocab/unit/R> ;
+            qudt:value 9.789723e-01 ] ;
     <Ra> [ a qudt:QuantityValue ;
             qudt:value 5.05527e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
@@ -308,29 +341,32 @@
             qudt:value 2.680191e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
             qudt:value 0 ] ;
-    <Stress> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 0.0 ] ] ;
+    <Stress> [ a qudt:QuantityValue ;
+            qudt:value 0e+00 ] ;
     <Temp> [ a qudt:QuantityValue ;
             qudt:value 1.9e+02 ] .
 
 <table-1-gid-4> <AgingTime> [ a qudt:QuantityValue ;
             qudt:value 5e+03 ] ;
-    <BinWidth> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 1.0 ] ] ;
+    <BinWidth> [ a qudt:QuantityValue ;
+            qudt:value 1e+00 ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 2.919952e-03 ] ;
+            qudt:value 9.479146e-02 ] ;
+    <ChiSquaredRe> [ a qudt:QuantityValue ;
+            qudt:value 1.663008e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D5000.0hr_S0MPa"^^xsd:string ] ] ;
+    <Dof> [ a qudt:QuantityValue ;
+            qudt:value 57 ] ;
     <End> [ a qudt:QuantityValue ;
             qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
             qudt:value 59 ] ;
+    <RSquared> [ a qudt:QuantityValue ;
+            qudt:unit <http://qudt.org/vocab/unit/R> ;
+            qudt:value 9.835565e-01 ] ;
     <Ra> [ a qudt:QuantityValue ;
             qudt:value 3.605524e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
@@ -346,29 +382,32 @@
             qudt:value 2.742413e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
             qudt:value 0 ] ;
-    <Stress> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 0.0 ] ] ;
+    <Stress> [ a qudt:QuantityValue ;
+            qudt:value 0e+00 ] ;
     <Temp> [ a qudt:QuantityValue ;
             qudt:value 1.9e+02 ] .
 
 <table-1-gid-5> <AgingTime> [ a qudt:QuantityValue ;
             qudt:value 8.76e+03 ] ;
-    <BinWidth> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 1.0 ] ] ;
+    <BinWidth> [ a qudt:QuantityValue ;
+            qudt:value 1e+00 ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 7.337457e-03 ] ;
+            qudt:value 1.709049e-01 ] ;
+    <ChiSquaredRe> [ a qudt:QuantityValue ;
+            qudt:value 7.121039e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D8760.0hr_S0MPa"^^xsd:string ] ] ;
+    <Dof> [ a qudt:QuantityValue ;
+            qudt:value 24 ] ;
     <End> [ a qudt:QuantityValue ;
             qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
             qudt:value 26 ] ;
+    <RSquared> [ a qudt:QuantityValue ;
+            qudt:unit <http://qudt.org/vocab/unit/R> ;
+            qudt:value 9.073145e-01 ] ;
     <Ra> [ a qudt:QuantityValue ;
             qudt:value 6.18145e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
@@ -384,29 +423,32 @@
             qudt:value 5.76459e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
             qudt:value 0 ] ;
-    <Stress> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 0.0 ] ] ;
+    <Stress> [ a qudt:QuantityValue ;
+            qudt:value 0e+00 ] ;
     <Temp> [ a qudt:QuantityValue ;
             qudt:value 1.9e+02 ] .
 
 <table-1-gid-6> <AgingTime> [ a qudt:QuantityValue ;
             qudt:value 2.5e+04 ] ;
-    <BinWidth> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 1.0 ] ] ;
+    <BinWidth> [ a qudt:QuantityValue ;
+            qudt:value 1e+00 ] ;
     <ChiSquared> [ a qudt:QuantityValue ;
-            qudt:value 5.720778e-03 ] ;
+            qudt:value 1.281968e-01 ] ;
+    <ChiSquaredRe> [ a qudt:QuantityValue ;
+            qudt:value 4.578456e-03 ] ;
     <Dataset> [ a oa:Annotation ;
             oa:hasBody [ a oa:TextualBody ;
                     oa:format "text/plain" ;
                     oa:value "T190.0°C_D25000.0hr_S0MPa"^^xsd:string ] ] ;
+    <Dof> [ a qudt:QuantityValue ;
+            qudt:value 28 ] ;
     <End> [ a qudt:QuantityValue ;
             qudt:value 1.4e+01 ] ;
     <NBins> [ a qudt:QuantityValue ;
             qudt:value 30 ] ;
+    <RSquared> [ a qudt:QuantityValue ;
+            qudt:unit <http://qudt.org/vocab/unit/R> ;
+            qudt:value 9.478809e-01 ] ;
     <Ra> [ a qudt:QuantityValue ;
             qudt:value 7.1028e+00 ] ;
     <RaStderr> [ a qudt:QuantityValue ;
@@ -422,15 +464,15 @@
             qudt:value 8.835793e-02 ] ;
     <Start> [ a qudt:QuantityValue ;
             qudt:value 0 ] ;
-    <Stress> [ a oa:Annotation ;
-            oa:hasBody [ a oa:TextualBody ;
-                    oa:format "text/plain" ;
-                    oa:value 0.0 ] ] ;
+    <Stress> [ a qudt:QuantityValue ;
+            qudt:value 0e+00 ] ;
     <Temp> [ a qudt:QuantityValue ;
             qudt:value 1.9e+02 ] .
 
-<https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.1> a prov:SoftwareAgent ;
-    rdfs:label "CSVtoCSVWv1.2.1" ;
+<https://github.com/Mat-O-Lab/CSVToCSVW/releases/tag/v1.2.2> a prov:SoftwareAgent ;
+    rdfs:label "CSVtoCSVWv1.2.2" ;
     prov:hadPrimarySource <https://github.com/Mat-O-Lab/CSVToCSVW>,
         "https://github.com/Mat-O-Lab/CSVToCSVW" .
+
+<http://qudt.org/vocab/unit/R> a qudt:Unit .
 
