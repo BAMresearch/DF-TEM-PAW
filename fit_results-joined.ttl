@@ -6,7 +6,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix qunit: <http://qudt.org/vocab/unit/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix row0: <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-0/> .
@@ -130,7 +129,7 @@ co:subordinateProcess a owl:ObjectProperty .
 <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> a csvw:TableGroup,
         prov:Usage ;
     csvw:table ns1:table-1 ;
-    prov:generatedAtTime "2023-10-18T06:12:29.864430"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-10-18T06:19:16.777901"^^xsd:dateTime ;
     prov:hadRole csvw:csvEncodedTabularData ;
     prov:wasGeneratedBy <https://csvtocsvw.matolab.org/api/annotate> .
 
@@ -143,28 +142,28 @@ ns1:table-1 a csvw:Table ;
             csvw:describes ns1:table-1-gid-6 ;
             csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=7> ],
         [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-2 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=3> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-3 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=4> ],
+        [ a csvw:Row ;
+            csvw:describes ns1:table-1-gid-4 ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=5> ],
+        [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-1 ;
             csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=2> ],
         [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-0 ;
             csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=1> ],
         [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-4 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=5> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-2 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=3> ],
-        [ a csvw:Row ;
             csvw:describes ns1:table-1-gid-5 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=6> ],
-        [ a csvw:Row ;
-            csvw:describes ns1:table-1-gid-3 ;
-            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=4> ] ;
+            csvw:url <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/row=6> ] ;
     csvw:tableSchema [ csvw:aboutUrl "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv/table-1-gid-{GID}"^^csvw:uriTemplate ;
-            csvw:column ( ns1:table-1-GID ns1:table-1-Dataset ns1:table-1-Temp ns1:table-1-AgingTime ns1:table-1-Stress ns1:table-1-Rois ns1:table-1-ChiSquared ns1:table-1-RSquared ns1:table-1-Rm ns1:table-1-RmStderr ns1:table-1-Sigma ns1:table-1-SigmaStderr ns1:table-1-Ra ns1:table-1-RaStderr ns1:table-1-NBins ns1:table-1-Dof ns1:table-1-ChiSquaredRe ns1:table-1-Start ns1:table-1-End ns1:table-1-BinWidth ) ;
+            csvw:column ( ns1:table-1-GID ns1:table-1-Dataset ns1:table-1-Temp ns1:table-1-AgingTime ns1:table-1-Stress ns1:table-1-Rois ns1:table-1-ChiSquared ns1:table-1-Rsquared ns1:table-1-Rm ns1:table-1-RmStderr ns1:table-1-Sigma ns1:table-1-SigmaStderr ns1:table-1-Ra ns1:table-1-RaStderr ns1:table-1-NBins ns1:table-1-Dof ns1:table-1-ChiSquaredRe ns1:table-1-Start ns1:table-1-End ns1:table-1-BinWidth ) ;
             csvw:primaryKey "GID" ] ;
     csvw:url "https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv"^^xsd:anyURI ;
-    prov:generatedAtTime "2023-10-18T06:13:27.629813"^^xsd:dateTime ;
+    prov:generatedAtTime "2023-10-18T06:19:55.213027"^^xsd:dateTime ;
     prov:qualifiedUsage <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results-metadata.json>,
         <https://github.com/BAMresearch/DF-TEM-PAW/raw/main/fit_results.csv> ;
     prov:wasGeneratedBy <https://csvtocsvw.matolab.org/api/rdf> .
@@ -225,13 +224,6 @@ ns1:table-1-NBins a csvw:Column ;
     csvw:title "NBins",
         "n_bins" .
 
-ns1:table-1-RSquared a csvw:Column ;
-    qudt:unit qunit:R ;
-    csvw:format xsd:double ;
-    csvw:name "RSquared" ;
-    csvw:title "R squared",
-        "RSquared" .
-
 ns1:table-1-Ra a csvw:Column ;
     csvw:format xsd:double ;
     csvw:name "Ra" ;
@@ -261,6 +253,11 @@ ns1:table-1-Rois a csvw:Column ;
     csvw:name "Rois" ;
     csvw:title "Rois",
         "rois" .
+
+ns1:table-1-Rsquared a csvw:Column ;
+    csvw:format xsd:double ;
+    csvw:name "Rsquared" ;
+    csvw:title "Rsquared" .
 
 ns1:table-1-Sigma a csvw:Column ;
     csvw:format xsd:double ;
@@ -314,9 +311,6 @@ ns1:table-1-gid-0 ns1:AgingTime [ a qudt:QuantityValue ;
             co:isResourceOf row0:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
             qudt:value 12 ] ;
-    ns1:RSquared [ a qudt:QuantityValue ;
-            qudt:unit qunit:R ;
-            qudt:value 9.922265e-01 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
             qudt:value 1.632932e+00 ;
             co:isResourceOf row0:r_a ] ;
@@ -331,6 +325,8 @@ ns1:table-1-gid-0 ns1:AgingTime [ a qudt:QuantityValue ;
     ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/51> ;
             rdf:rest ( <https://metadata.omero.matolab.org/api/rois/52> <https://metadata.omero.matolab.org/api/rois/53> <https://metadata.omero.matolab.org/api/rois/301> <https://metadata.omero.matolab.org/api/rois/55> <https://metadata.omero.matolab.org/api/rois/56> <https://metadata.omero.matolab.org/api/rois/57> <https://metadata.omero.matolab.org/api/rois/58> <https://metadata.omero.matolab.org/api/rois/59> <https://metadata.omero.matolab.org/api/rois/60> <https://metadata.omero.matolab.org/api/rois/61> <https://metadata.omero.matolab.org/api/rois/62> ) ;
             co:isResourceOf row0:precipitateRegions ] ;
+    ns1:Rsquared [ a qudt:QuantityValue ;
+            qudt:value 9.922265e-01 ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
             qudt:value 5.288281e-01 ;
             co:isResourceOf row0:sigma ] ;
@@ -409,9 +405,6 @@ ns1:table-1-gid-1 ns1:AgingTime [ a qudt:QuantityValue ;
             co:isResourceOf row1:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
             qudt:value 22 ] ;
-    ns1:RSquared [ a qudt:QuantityValue ;
-            qudt:unit qunit:R ;
-            qudt:value 9.759796e-01 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
             qudt:value 3.229004e+00 ;
             co:isResourceOf row1:r_a ] ;
@@ -426,6 +419,8 @@ ns1:table-1-gid-1 ns1:AgingTime [ a qudt:QuantityValue ;
     ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/72> ;
             rdf:rest ( <https://metadata.omero.matolab.org/api/rois/73> <https://metadata.omero.matolab.org/api/rois/63> <https://metadata.omero.matolab.org/api/rois/64> <https://metadata.omero.matolab.org/api/rois/65> <https://metadata.omero.matolab.org/api/rois/66> <https://metadata.omero.matolab.org/api/rois/67> <https://metadata.omero.matolab.org/api/rois/68> <https://metadata.omero.matolab.org/api/rois/69> <https://metadata.omero.matolab.org/api/rois/70> <https://metadata.omero.matolab.org/api/rois/71> ) ;
             co:isResourceOf row1:precipitateRegions ] ;
+    ns1:Rsquared [ a qudt:QuantityValue ;
+            qudt:value 9.759796e-01 ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
             qudt:value 8.84561e-01 ;
             co:isResourceOf row1:sigma ] ;
@@ -504,9 +499,6 @@ ns1:table-1-gid-2 ns1:AgingTime [ a qudt:QuantityValue ;
             co:isResourceOf row2:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
             qudt:value 13 ] ;
-    ns1:RSquared [ a qudt:QuantityValue ;
-            qudt:unit qunit:R ;
-            qudt:value 9.829639e-01 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
             qudt:value 3.5822e+00 ;
             co:isResourceOf row2:r_a ] ;
@@ -521,6 +513,8 @@ ns1:table-1-gid-2 ns1:AgingTime [ a qudt:QuantityValue ;
     ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/83> ;
             rdf:rest ( <https://metadata.omero.matolab.org/api/rois/84> <https://metadata.omero.matolab.org/api/rois/81> <https://metadata.omero.matolab.org/api/rois/82> <https://metadata.omero.matolab.org/api/rois/85> <https://metadata.omero.matolab.org/api/rois/74> <https://metadata.omero.matolab.org/api/rois/75> <https://metadata.omero.matolab.org/api/rois/76> <https://metadata.omero.matolab.org/api/rois/77> <https://metadata.omero.matolab.org/api/rois/78> <https://metadata.omero.matolab.org/api/rois/79> <https://metadata.omero.matolab.org/api/rois/80> ) ;
             co:isResourceOf row2:precipitateRegions ] ;
+    ns1:Rsquared [ a qudt:QuantityValue ;
+            qudt:value 9.829639e-01 ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
             qudt:value 8.874801e-01 ;
             co:isResourceOf row2:sigma ] ;
@@ -599,9 +593,6 @@ ns1:table-1-gid-3 ns1:AgingTime [ a qudt:QuantityValue ;
             co:isResourceOf row3:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
             qudt:value 21 ] ;
-    ns1:RSquared [ a qudt:QuantityValue ;
-            qudt:unit qunit:R ;
-            qudt:value 9.789723e-01 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
             qudt:value 5.05527e+00 ;
             co:isResourceOf row3:r_a ] ;
@@ -616,6 +607,8 @@ ns1:table-1-gid-3 ns1:AgingTime [ a qudt:QuantityValue ;
     ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/86> ;
             rdf:rest ( <https://metadata.omero.matolab.org/api/rois/87> <https://metadata.omero.matolab.org/api/rois/88> <https://metadata.omero.matolab.org/api/rois/89> <https://metadata.omero.matolab.org/api/rois/90> <https://metadata.omero.matolab.org/api/rois/100> <https://metadata.omero.matolab.org/api/rois/101> <https://metadata.omero.matolab.org/api/rois/102> <https://metadata.omero.matolab.org/api/rois/91> <https://metadata.omero.matolab.org/api/rois/92> <https://metadata.omero.matolab.org/api/rois/93> <https://metadata.omero.matolab.org/api/rois/94> <https://metadata.omero.matolab.org/api/rois/95> <https://metadata.omero.matolab.org/api/rois/96> <https://metadata.omero.matolab.org/api/rois/97> <https://metadata.omero.matolab.org/api/rois/98> <https://metadata.omero.matolab.org/api/rois/99> ) ;
             co:isResourceOf row3:precipitateRegions ] ;
+    ns1:Rsquared [ a qudt:QuantityValue ;
+            qudt:value 9.789723e-01 ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
             qudt:value 9.839906e-01 ;
             co:isResourceOf row3:sigma ] ;
@@ -694,9 +687,6 @@ ns1:table-1-gid-4 ns1:AgingTime [ a qudt:QuantityValue ;
             co:isResourceOf row4:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
             qudt:value 59 ] ;
-    ns1:RSquared [ a qudt:QuantityValue ;
-            qudt:unit qunit:R ;
-            qudt:value 9.835565e-01 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
             qudt:value 3.605524e+00 ;
             co:isResourceOf row4:r_a ] ;
@@ -711,6 +701,8 @@ ns1:table-1-gid-4 ns1:AgingTime [ a qudt:QuantityValue ;
     ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/112> ;
             rdf:rest ( <https://metadata.omero.matolab.org/api/rois/113> <https://metadata.omero.matolab.org/api/rois/103> <https://metadata.omero.matolab.org/api/rois/104> <https://metadata.omero.matolab.org/api/rois/105> <https://metadata.omero.matolab.org/api/rois/106> <https://metadata.omero.matolab.org/api/rois/107> <https://metadata.omero.matolab.org/api/rois/108> <https://metadata.omero.matolab.org/api/rois/111> <https://metadata.omero.matolab.org/api/rois/109> <https://metadata.omero.matolab.org/api/rois/110> <https://metadata.omero.matolab.org/api/rois/132> <https://metadata.omero.matolab.org/api/rois/128> <https://metadata.omero.matolab.org/api/rois/129> <https://metadata.omero.matolab.org/api/rois/119> <https://metadata.omero.matolab.org/api/rois/120> <https://metadata.omero.matolab.org/api/rois/121> <https://metadata.omero.matolab.org/api/rois/122> <https://metadata.omero.matolab.org/api/rois/123> <https://metadata.omero.matolab.org/api/rois/124> <https://metadata.omero.matolab.org/api/rois/125> <https://metadata.omero.matolab.org/api/rois/126> <https://metadata.omero.matolab.org/api/rois/127> ) ;
             co:isResourceOf row4:precipitateRegions ] ;
+    ns1:Rsquared [ a qudt:QuantityValue ;
+            qudt:value 9.835565e-01 ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
             qudt:value 1.096964e+00 ;
             co:isResourceOf row4:sigma ] ;
@@ -789,9 +781,6 @@ ns1:table-1-gid-5 ns1:AgingTime [ a qudt:QuantityValue ;
             co:isResourceOf row5:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
             qudt:value 26 ] ;
-    ns1:RSquared [ a qudt:QuantityValue ;
-            qudt:unit qunit:R ;
-            qudt:value 9.073145e-01 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
             qudt:value 6.18145e+00 ;
             co:isResourceOf row5:r_a ] ;
@@ -806,6 +795,8 @@ ns1:table-1-gid-5 ns1:AgingTime [ a qudt:QuantityValue ;
     ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/267> ;
             rdf:rest ( <https://metadata.omero.matolab.org/api/rois/268> <https://metadata.omero.matolab.org/api/rois/269> <https://metadata.omero.matolab.org/api/rois/256> <https://metadata.omero.matolab.org/api/rois/257> <https://metadata.omero.matolab.org/api/rois/252> <https://metadata.omero.matolab.org/api/rois/258> <https://metadata.omero.matolab.org/api/rois/253> <https://metadata.omero.matolab.org/api/rois/259> <https://metadata.omero.matolab.org/api/rois/254> <https://metadata.omero.matolab.org/api/rois/260> <https://metadata.omero.matolab.org/api/rois/255> <https://metadata.omero.matolab.org/api/rois/261> <https://metadata.omero.matolab.org/api/rois/251> <https://metadata.omero.matolab.org/api/rois/262> <https://metadata.omero.matolab.org/api/rois/263> <https://metadata.omero.matolab.org/api/rois/264> <https://metadata.omero.matolab.org/api/rois/265> <https://metadata.omero.matolab.org/api/rois/266> ) ;
             co:isResourceOf row5:precipitateRegions ] ;
+    ns1:Rsquared [ a qudt:QuantityValue ;
+            qudt:value 9.073145e-01 ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
             qudt:value 1.039705e+00 ;
             co:isResourceOf row5:sigma ] ;
@@ -884,9 +875,6 @@ ns1:table-1-gid-6 ns1:AgingTime [ a qudt:QuantityValue ;
             co:isResourceOf row6:x-Max ] ;
     ns1:NBins [ a qudt:QuantityValue ;
             qudt:value 30 ] ;
-    ns1:RSquared [ a qudt:QuantityValue ;
-            qudt:unit qunit:R ;
-            qudt:value 9.478809e-01 ] ;
     ns1:Ra [ a qudt:QuantityValue ;
             qudt:value 7.1028e+00 ;
             co:isResourceOf row6:r_a ] ;
@@ -901,6 +889,8 @@ ns1:table-1-gid-6 ns1:AgingTime [ a qudt:QuantityValue ;
     ns1:Rois [ rdf:first <https://metadata.omero.matolab.org/api/rois/142> ;
             rdf:rest ( <https://metadata.omero.matolab.org/api/rois/143> <https://metadata.omero.matolab.org/api/rois/133> <https://metadata.omero.matolab.org/api/rois/134> <https://metadata.omero.matolab.org/api/rois/135> <https://metadata.omero.matolab.org/api/rois/136> <https://metadata.omero.matolab.org/api/rois/137> <https://metadata.omero.matolab.org/api/rois/138> <https://metadata.omero.matolab.org/api/rois/139> <https://metadata.omero.matolab.org/api/rois/140> <https://metadata.omero.matolab.org/api/rois/141> <https://metadata.omero.matolab.org/api/rois/153> <https://metadata.omero.matolab.org/api/rois/144> <https://metadata.omero.matolab.org/api/rois/145> <https://metadata.omero.matolab.org/api/rois/146> <https://metadata.omero.matolab.org/api/rois/147> <https://metadata.omero.matolab.org/api/rois/148> <https://metadata.omero.matolab.org/api/rois/149> <https://metadata.omero.matolab.org/api/rois/150> <https://metadata.omero.matolab.org/api/rois/151> <https://metadata.omero.matolab.org/api/rois/152> ) ;
             co:isResourceOf row6:precipitateRegions ] ;
+    ns1:Rsquared [ a qudt:QuantityValue ;
+            qudt:value 9.478809e-01 ] ;
     ns1:Sigma [ a qudt:QuantityValue ;
             qudt:value 1.394121e+00 ;
             co:isResourceOf row6:sigma ] ;
@@ -1401,8 +1391,6 @@ co:Area a owl:Class .
 co:Identifier a owl:Class .
 
 co:SecondaryData a owl:Class .
-
-qunit:R a qudt:Unit .
 
 co:Dataset a owl:Class .
 
