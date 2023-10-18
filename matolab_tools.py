@@ -121,8 +121,8 @@ def get_joined_rdf(map_url: str, data_url: str, duplicate_for_table=False):
         r=r.json()
         filename=r['filename']
         print("applied {} mapping rules and skipped {}".format(r['num_mappings_applied'],r['num_mappings_skipped']))
-        with open(filename, "w") as f:
-            f.write(r['graph'])
+        with open(filename, "wb") as f:
+            f.write(r['graph'].encode())
             print('wrote joint graph to {}'.format(filename))
     else:
         return r
