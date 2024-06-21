@@ -27,6 +27,11 @@ class OmeroConnect:
             group = conn.getGroupFromContext()
             print("Current group: ", group.getName())
 
+    def get_projects(self):
+        session = self.client.createSession(self.username, self.password)
+        with BlitzGateway(client_obj=self.client) as conn:
+            projects = conn.listProjects()
+            return [{"name": p.getName(), "details": p.getDetails()} for p in projects]
 
     def get_datasets(self, project_id: int):
         session = self.client.createSession(self.username, self.password)

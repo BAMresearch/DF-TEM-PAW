@@ -35,14 +35,17 @@ def annotate_csv_uri(csv_url: str, encoding: str = 'auto',):
     }
     headers = {'Content-type': 'application/json',
                'Accept': 'application/json'}
-    r = post_request(url, headers, data).json()
-    filename = r['filename']
-    file = json.dumps(r['filedata'], indent=4).encode('utf-8')
-    print('csvw annotation file created, suggested name: {}'.format(filename))
-    with open(filename, "wb") as f:
-        f.write(file)
-        print('wrote csvw meta data to {}'.format(filename))
-    return True
+    r = post_request(url, headers, data)
+    if r.status_code == 200:
+        d = r.headers["content-disposition"]
+        mime_type = r.headers["content-type"]
+        filename = re.findall("filename=(.+)", d)[0]
+        file=r.content
+        print("csvw annotation file created, suggested name: {}".format(filename))
+        with open(filename, "wb") as f:
+            f.write(file)
+            print('wrote csvw meta data to {}'.format(filename))
+        return True
 
 
 
